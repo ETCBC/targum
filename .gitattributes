@@ -1,0 +1,8 @@
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.gz filter=lfs diff=lfs merge=lfs -text
+*.xml filter=lfs diff=lfs merge=lfs -text
+*.tf filter=lfs diff=lfs merge=lfs -text
+*.tfx filter=lfs diff=lfs merge=lfs -text
+*.tf !text !filter !merge !diff
+*.xml !text !filter !merge !diff
+*.gz !text !filter !merge !diff
