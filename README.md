@@ -23,9 +23,11 @@ The following Targummim are included:
 
 The texts of Pseudo-Jonathan, Fragment Targums, and Cairo Genizah Fragments include a small number of variant readings. 
 The text of Neofiti contains thousands of variant readings and emendations. To retain this scribal and editorial layer as first order data, two views of Neofiti are provided:
+
   - A 'full text' view that includes the base text alongside those short variant readings inserted in the manuscript interlinearly and in marginalia; and 
-  - A 'base raw' view that excludes variants and other editorial emendations. 
- Future versions of the data will include longer form marginalia, as well as other views of Neofiti which will incorporate different combinations of scribal and editorial emendations. 
+  - A 'base raw' view that excludes variants and other editorial emendations.
+
+Future versions of the data will include longer form marginalia, as well as other views of Neofiti which will incorporate different combinations of scribal and editorial emendations. 
 
 ---
 
