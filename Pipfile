@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+unicode = "*"
+pre-commit = "*"
+pytest = "*"
+python-dotenv = ">=1.0.0"
+lxml = "*"
+text-fabric-factory = "==1.0.8"
+text-fabric = "==13.1.0"
+anaconda = "*"
+jupyter = "*"
+ipykernel = "*"
+black = {extras = ["jupyter"], version = "*"}
+psycopg = {extras = ["pool"], version = "*"}
+psycopg-pool = "*"
+
+[dev-packages]
+pre-commit = "*"
+
+[requires]
+python_version = "3.14"
