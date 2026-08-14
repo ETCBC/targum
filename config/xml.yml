@@ -1,0 +1,107 @@
+generic:
+  name: ETCBC Targum Corpus
+  source: ETCBC Targum Corpus
+  institute: ETCBC (Eep Talstra Centre for Bible and Computer)
+  sourceFormat: Data is first serialized into PostgreSQL, then XML, and finally Text Fabric. Base texts obtained from Comprehensive Aramaic Lexicon ("https://cal.huc.edu/"), subsequently checked against several other sources.
+  license: MIT License
+  licenseUrl: https://mit-license.org/
+  converters: S.P. Swire
+  compiler: S.P. Swire
+
+intFeatures:
+  - id
+  - rank
+  - sibling
+  - start_idx
+  - end_idx
+
+featureDescriptions:
+  # edge features
+  parent:
+    edge between a node and its parent node
+  sibling: >-
+    edge between a node and its preceding sibling nodes;
+    labelled with the distance between them
+  # node types
+  text:
+    Name of an Aramaic text, often a manuscript
+  book:
+    Name of Biblical book
+  chapter:
+    Chapter of the book
+  view:
+    Grouping of segments based on editorial and emendation filters present in the text
+  verse:
+    A line of text, typically (though not always) corresponding to a verse in a book or manuscript
+  segment:
+    Grouping of monads/monad groups based on position within discrete editorial or emendation blocks (e.g., variants)
+  mg:
+    MonadGroups (space-delimited units of characters, including immediately ensuing variants; contains at least one Monad)
+  m:
+    Monads (slots)—the smallest elements with word-level features such as number, gender, and part of speech
+
+  # general and structural
+  id:
+    xml id, associated to primary key in other data stores (SQL)
+  uid:
+    independent unique identifier of the node
+  source_id:
+    ID of the segment source
+  parent_id:
+    ID of the segment parent
+  book_id:
+    ID of the book
+  description:
+    Description of a text, view, monad, lemma, etc.
+  type:
+    type of the node (e.g., unmarked_text for segment, full_text for view)
+  rank:
+    Sequential or hierarchical rank of the segment
+  start_idx:
+    Starting index of the segment within the line
+  end_idx:
+    Ending index of the segment within the line
+  v_text:
+    Vocalized text string of the line or segment
+  g_text:
+    Consonantal text string of the line or segment
+
+  # monad and monad group (word-level and morpheme features)
+  g_cons:
+    Consonantal text of a word in ETCBC transcription
+  g_cons_utf8:
+    Consonantal text of a word in Aramaic square script
+  g_voc:
+    Vocalized text of a word in ETCBC transcription
+  g_voc_utf8:
+    Vocalized text of a word in Aramaic square script
+  lex:
+    Lexeme in ETCBC transcription
+  gloss:
+    English gloss
+  definition:
+    Extended translation or dictionary definition
+  sp:
+    Part of speech
+  vs:
+    Verbal stem / binyan
+  gn:
+    Gender (nominal only, partial)
+  nu:
+    Number (nominal only, partial)
+  st:
+    Nominal state (abs/emph/cons, partial)
+  trailer:
+    Content after a word (empty space or None)
+  root:
+    Root, typically of a verb
+  g_lex:
+    Realization of the lexeme in ETCBC transcription
+  g_lex_utf8:
+    Realization of the lexeme in Aramaic
+  vt:
+    Verbal tense
+  vo:
+    Voice
+  ps:
+    Person
