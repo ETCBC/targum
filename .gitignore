@@ -14,8 +14,6 @@ __pycache__/
 # model stuff
 *.pth
 *.json
-*.yml
-*.yaml
 
 # Distribution / packaging
 .Python
