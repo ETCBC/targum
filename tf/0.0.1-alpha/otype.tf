@@ -9,14 +9,13 @@
 @sourceFormat=XML
 @valueType=str
 @version=0.0.1-alpha
-@xmlVersion=2026-08-13
+@xmlVersion=2026-09-11
 @writtenBy=Text-Fabric
-@dateWritten=2026-08-13T20:39:08+00:00Z
+@dateWritten=2026-09-11T19:37:05+00:00Z
 
-1-463566	m
-463567-463595	book
-463596-464486	chapter
-464487-821172	mg
-821173-868730	segment
-868731-868759	text
-868760-887796	verse
+1-495026	word
+495027-495107	book
+495108-496133	chapter
+496134-547284	segment
+547285-547352	text
+547353-567605	verse
