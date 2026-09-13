@@ -15,36 +15,28 @@ HIERARCHY = [
     "chapter",
     "verse",
     "segment",
-    "mg",
-    "m",
+    "word",
 ]
 
 TAGS = [
-    "m",
-    "m",
-    "mg",
-    "mg",
-    "mg",
-    "mg",
-    "m",
-    "m",
-    "m",
-    "m",
-    "m",
-    "m",
-    "m",
-    "m",
-    "m",
-    "m",
-    "m",
-    "m",
-    "m",
-    "m",
-    "m",
-    "m",
-    "m",
-    "m",
-    "m",
+    "word",
+    "word",
+    "word",
+    "word",
+    "word",
+    "word",
+    "word",
+    "word",
+    "word",
+    "word",
+    "word",
+    "word",
+    "word",
+    "word",
+    "word",
+    "word",
+    "word",
+    "word",
     "segment",
     "segment",
     "segment",
@@ -52,112 +44,89 @@ TAGS = [
     "segment",
     "segment",
     "segment",
-    "segment",
-    "segment",
-    "text",
     "verse",
-    "m",
-    "text",
+    "verse",
+    "verse",
+    "verse",
     "chapter",
-    "verse",
-    "verse",
     "book",
-    "verse",
     "book",
+    "text",
+    "text",
 ]
 
 ATTRS = [
     "id",
+    "group_id",
+    "trailer",
     "uid",
-    "g_voc",
-    "g_voc_utf8",
-    "g_cons",
-    "g_cons_utf8",
-    "g_voc",
-    "g_voc_utf8",
-    "g_cons",
-    "g_cons_utf8",
+    "lex",
+    "cons",
+    "voc",
+    "cons_utf8",
+    "voc_utf8",
     "root",
-    "vt",
-    "ps",
-    "vo",
     "gn",
     "vs",
-    "g_lex",
-    "g_lex_utf8",
-    "gloss",
     "sp",
-    "definition",
-    "lex",
-    "description",
     "st",
-    "type",
+    "nu",
+    "gloss",
+    "definition",
+    "description",
     "id",
     "start_idx",
     "end_idx",
-    "source_id",
-    "parent_id",
-    "g_segment_utf8",
-    "g_segment",
     "type",
     "rank",
-    "view",
-    "uid",
-    "nu",
-    "text",
-    "chapter",
-    "g_line_utf8",
-    "g_line",
-    "id",
+    "segment",
+    "segment_utf8",
     "verse",
+    "uid",
+    "line",
+    "line_utf8",
+    "chapter",
     "book",
+    "id",
+    "text",
+    "view",
 ]
 
 COLS = [
-    "m_id",
-    "m_uid",
-    "mg_g_voc",
-    "mg_g_voc_utf8",
-    "mg_g_cons",
-    "mg_g_cons_utf8",
-    "m_g_voc",
-    "m_g_voc_utf8",
-    "m_g_cons",
-    "m_g_cons_utf8",
-    "m_root",
-    "m_vt",
-    "m_ps",
-    "m_vo",
-    "m_gn",
-    "m_vs",
-    "m_g_lex",
-    "m_g_lex_utf8",
-    "m_gloss",
-    "m_sp",
-    "m_definition",
-    "m_lex",
-    "m_description",
-    "m_st",
-    "m_type",
+    "word_id",
+    "word_group_id",
+    "word_trailer",
+    "word_uid",
+    "word_lex",
+    "word_cons",
+    "word_voc",
+    "word_cons_utf8",
+    "word_voc_utf8",
+    "word_root",
+    "word_gn",
+    "word_vs",
+    "word_sp",
+    "word_st",
+    "word_nu",
+    "word_gloss",
+    "word_definition",
+    "word_description",
     "segment_id",
     "segment_start_idx",
     "segment_end_idx",
-    "segment_source_id",
-    "segment_parent_id",
-    "segment_g_segment_utf8",
-    "segment_g_segment",
     "segment_type",
     "segment_rank",
-    "text_view",
-    "verse_uid",
-    "m_nu",
-    "text_text",
-    "chapter_chapter",
-    "verse_g_line_utf8",
-    "verse_g_line",
-    "book_id",
+    "segment_segment",
+    "segment_segment_utf8",
     "verse_verse",
+    "verse_uid",
+    "verse_line",
+    "verse_line_utf8",
+    "chapter_chapter",
     "book_book",
+    "book_id",
+    "text_text",
+    "text_view",
 ]
 
 
@@ -217,12 +186,17 @@ class TFPipeline:
     def _extract_attrs(self, tag: str, row_dict: Dict[str, Any]) -> Dict[str, str]:
         res = {}
         for attr, parts in self.schema.get(tag, {}).items():
-            vals = [
-                str(row_dict.get(p["col_name"], ""))
-                for p in parts
-                if row_dict.get(p["col_name"])
-            ]
-            vals = [v for v in vals if v.strip()]
+            vals = []
+            for p in parts:
+                val = row_dict.get(p["col_name"])
+                if val is not None:
+                    if attr == "trailer":
+                        vals.append(val)
+                    else:
+                        clean_val = str(val).strip()
+                        if clean_val:
+                            vals.append(clean_val)
+
             if vals:
                 res[attr] = ",".join(vals)
         return res
@@ -256,8 +230,8 @@ class TFPipeline:
                 if is_new:
                     new_el = ET.Element(level, level_attrs)
 
-                    if level == "m" and "g_cons_utf8" in level_attrs:
-                        new_el.text = level_attrs["g_cons_utf8"]
+                    if level == "word" and "cons_utf8" in level_attrs:
+                        new_el.text = level_attrs["cons_utf8"]
 
                     for child_level in HIERARCHY[level_idx + 1 :]:
                         current_identifiers[child_level] = None
@@ -274,10 +248,6 @@ class TFPipeline:
                     current_identifiers[level] = identifier
 
         if root is not None:
-            for mg_node in root.iter("mg"):
-                m_children = mg_node.findall("m")
-                if m_children:
-                    m_children[-1].set("trailer", " ")
 
             xmlstr = minidom.parseString(
                 ET.tostring(root, encoding="utf-8")
@@ -332,7 +302,7 @@ if __name__ == "__main__":
     for start_id, end_id in psj_view_ids:
         print(f"\n--- Processing range: {start_id} to {end_id} ---")
         tf_pipeline = TFPipeline(range_start=start_id, range_end=end_id)
-        tf_pipeline.from_view("pseudo_jonathan_mat_view")
+        tf_pipeline.from_view("psj_mat")
 
     fg_view_id_ranges = [
         (275, 485),  # Fragment Targum P Genesis
@@ -353,7 +323,7 @@ if __name__ == "__main__":
     for start_id, end_id in fg_view_id_ranges:
         print(f"\n--- Processing range: {start_id} to {end_id} ---")
         tf_pipeline = TFPipeline(range_start=start_id, range_end=end_id)
-        tf_pipeline.from_view("fragment_targums_mat_view")
+        tf_pipeline.from_view("frag_targ_mat")
 
     cg_view_ids = [
         (1827, 1901),
@@ -400,8 +370,8 @@ if __name__ == "__main__":
     for start_id, end_id in cg_view_ids:
         print(f"\n--- Processing range: {start_id} to {end_id} ---")
         tf_pipeline = TFPipeline(range_start=start_id, range_end=end_id)
-        # tf_pipeline.from_view("cairo_genizah_mat_view")
-    # Neofiti base raw
+        tf_pipeline.from_view("cairo_genizah_mat_view")
+
     neofiti_base_raw_id = [
         (1, 1524),
         (1525, 2737),
@@ -414,7 +384,7 @@ if __name__ == "__main__":
         tf_pipeline = TFPipeline(
             range_start=start_id, range_end=end_id, file_suffix="_BASE_RAW"
         )
-        tf_pipeline.from_view("neofiti_base_raw_mat_view")
+        tf_pipeline.from_view("neofiti_base_raw_mat")
 
     neofiti_full_ids = [
         (12248, 13771),
@@ -428,6 +398,6 @@ if __name__ == "__main__":
         tf_pipeline = TFPipeline(
             range_start=start_id, range_end=end_id, file_suffix="_FULL_TEXT"
         )
-        tf_pipeline.from_view("neofiti_full_mat_view")
+        tf_pipeline.from_view("neofiti_full_mat")
 
     TFPipeline.convert_xml_to_tf()

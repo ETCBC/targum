@@ -39,10 +39,10 @@ Consonantal texts use Aramaic square script, and vocalization of Palestinian Tar
 
 ### Word-Level Features
 
-* **`g_cons`**: Consonantal text of a word in ETCBC transcription
-* **`g_cons_utf8`**: Consonantal text of a word in Aramaic square script
-* **`g_voc`**: Vocalized text of a word in ETCBC transcription
-* **`g_voc_utf8`**: Vocalized text of a word in Aramaic square script
+* **`cons`**: Consonantal text of the realized word in ETCBC transcription
+* **`cons_utf8`**: Consonantal text of the realized word in Aramaic square script
+* **`voc`**: Vocalized text of the realized word in ETCBC transcription
+* **`voc_utf8`**: Vocalized text of the realized word in Aramaic square script
 * **`lex`**: Lexeme in ETCBC transcription
 * **`gloss`**: English gloss
 * **`definition`**: Extended translation or dictionary definition
@@ -54,10 +54,6 @@ Consonantal texts use Aramaic square script, and vocalization of Palestinian Tar
 * **`trailer`**: Content after a word (empty space or `None`)
 * **`root`**: Root, typically of a verb
 
-### Morphemes
-
-* **`g_lex`**: Realization of the lexeme in ETCBC transcription
-* **`g_lex_utf8`**: Realization of the lexeme in Aramaic
 
 ### Node Hierarchy
 

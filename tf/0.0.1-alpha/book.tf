@@ -10,9 +10,9 @@
 @sourceFormat=XML
 @valueType=str
 @version=0.0.1-alpha
-@xmlVersion=2026-09-11
+@xmlVersion=2026-09-13
 @writtenBy=Text-Fabric
-@dateWritten=2026-09-11T19:37:03+00:00Z
+@dateWritten=2026-09-13T22:49:21+00:00Z
 
 495027	Deuteronomy
 Exodus

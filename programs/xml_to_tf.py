@@ -15,12 +15,10 @@ INT_FEATURES = {
     "sibling",
     "start_idx",
     "end_idx",
-    "source_id",
-    "parent_id",
 }
-NESTABLE_TAGS = {"m", "mg", "segment"}
+NESTABLE_TAGS = {"word", "segment"}
 
-SLOT_TAG = "m"
+SLOT_TAG = "word"
 
 
 class XMLToTFConverter(XMLConvert):
@@ -64,22 +62,20 @@ class XMLToTFConverter(XMLConvert):
         # this is a weird feature of cv.walk(), but if the XML isn't formatted like this, self._checkFeatures() will fail and cause self.good = False
         # THIS MUST MATCH FOR ALL 3 SECTION FEATURES/OTYPES: that means for
         otext = {
-            "fmt:text-orig-full": "{g_voc_utf8}{trailer}",
-            "fmt:text-cons": "{g_cons_utf8}{trailer}",
-            "fmt:lex-orig-full": "{g_lex_utf8}{trailer}",
-            "fmt:text-trans-full": "{g_voc}{trailer}",
-            "fmt:text-trans-cons": "{g_cons}{trailer}",
+            "fmt:text-orig-full": "{voc_utf8}{trailer}",
+            "fmt:text-cons": "{cons_utf8}{trailer}",
+            "fmt:text-trans-full": "{voc}{trailer}",
+            "fmt:text-trans-cons": "{cons}{trailer}",
             "sectionTypes": "text,book,chapter",
             "sectionFeatures": "text,book,chapter",
         }
         there must be SQL columns such as text_text, chapter_chapter, book_book corresponding tags in XML
         """
         otext = {
-            "fmt:text-orig-full": "{g_voc_utf8}{trailer}",
-            "fmt:lex-orig-full": "{g_lex_utf8}{trailer}",
-            "fmt:text-cons": "{g_cons_utf8}{trailer}",
-            "fmt:text-trans-full": "{g_voc}{trailer}",
-            "fmt:text-trans-cons": "{g_cons}{trailer}",
+            "fmt:text-orig-full": "{voc_utf8}{trailer}",
+            "fmt:text-cons": "{cons_utf8}{trailer}",
+            "fmt:text-trans-full": "{voc}{trailer}",
+            "fmt:text-trans-cons": "{cons}{trailer}",
             "sectionTypes": "text,book,chapter",
             "sectionFeatures": "text,book,chapter",
         }
@@ -218,7 +214,7 @@ class XMLToTFConverter(XMLConvert):
                 return None
             curNode = None
 
-            if tag == "m":
+            if tag == "word":
                 # For words, assign the slot tag and extract the inner text explicitly
                 if xnode.text:
                     atts["text"] = xnode.text.strip()
