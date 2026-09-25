@@ -1,9 +1,40 @@
 from io import BytesIO
+from pathlib import Path
 
+import tff.convert.xml as tff_xml
 from lxml import etree
+from tf.core import files as tf_files
 from tf.core.files import initTree, unexpanduser
 from tf.core.helpers import console
 from tff.convert.xml import XML as XMLConvert
+from main.config.env import TF_BACKEND, TF_ORG, TF_REPO
+
+# Text-Fabric derives every path it touches (config/xml.yml, xml/, tf/, app/, report/)
+# from tf.core.files.getLocation(), which reads os.getcwd() and insists it sit inside
+# ~/<backend>/<org>/<repo>/<subdir>. If your repo is any number of levels too
+# shallow, so getLocation() returns Nones and XML.__init__ aborts before doing anything
+# with "Not working in a repo: backend=something org=programs repo=None relative=None".
+# A symlink cannot fix that on its own (os.getcwd() reports the physical path), so we
+# expose the repo at a conformant path and pin the answer getLocation gives.
+def pin_repo_location():
+    repo_root = Path(__file__).resolve().parents[1]
+    link = Path.home() / TF_BACKEND / TF_ORG / TF_REPO
+
+    if link.is_symlink() or link.exists():
+        if link.resolve() != repo_root:
+            raise RuntimeError(
+                f"{link} already exists and does not point at {repo_root}"
+            )
+    else:
+        link.parent.mkdir(parents=True, exist_ok=True)
+        link.symlink_to(repo_root, target_is_directory=True)
+        console(f"linked {link} -> {repo_root}")
+
+    location = (TF_BACKEND, TF_ORG, TF_REPO, "")
+    # tff.convert.xml imported the name directly, so patching tf.core.files alone is
+    # not enough; both bindings have to go.
+    tff_xml.getLocation = lambda targetDir=None: location
+    tf_files.getLocation = lambda targetDir=None: location
 
 XNEST = "xnest"
 TNEST = "tnest"
@@ -12,11 +43,17 @@ TSIB = "tsiblings"
 INT_FEATURES = {
     "id",
     "rank",
+    "reading",
     "sibling",
     "start_idx",
     "end_idx",
 }
-NESTABLE_TAGS = {"word", "segment"}
+# Tags that get a `parent` edge to the node enclosing them.
+PARENT_EDGE_TAGS = {"word", "word_group", "segment"}
+# Tags that get `sibling` edges. Deliberately narrower: the edge count is quadratic in the
+# number of siblings under one parent, and a verse holds 19.8 word_groups on average and 347
+# at the worst, which would be on the order of a million sibling edges per text.
+SIBLING_EDGE_TAGS = {"word", "segment"}
 
 SLOT_TAG = "word"
 
@@ -144,9 +181,10 @@ class XMLToTFConverter(XMLConvert):
             """
             tag = etree.QName(xnode.tag).localname
 
-            # Determine if we want to track siblings for this element.
-            # Tracking siblings on everything is memory intensive, so we limit it.
-            nestable = tag in NESTABLE_TAGS
+            # Determine which edges this element takes. Tracking siblings on everything is
+            # memory intensive, so the two sets are separate and the sibling one is smaller.
+            wants_parent_edge = tag in PARENT_EDGE_TAGS
+            wants_sibling_edge = tag in SIBLING_EDGE_TAGS
 
             atts = {etree.QName(k).localname: v for (k, v) in xnode.attrib.items()}
             cur[XNEST].append((tag, atts))
@@ -156,14 +194,14 @@ class XMLToTFConverter(XMLConvert):
 
             if curNode is not None:
                 if len(cur[TNEST]):
-                    if nestable:
+                    if wants_parent_edge:
                         parentNode = cur[TNEST][-1]
                         cv.edge(curNode, parentNode, parent=None)
 
                 cur[TNEST].append(curNode)
 
                 if len(cur[TSIB]):
-                    if nestable:
+                    if wants_sibling_edge:
                         siblings = cur[TSIB][-1]
                         nSiblings = len(siblings)
                         for i, sib in enumerate(siblings):
@@ -214,7 +252,7 @@ class XMLToTFConverter(XMLConvert):
                 return None
             curNode = None
 
-            if tag == "word":
+            if tag == SLOT_TAG:
                 # For words, assign the slot tag and extract the inner text explicitly
                 if xnode.text:
                     atts["text"] = xnode.text.strip()
@@ -222,7 +260,8 @@ class XMLToTFConverter(XMLConvert):
                 curNode = cv.slot()
                 cv.feature(curNode, **atts)
             else:
-                # For all other tags (isolect, dialect, subtext, view, mg), create a parent node
+                # For all other tags (text, book, chapter, verse, segment, word_group),
+                # create a parent node
                 if tag not in PASS_THROUGH:
                     curNode = cv.node(tag)
                     if len(atts):
@@ -327,6 +366,7 @@ class XMLToTFConverter(XMLConvert):
 
 
 def convert_xml_to_tf():
+    pin_repo_location()
     converter = XMLToTFConverter()
 
     converter.task(check=True, verbose=True)
