@@ -61,9 +61,9 @@ Consonantal texts use Aramaic square script, and vocalization of Palestinian Tar
 * **`book`**: Biblical book (typically Pentateuchal)
 * **`chapter`**: Chapter of the Aramaic text (as applicable)
 * **`verse`**: A line of text, typically (though not always) corresponding to a verse in a book or manuscript
-* **`segment`**: Grouping of monads/monad groups based on position within discrete editorial or emendation blocks (e.g., variants)
-* **`mg`**: MonadGroups (space-delimited units of characters, including immediately ensuing variants; contains at least one Monad)
-* **`m`**: Monads (slots). Smallest elements with word-level features such as number, gender, and part of speech
+* **`segment`**: Grouping of words/word groups based on position within discrete editorial or emendation blocks (e.g., variants)
+* **`word_group`**: WordGroup (space-delimited units of characters, including immediately ensuing variants; contains at least one Word)
+* **`word`**: Words (slots). Smallest elements with word-level features such as number, gender, and part of speech
 
 ### Planned Additions
 
