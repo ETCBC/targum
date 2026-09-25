@@ -11,6 +11,7 @@ generic:
 intFeatures:
   - id
   - rank
+  - reading
   - sibling
   - start_idx
   - end_idx
@@ -34,15 +35,24 @@ featureDescriptions:
   verse:
     A line of text, typically (though not always) corresponding to a verse in a book or manuscript
   segment:
-    Grouping of monads/monad groups based on position within discrete editorial or emendation blocks (e.g., variants)
-  mg:
-    MonadGroups (space-delimited units of characters, including immediately ensuing variants; contains at least one Monad)
-  m:
-    Monads (slots)—the smallest elements with word-level features such as number, gender, and part of speech
+    Grouping of words and word groups based on position within discrete editorial or emendation blocks (e.g., variants)
+  word_group:
+    Word groups (space-delimited units of characters, including immediately ensuing variants; contains at least one word)
+  word:
+    Words (slots)—the smallest semantic elements, carrying number, gender, part of speech and the rest of the morphology
 
   # general and structural
   id:
     xml id, associated to primary key in other data stores (SQL)
+  rank: >-
+    position of the node among its siblings, counting from the start of the enclosing node
+  reading: >-
+    which reading of a word group this is; readings competing for one position of the
+    line share a rank and differ here, 0 being the one the edition prints
+  source: >-
+    provenance of a word; "word" where morphology was placed on it, "word_group" where
+    the word group carries a surface form that no morphology points at, and "none" where
+    the manuscript has a word that was never analysed
   uid:
     independent unique identifier of the node
   source_id:
@@ -52,7 +62,7 @@ featureDescriptions:
   book_id:
     ID of the book
   description:
-    Description of a text, view, monad, lemma, etc.
+    Description of a text, view, word, lemma, etc.
   type:
     type of the node (e.g., unmarked_text for segment, full_text for view)
   rank:
@@ -61,19 +71,29 @@ featureDescriptions:
     Starting index of the segment within the line
   end_idx:
     Ending index of the segment within the line
-  v_text:
-    Vocalized text string of the line or segment
-  g_text:
-    Consonantal text string of the line or segment
+  line:
+    Vocalized text of a verse in ETCBC transcription
+  line_utf8:
+    Vocalized text of a verse in Aramaic square script
+  segment_utf8:
+    Vocalized text of a segment in Aramaic square script
 
-  # monad and monad group (word-level and morpheme features)
+  # word and word group (word-level and morpheme features)
   g_cons:
-    Consonantal text of a word in ETCBC transcription
+    Consonantal text of a word group in ETCBC transcription
   g_cons_utf8:
-    Consonantal text of a word in Aramaic square script
+    Consonantal text of a word group in Aramaic square script
   g_voc:
-    Vocalized text of a word in ETCBC transcription
+    Vocalized text of a word group in ETCBC transcription
   g_voc_utf8:
+    Vocalized text of a word group in Aramaic square script
+  cons:
+    Consonantal text of a word in ETCBC transcription
+  cons_utf8:
+    Consonantal text of a word in Aramaic square script
+  voc:
+    Vocalized text of a word in ETCBC transcription
+  voc_utf8:
     Vocalized text of a word in Aramaic square script
   lex:
     Lexeme in ETCBC transcription

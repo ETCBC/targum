@@ -1,0 +1,286 @@
+<?xml version="1.0" ?>
+<text text="cairo_genizah_targum_fragment_rr" view="full_text">
+    <book book="Genesis" id="1">
+        <chapter chapter="44">
+            <verse verse="18" uid="2939" line="݀݀݀  ݀݀݀ W&gt;XSNH BPIJLWG ݀݀݀ ݀݀݀ W&gt;JT L;JH XWLQ ݀݀݀ XAMWOR W.BNWJ ݀݀݀ ݀݀݀&lt;J LJCR&gt;L ݀݀݀n D݀ISBIJR; ݀݀݀ ݀݀݀&gt; DA&lt;BADT ݀݀݀ ݀݀݀  CAM&lt;IJn &gt;݀݀݀ ݀݀݀n  TR;Jn MINANA&gt; &gt;A݀݀݀ ݀݀݀&gt;W. JATAH WK@L CIJKEn D݀A&gt;N@&gt; BXEJLJ ݀݀݀HWOn XAJI H &gt;EL@HEJH D݀JICRA&gt;;L &gt;AB݀A&gt; &gt;Im ݀݀݀ &gt;T;JB JAT;H LTA&lt;RAH &lt;D DJ &gt;QVWL ݀݀݀ Bk &gt;N&gt; MATXIJL WBPAR&lt;OH ݀݀݀ ݀݀݀ &gt;MR JHW.DAH BLB݀JH ݀݀݀ ݀݀݀݀݀ DHW&gt; &lt;WOBADWJ ݀݀݀ B&lt;MWDA&gt; DH;KLA&gt; ݀݀݀݀݀ W&gt;AMAR L&gt;AXWOJ ݀݀݀݀݀ HW&gt; ݀݀݀" line_utf8="ּּּ  ּּּ ואחסנה בפִילוג ּּּ ּּּ ואית לֵיה חולק ּּּ חַמוֹר וּבנוי ּּּ ּּּעי לישׁראל ּּּן דִּסבִירֵ ּּּ ּּּא דַעבַדת ּּּ ּּּ  שַׁמעִין אּּּ ּּּן  תרֵין מִנַנַא אַּּּ ּּּאוּ יַתַה וכָל שִׁיכֶן דַּאנָא בחֶילי ּּּהוֹן חַיִ ה אֶלָהֶיה דּיִשׁרַאֵל אַבַּא אִם ּּּ אתֵיב יַתֵה לתַערַה עד די אקטול ּּּ בך אנא מַתחִיל ובפַרעֹה ּּּ ּּּ אמר יהוּדַה בלבּיה ּּּ ּּּּּ דהוא עוֹבַדוי ּּּ בעמודַא דהֵכלַא ּּּּּ ואַמַר לאַחוֹי ּּּּּ הוא ּּּ">
+                <segment id="800509" start_idx="1" end_idx="5" type="broken_text" rank="1" segment="..." segment_utf8="ּּּ">
+                    <word_group id="55525" rank="0" reading="0" g_voc="݀݀݀" g_voc_utf8="ּּּ">
+                        <word id="73785" source="word" trailer="" uid="2700001607209003808_a637a96a" voc="݀݀݀" voc_utf8="ּּּ"/>
+                        <word id="73786" source="word" trailer="" uid="2700001607209003809_dd5ec726" voc="݀݀݀" voc_utf8="ּּּ"/>
+                    </word_group>
+                    <word_group id="55599" rank="0" reading="0" g_voc="݀݀݀" g_voc_utf8="ּּּ">
+                        <word id="73787" source="word" trailer="" uid="2700001607209003807_862b1caa" voc="݀݀݀" voc_utf8="ּּּ"/>
+                        <word id="73788" source="word" trailer=" " uid="2700001607209003808_168619a3" voc="݀݀݀" voc_utf8="ּּּ"/>
+                    </word_group>
+                </segment>
+                <segment id="800512" start_idx="7" end_idx="8" type="source" rank="4">
+                    <word_group id="55600" rank="1" reading="0">
+                        <word source="word_group" trailer=" "/>
+                    </word_group>
+                </segment>
+                <segment id="800515" start_idx="12" end_idx="21" type="broken_text" rank="7" segment="... W&gt;XS" segment_utf8="ּּּ ואחס">
+                    <word_group id="55527" rank="2" reading="0" g_voc="݀݀݀" g_voc_utf8="ּּּ">
+                        <word source="word_group" trailer=" " voc="݀݀݀" voc_utf8="ּּּ"/>
+                    </word_group>
+                </segment>
+                <segment id="800516" start_idx="13" end_idx="21" type="unmarked_text" rank="8" segment="... W&gt;XS" segment_utf8="ּּּ ואחס">
+                    <word_group id="55528" rank="3" reading="0" g_voc="W&gt;XSNH" g_cons="W&gt;XSNH" g_voc_utf8="ואחסנה" g_cons_utf8="ואחסנה">
+                        <word source="word_group" trailer=" " lex="W&gt;XSNH" cons="W&gt;XSNH" voc="W&gt;XSNH" cons_utf8="ואחסנה" voc_utf8="ואחסנה">ואחסנה</word>
+                    </word_group>
+                </segment>
+                <segment id="800517" start_idx="22" end_idx="33" type="unmarked_text" rank="9" segment="NH BPIJLW" segment_utf8="נה בפִילו">
+                    <word_group id="55529" rank="4" reading="0" g_voc="BPIJLWG" g_cons="BPJLWG" g_voc_utf8="בפִילוג" g_cons_utf8="בפילוג">
+                        <word source="word_group" trailer=" " lex="BPJLWG" cons="BPJLWG" voc="BPIJLWG" cons_utf8="בפילוג" voc_utf8="בפִילוג">בפילוג</word>
+                    </word_group>
+                </segment>
+                <segment id="800518" start_idx="34" end_idx="40" type="broken_text" rank="10" segment="G ..." segment_utf8="ג ּּּ">
+                    <word_group id="55530" rank="5" reading="0" g_voc="݀݀݀" g_voc_utf8="ּּּ">
+                        <word source="word_group" trailer=" " voc="݀݀݀" voc_utf8="ּּּ"/>
+                    </word_group>
+                </segment>
+                <segment id="800521" start_idx="42" end_idx="46" type="broken_text" rank="13" segment="..." segment_utf8="ּּּ">
+                    <word_group id="55531" rank="6" reading="0" g_voc="݀݀݀" g_voc_utf8="ּּּ">
+                        <word source="word_group" trailer=" " voc="݀݀݀" voc_utf8="ּּּ"/>
+                    </word_group>
+                </segment>
+                <segment id="800523" start_idx="47" end_idx="58" type="unmarked_text" rank="15" segment="W&gt;JT L;JH X" segment_utf8="ואית לֵיה ח">
+                    <word_group id="55532" rank="7" reading="0" g_voc="W&gt;JT" g_cons="W&gt;JT" g_voc_utf8="ואית" g_cons_utf8="ואית">
+                        <word source="word_group" trailer=" " lex="W&gt;JT" cons="W&gt;JT" voc="W&gt;JT" cons_utf8="ואית" voc_utf8="ואית">ואית</word>
+                    </word_group>
+                    <word_group id="55533" rank="8" reading="0" g_voc="L;JH" g_cons="LJH" g_voc_utf8="לֵיה" g_cons_utf8="ליה">
+                        <word source="word_group" trailer=" " lex="LJH" cons="LJH" voc="L;JH" cons_utf8="ליה" voc_utf8="לֵיה">ליה</word>
+                    </word_group>
+                </segment>
+                <segment id="800524" start_idx="59" end_idx="63" type="broken_text" rank="16" segment="WLQ" segment_utf8="ולק">
+                    <word_group id="55534" rank="9" reading="0" g_voc="XWLQ" g_cons="XWLQ" g_voc_utf8="חולק" g_cons_utf8="חולק">
+                        <word source="word_group" trailer=" " lex="XWLQ" cons="XWLQ" voc="XWLQ" cons_utf8="חולק" voc_utf8="חולק">חולק</word>
+                    </word_group>
+                </segment>
+                <segment id="800527" start_idx="65" end_idx="69" type="broken_text" rank="19" segment="..." segment_utf8="ּּּ">
+                    <word_group id="55535" rank="10" reading="0" g_voc="݀݀݀" g_voc_utf8="ּּּ">
+                        <word source="word_group" trailer=" " voc="݀݀݀" voc_utf8="ּּּ"/>
+                    </word_group>
+                </segment>
+                <segment id="800529" start_idx="70" end_idx="80" type="unmarked_text" rank="21" segment="XAMWOR W.BN" segment_utf8="חַמוֹר וּבן">
+                    <word_group id="55536" rank="11" reading="0" g_voc="XAMWOR" g_cons="XMR" g_voc_utf8="חַמוֹר" g_cons_utf8="חמר">
+                        <word source="word_group" trailer=" " lex="XMR" cons="XMR" voc="XAMWOR" cons_utf8="חמר" voc_utf8="חַמוֹר">חמר</word>
+                    </word_group>
+                    <word_group id="55537" rank="12" reading="0" g_voc="W.BNWJ" g_cons="BNWJ" g_voc_utf8="וּבנוי" g_cons_utf8="בנוי">
+                        <word source="word_group" trailer=" " lex="BNWJ" cons="BNWJ" voc="W.BNWJ" cons_utf8="בנוי" voc_utf8="וּבנוי">בנוי</word>
+                    </word_group>
+                </segment>
+                <segment id="800530" start_idx="81" end_idx="88" type="broken_text" rank="22" segment="WJ ..." segment_utf8="וי ּּּ">
+                    <word_group id="55538" rank="13" reading="0" g_voc="݀݀݀" g_voc_utf8="ּּּ">
+                        <word source="word_group" trailer=" " voc="݀݀݀" voc_utf8="ּּּ"/>
+                    </word_group>
+                </segment>
+                <segment id="800533" start_idx="90" end_idx="94" type="broken_text" rank="25" segment="..." segment_utf8="ּּּ">
+                    <word_group id="55539" rank="14" reading="0" g_voc="݀݀݀&lt;J" g_cons="&lt;J" g_voc_utf8="ּּּעי" g_cons_utf8="עי">
+                        <word source="word_group" trailer=" " lex="&lt;J" cons="&lt;J" voc="݀݀݀&lt;J" cons_utf8="עי" voc_utf8="ּּּעי">עי</word>
+                    </word_group>
+                </segment>
+                <segment id="800535" start_idx="95" end_idx="106" type="unmarked_text" rank="27" segment="&lt;J LJCR&gt;L" segment_utf8="עי לישׁראל">
+                    <word_group id="55540" rank="15" reading="0" g_voc="LJCR&gt;L" g_cons="LJCR&gt;L" g_voc_utf8="לישׁראל" g_cons_utf8="לישׁראל">
+                        <word source="word_group" trailer=" " lex="LJCR&gt;L" cons="LJCR&gt;L" voc="LJCR&gt;L" cons_utf8="לישׁראל" voc_utf8="לישׁראל">לישׁראל</word>
+                    </word_group>
+                </segment>
+                <segment id="800536" start_idx="107" end_idx="111" type="broken_text" rank="28" segment="..." segment_utf8="ּּּ">
+                    <word_group id="55541" rank="16" reading="0" g_voc="݀݀݀n" g_cons="n" g_voc_utf8="ּּּן" g_cons_utf8="ן">
+                        <word source="word_group" trailer=" " lex="n" cons="n" voc="݀݀݀n" cons_utf8="ן" voc_utf8="ּּּן">ן</word>
+                    </word_group>
+                </segment>
+                <segment id="800538" start_idx="112" end_idx="124" type="unmarked_text" rank="30" segment="n D.ISBIJR;" segment_utf8="ן דִּסבִירֵ">
+                    <word_group id="55542" rank="17" reading="0" g_voc="D݀ISBIJR;" g_cons="DSBJR" g_voc_utf8="דִּסבִירֵ" g_cons_utf8="דסביר">
+                        <word source="word_group" trailer=" " lex="DSBJR" cons="DSBJR" voc="D݀ISBIJR;" cons_utf8="דסביר" voc_utf8="דִּסבִירֵ">דסביר</word>
+                    </word_group>
+                </segment>
+                <segment id="800539" start_idx="125" end_idx="129" type="broken_text" rank="31" segment="..." segment_utf8="ּּּ">
+                    <word_group id="55543" rank="18" reading="0" g_voc="݀݀݀" g_voc_utf8="ּּּ">
+                        <word source="word_group" trailer=" " voc="݀݀݀" voc_utf8="ּּּ"/>
+                    </word_group>
+                </segment>
+                <segment id="800542" start_idx="131" end_idx="135" type="broken_text" rank="34" segment="..." segment_utf8="ּּּ">
+                    <word_group id="55544" rank="19" reading="0" g_voc="݀݀݀&gt;" g_cons="&gt;" g_voc_utf8="ּּּא" g_cons_utf8="א">
+                        <word source="word_group" trailer=" " lex="&gt;" cons="&gt;" voc="݀݀݀&gt;" cons_utf8="א" voc_utf8="ּּּא">א</word>
+                    </word_group>
+                </segment>
+                <segment id="800544" start_idx="136" end_idx="148" type="unmarked_text" rank="36" segment="&gt; DA&lt;BADT" segment_utf8="א דַעבַדת">
+                    <word_group id="55545" rank="20" reading="0" g_voc="DA&lt;BADT" g_cons="D&lt;BDT" g_voc_utf8="דַעבַדת" g_cons_utf8="דעבדת">
+                        <word source="word_group" trailer=" " lex="D&lt;BDT" cons="D&lt;BDT" voc="DA&lt;BADT" cons_utf8="דעבדת" voc_utf8="דַעבַדת">דעבדת</word>
+                    </word_group>
+                </segment>
+                <segment id="800545" start_idx="149" end_idx="153" type="broken_text" rank="37" segment="..." segment_utf8="ּּּ">
+                    <word_group id="55546" rank="21" reading="0" g_voc="݀݀݀" g_voc_utf8="ּּּ">
+                        <word source="word_group" trailer=" " voc="݀݀݀" voc_utf8="ּּּ"/>
+                    </word_group>
+                </segment>
+                <segment id="800548" start_idx="155" end_idx="159" type="broken_text" rank="40" segment="..." segment_utf8="ּּּ">
+                    <word_group id="55547" rank="22" reading="0" g_voc="݀݀݀" g_voc_utf8="ּּּ">
+                        <word source="word_group" trailer=" " voc="݀݀݀" voc_utf8="ּּּ"/>
+                    </word_group>
+                </segment>
+                <segment id="800551" start_idx="161" end_idx="162" type="source" rank="43">
+                    <word_group id="55548" rank="23" reading="0">
+                        <word source="word_group" trailer=" "/>
+                    </word_group>
+                </segment>
+                <segment id="800552" start_idx="163" end_idx="186" type="source" rank="44" segment="CAM&lt;IJn &gt;... ..." segment_utf8="שַׁמעִין אּּּ ּּּ">
+                    <word_group id="55549" rank="24" reading="0" g_voc="CAM&lt;IJn" g_cons="CM&lt;Jn" g_voc_utf8="שַׁמעִין" g_cons_utf8="שׁמעין">
+                        <word source="word_group" trailer=" " lex="CM&lt;Jn" cons="CM&lt;Jn" voc="CAM&lt;IJn" cons_utf8="שׁמעין" voc_utf8="שַׁמעִין">שׁמעין</word>
+                    </word_group>
+                    <word_group id="55550" rank="25" reading="0" g_voc="&gt;݀݀݀" g_cons="&gt;" g_voc_utf8="אּּּ" g_cons_utf8="א">
+                        <word source="word_group" trailer=" " lex="&gt;" cons="&gt;" voc="&gt;݀݀݀" cons_utf8="א" voc_utf8="אּּּ">א</word>
+                    </word_group>
+                    <word_group id="55551" rank="26" reading="0" g_voc="݀݀݀n" g_cons="n" g_voc_utf8="ּּּן" g_cons_utf8="ן">
+                        <word source="word_group" trailer=" " lex="n" cons="n" voc="݀݀݀n" cons_utf8="ן" voc_utf8="ּּּן">ן</word>
+                    </word_group>
+                </segment>
+                <segment id="800554" start_idx="189" end_idx="190" type="source" rank="46">
+                    <word_group id="55552" rank="27" reading="0">
+                        <word source="word_group" trailer=" "/>
+                    </word_group>
+                </segment>
+                <segment id="800555" start_idx="191" end_idx="520" type="incomplete" rank="47" segment="TR;Jn MINANA&gt; &gt;A... ...&gt;W. JATAH WK@L CIJKEn D.A&gt;N@&gt; BXEJLJ ...HWOn XAJI H &gt;EL@HEJH D.JICRA&gt;;L &gt;AB.A&gt; &gt;Im ... &gt;T;JB JAT;H LTA&lt;RAH &lt;D DJ &gt;QVWL ... Bk &gt;N&gt; MATXIJL WBPAR&lt;OH ... ... &gt;MR JHW.DAH BLB.JH ... ..... DHW&gt; &lt;WOBADWJ ... B&lt;MWDA&gt; DH;KLA&gt; ..... W&gt;AMAR L&gt;AXWOJ ..... HW&gt; ..." segment_utf8="תרֵין מִנַנַא אַּּּ ּּּאוּ יַתַה וכָל שִׁיכֶן דַּאנָא בחֶילי ּּּהוֹן חַיִ ה אֶלָהֶיה דּיִשׁרַאֵל אַבַּא אִם ּּּ אתֵיב יַתֵה לתַערַה עד די אקטול ּּּ בך אנא מַתחִיל ובפַרעֹה ּּּ ּּּ אמר יהוּדַה בלבּיה ּּּ ּּּּּ דהוא עוֹבַדוי ּּּ בעמודַא דהֵכלַא ּּּּּ ואַמַר לאַחוֹי ּּּּּ הוא ּּּ">
+                    <word_group id="55553" rank="28" reading="0" g_voc="TR;Jn" g_cons="TRJn" g_voc_utf8="תרֵין" g_cons_utf8="תרין">
+                        <word source="word_group" trailer=" " lex="TRJn" cons="TRJn" voc="TR;Jn" cons_utf8="תרין" voc_utf8="תרֵין">תרין</word>
+                    </word_group>
+                    <word_group id="55554" rank="29" reading="0" g_voc="MINANA&gt;" g_cons="MNN&gt;" g_voc_utf8="מִנַנַא" g_cons_utf8="מננא">
+                        <word source="word_group" trailer=" " lex="MNN&gt;" cons="MNN&gt;" voc="MINANA&gt;" cons_utf8="מננא" voc_utf8="מִנַנַא">מננא</word>
+                    </word_group>
+                    <word_group id="55555" rank="30" reading="0" g_voc="&gt;A݀݀݀" g_cons="&gt;" g_voc_utf8="אַּּּ" g_cons_utf8="א">
+                        <word source="word_group" trailer=" " lex="&gt;" cons="&gt;" voc="&gt;A݀݀݀" cons_utf8="א" voc_utf8="אַּּּ">א</word>
+                    </word_group>
+                    <word_group id="55556" rank="31" reading="0" g_voc="݀݀݀&gt;W." g_cons="&gt;" g_voc_utf8="ּּּאוּ" g_cons_utf8="א">
+                        <word source="word_group" trailer=" " lex="&gt;" cons="&gt;" voc="݀݀݀&gt;W." cons_utf8="א" voc_utf8="ּּּאוּ">א</word>
+                    </word_group>
+                    <word_group id="55557" rank="32" reading="0" g_voc="JATAH" g_cons="JTH" g_voc_utf8="יַתַה" g_cons_utf8="יתה">
+                        <word source="word_group" trailer=" " lex="JTH" cons="JTH" voc="JATAH" cons_utf8="יתה" voc_utf8="יַתַה">יתה</word>
+                    </word_group>
+                    <word_group id="55558" rank="33" reading="0" g_voc="WK@L" g_cons="WKL" g_voc_utf8="וכָל" g_cons_utf8="וכל">
+                        <word source="word_group" trailer=" " lex="WKL" cons="WKL" voc="WK@L" cons_utf8="וכל" voc_utf8="וכָל">וכל</word>
+                    </word_group>
+                    <word_group id="55559" rank="34" reading="0" g_voc="CIJKEn" g_cons="CJKn" g_voc_utf8="שִׁיכֶן" g_cons_utf8="שׁיכן">
+                        <word source="word_group" trailer=" " lex="CJKn" cons="CJKn" voc="CIJKEn" cons_utf8="שׁיכן" voc_utf8="שִׁיכֶן">שׁיכן</word>
+                    </word_group>
+                    <word_group id="55560" rank="35" reading="0" g_voc="D݀A&gt;N@&gt;" g_cons="D&gt;N&gt;" g_voc_utf8="דַּאנָא" g_cons_utf8="דאנא">
+                        <word source="word_group" trailer=" " lex="D&gt;N&gt;" cons="D&gt;N&gt;" voc="D݀A&gt;N@&gt;" cons_utf8="דאנא" voc_utf8="דַּאנָא">דאנא</word>
+                    </word_group>
+                    <word_group id="55561" rank="36" reading="0" g_voc="BXEJLJ" g_cons="BXJLJ" g_voc_utf8="בחֶילי" g_cons_utf8="בחילי">
+                        <word source="word_group" trailer=" " lex="BXJLJ" cons="BXJLJ" voc="BXEJLJ" cons_utf8="בחילי" voc_utf8="בחֶילי">בחילי</word>
+                    </word_group>
+                    <word_group id="55562" rank="37" reading="0" g_voc="݀݀݀HWOn" g_cons="Hn" g_voc_utf8="ּּּהוֹן" g_cons_utf8="הן">
+                        <word source="word_group" trailer=" " lex="Hn" cons="Hn" voc="݀݀݀HWOn" cons_utf8="הן" voc_utf8="ּּּהוֹן">הן</word>
+                    </word_group>
+                    <word_group id="55563" rank="38" reading="0" g_voc="XAJI" g_cons="XJ" g_voc_utf8="חַיִ" g_cons_utf8="חי">
+                        <word source="word_group" trailer=" " lex="XJ" cons="XJ" voc="XAJI" cons_utf8="חי" voc_utf8="חַיִ">חי</word>
+                    </word_group>
+                    <word_group id="55564" rank="39" reading="0" g_voc="H" g_cons="H" g_voc_utf8="ה" g_cons_utf8="ה">
+                        <word source="word_group" trailer=" " lex="H" cons="H" voc="H" cons_utf8="ה" voc_utf8="ה">ה</word>
+                    </word_group>
+                    <word_group id="55565" rank="40" reading="0" g_voc="&gt;EL@HEJH" g_cons="&gt;LHJH" g_voc_utf8="אֶלָהֶיה" g_cons_utf8="אלהיה">
+                        <word source="word_group" trailer=" " lex="&gt;LHJH" cons="&gt;LHJH" voc="&gt;EL@HEJH" cons_utf8="אלהיה" voc_utf8="אֶלָהֶיה">אלהיה</word>
+                    </word_group>
+                    <word_group id="55566" rank="41" reading="0" g_voc="D݀JICRA&gt;;L" g_cons="DJCR&gt;L" g_voc_utf8="דּיִשׁרַאֵל" g_cons_utf8="דישׁראל">
+                        <word source="word_group" trailer=" " lex="DJCR&gt;L" cons="DJCR&gt;L" voc="D݀JICRA&gt;;L" cons_utf8="דישׁראל" voc_utf8="דּיִשׁרַאֵל">דישׁראל</word>
+                    </word_group>
+                    <word_group id="55567" rank="42" reading="0" g_voc="&gt;AB݀A&gt;" g_cons="&gt;B&gt;" g_voc_utf8="אַבַּא" g_cons_utf8="אבא">
+                        <word source="word_group" trailer=" " lex="&gt;B&gt;" cons="&gt;B&gt;" voc="&gt;AB݀A&gt;" cons_utf8="אבא" voc_utf8="אַבַּא">אבא</word>
+                    </word_group>
+                    <word_group id="55568" rank="43" reading="0" g_voc="&gt;Im" g_cons="&gt;m" g_voc_utf8="אִם" g_cons_utf8="אם">
+                        <word source="word_group" trailer=" " lex="&gt;m" cons="&gt;m" voc="&gt;Im" cons_utf8="אם" voc_utf8="אִם">אם</word>
+                    </word_group>
+                    <word_group id="55569" rank="44" reading="0" g_voc="݀݀݀" g_voc_utf8="ּּּ">
+                        <word source="word_group" trailer=" " voc="݀݀݀" voc_utf8="ּּּ"/>
+                    </word_group>
+                    <word_group id="55570" rank="45" reading="0" g_voc="&gt;T;JB" g_cons="&gt;TJB" g_voc_utf8="אתֵיב" g_cons_utf8="אתיב">
+                        <word source="word_group" trailer=" " lex="&gt;TJB" cons="&gt;TJB" voc="&gt;T;JB" cons_utf8="אתיב" voc_utf8="אתֵיב">אתיב</word>
+                    </word_group>
+                    <word_group id="55571" rank="46" reading="0" g_voc="JAT;H" g_cons="JTH" g_voc_utf8="יַתֵה" g_cons_utf8="יתה">
+                        <word source="word_group" trailer=" " lex="JTH" cons="JTH" voc="JAT;H" cons_utf8="יתה" voc_utf8="יַתֵה">יתה</word>
+                    </word_group>
+                    <word_group id="55572" rank="47" reading="0" g_voc="LTA&lt;RAH" g_cons="LT&lt;RH" g_voc_utf8="לתַערַה" g_cons_utf8="לתערה">
+                        <word source="word_group" trailer=" " lex="LT&lt;RH" cons="LT&lt;RH" voc="LTA&lt;RAH" cons_utf8="לתערה" voc_utf8="לתַערַה">לתערה</word>
+                    </word_group>
+                    <word_group id="55647" rank="48" reading="0" g_voc="&lt;D" g_cons="&lt;D" g_voc_utf8="עד" g_cons_utf8="עד">
+                        <word source="word_group" trailer=" " lex="&lt;D" cons="&lt;D" voc="&lt;D" cons_utf8="עד" voc_utf8="עד">עד</word>
+                    </word_group>
+                    <word_group id="55648" rank="49" reading="0" g_voc="DJ" g_cons="DJ" g_voc_utf8="די" g_cons_utf8="די">
+                        <word source="word_group" trailer=" " lex="DJ" cons="DJ" voc="DJ" cons_utf8="די" voc_utf8="די">די</word>
+                    </word_group>
+                    <word_group id="55575" rank="50" reading="0" g_voc="&gt;QVWL" g_cons="&gt;QVWL" g_voc_utf8="אקטול" g_cons_utf8="אקטול">
+                        <word source="word_group" trailer=" " lex="&gt;QVWL" cons="&gt;QVWL" voc="&gt;QVWL" cons_utf8="אקטול" voc_utf8="אקטול">אקטול</word>
+                    </word_group>
+                    <word_group id="55576" rank="51" reading="0" g_voc="݀݀݀" g_voc_utf8="ּּּ">
+                        <word source="word_group" trailer=" " voc="݀݀݀" voc_utf8="ּּּ"/>
+                    </word_group>
+                    <word_group id="55577" rank="52" reading="0" g_voc="Bk" g_cons="Bk" g_voc_utf8="בך" g_cons_utf8="בך">
+                        <word source="word_group" trailer=" " lex="Bk" cons="Bk" voc="Bk" cons_utf8="בך" voc_utf8="בך">בך</word>
+                    </word_group>
+                    <word_group id="55578" rank="53" reading="0" g_voc="&gt;N&gt;" g_cons="&gt;N&gt;" g_voc_utf8="אנא" g_cons_utf8="אנא">
+                        <word source="word_group" trailer=" " lex="&gt;N&gt;" cons="&gt;N&gt;" voc="&gt;N&gt;" cons_utf8="אנא" voc_utf8="אנא">אנא</word>
+                    </word_group>
+                    <word_group id="55579" rank="54" reading="0" g_voc="MATXIJL" g_cons="MTXJL" g_voc_utf8="מַתחִיל" g_cons_utf8="מתחיל">
+                        <word source="word_group" trailer=" " lex="MTXJL" cons="MTXJL" voc="MATXIJL" cons_utf8="מתחיל" voc_utf8="מַתחִיל">מתחיל</word>
+                    </word_group>
+                    <word_group id="55580" rank="55" reading="0" g_voc="WBPAR&lt;OH" g_cons="WBPR&lt;H" g_voc_utf8="ובפַרעֹה" g_cons_utf8="ובפרעה">
+                        <word source="word_group" trailer=" " lex="WBPR&lt;H" cons="WBPR&lt;H" voc="WBPAR&lt;OH" cons_utf8="ובפרעה" voc_utf8="ובפַרעֹה">ובפרעה</word>
+                    </word_group>
+                    <word_group id="55581" rank="56" reading="0" g_voc="݀݀݀" g_voc_utf8="ּּּ">
+                        <word source="word_group" trailer=" " voc="݀݀݀" voc_utf8="ּּּ"/>
+                    </word_group>
+                    <word_group id="55582" rank="57" reading="0" g_voc="݀݀݀" g_voc_utf8="ּּּ">
+                        <word source="word_group" trailer=" " voc="݀݀݀" voc_utf8="ּּּ"/>
+                    </word_group>
+                    <word_group id="55583" rank="58" reading="0" g_voc="&gt;MR" g_cons="&gt;MR" g_voc_utf8="אמר" g_cons_utf8="אמר">
+                        <word source="word_group" trailer=" " lex="&gt;MR" cons="&gt;MR" voc="&gt;MR" cons_utf8="אמר" voc_utf8="אמר">אמר</word>
+                    </word_group>
+                    <word_group id="55584" rank="59" reading="0" g_voc="JHW.DAH" g_cons="JHDH" g_voc_utf8="יהוּדַה" g_cons_utf8="יהדה">
+                        <word source="word_group" trailer=" " lex="JHDH" cons="JHDH" voc="JHW.DAH" cons_utf8="יהדה" voc_utf8="יהוּדַה">יהדה</word>
+                    </word_group>
+                    <word_group id="55585" rank="60" reading="0" g_voc="BLB݀JH" g_cons="BLBJH" g_voc_utf8="בלבּיה" g_cons_utf8="בלביה">
+                        <word source="word_group" trailer=" " lex="BLBJH" cons="BLBJH" voc="BLB݀JH" cons_utf8="בלביה" voc_utf8="בלבּיה">בלביה</word>
+                    </word_group>
+                    <word_group id="55586" rank="61" reading="0" g_voc="݀݀݀" g_voc_utf8="ּּּ">
+                        <word source="word_group" trailer=" " voc="݀݀݀" voc_utf8="ּּּ"/>
+                    </word_group>
+                    <word_group id="55587" rank="62" reading="0" g_voc="݀݀݀݀݀" g_voc_utf8="ּּּּּ">
+                        <word source="word_group" trailer=" " voc="݀݀݀݀݀" voc_utf8="ּּּּּ"/>
+                    </word_group>
+                    <word_group id="55588" rank="63" reading="0" g_voc="DHW&gt;" g_cons="DHW&gt;" g_voc_utf8="דהוא" g_cons_utf8="דהוא">
+                        <word source="word_group" trailer=" " lex="DHW&gt;" cons="DHW&gt;" voc="DHW&gt;" cons_utf8="דהוא" voc_utf8="דהוא">דהוא</word>
+                    </word_group>
+                    <word_group id="55589" rank="64" reading="0" g_voc="&lt;WOBADWJ" g_cons="&lt;BDWJ" g_voc_utf8="עוֹבַדוי" g_cons_utf8="עבדוי">
+                        <word source="word_group" trailer=" " lex="&lt;BDWJ" cons="&lt;BDWJ" voc="&lt;WOBADWJ" cons_utf8="עבדוי" voc_utf8="עוֹבַדוי">עבדוי</word>
+                    </word_group>
+                    <word_group id="55590" rank="65" reading="0" g_voc="݀݀݀" g_voc_utf8="ּּּ">
+                        <word source="word_group" trailer=" " voc="݀݀݀" voc_utf8="ּּּ"/>
+                    </word_group>
+                    <word_group id="55591" rank="66" reading="0" g_voc="B&lt;MWDA&gt;" g_cons="B&lt;MWD&gt;" g_voc_utf8="בעמודַא" g_cons_utf8="בעמודא">
+                        <word source="word_group" trailer=" " lex="B&lt;MWD&gt;" cons="B&lt;MWD&gt;" voc="B&lt;MWDA&gt;" cons_utf8="בעמודא" voc_utf8="בעמודַא">בעמודא</word>
+                    </word_group>
+                    <word_group id="55592" rank="67" reading="0" g_voc="DH;KLA&gt;" g_cons="DHKL&gt;" g_voc_utf8="דהֵכלַא" g_cons_utf8="דהכלא">
+                        <word source="word_group" trailer=" " lex="DHKL&gt;" cons="DHKL&gt;" voc="DH;KLA&gt;" cons_utf8="דהכלא" voc_utf8="דהֵכלַא">דהכלא</word>
+                    </word_group>
+                    <word_group id="55593" rank="68" reading="0" g_voc="݀݀݀݀݀" g_voc_utf8="ּּּּּ">
+                        <word source="word_group" trailer=" " voc="݀݀݀݀݀" voc_utf8="ּּּּּ"/>
+                    </word_group>
+                    <word_group id="55594" rank="69" reading="0" g_voc="W&gt;AMAR" g_cons="W&gt;MR" g_voc_utf8="ואַמַר" g_cons_utf8="ואמר">
+                        <word source="word_group" trailer=" " lex="W&gt;MR" cons="W&gt;MR" voc="W&gt;AMAR" cons_utf8="ואמר" voc_utf8="ואַמַר">ואמר</word>
+                    </word_group>
+                    <word_group id="55595" rank="70" reading="0" g_voc="L&gt;AXWOJ" g_cons="L&gt;XJ" g_voc_utf8="לאַחוֹי" g_cons_utf8="לאחי">
+                        <word source="word_group" trailer=" " lex="L&gt;XJ" cons="L&gt;XJ" voc="L&gt;AXWOJ" cons_utf8="לאחי" voc_utf8="לאַחוֹי">לאחי</word>
+                    </word_group>
+                    <word_group id="55596" rank="71" reading="0" g_voc="݀݀݀݀݀" g_voc_utf8="ּּּּּ">
+                        <word source="word_group" trailer=" " voc="݀݀݀݀݀" voc_utf8="ּּּּּ"/>
+                    </word_group>
+                    <word_group id="55597" rank="72" reading="0" g_voc="HW&gt;" g_cons="HW&gt;" g_voc_utf8="הוא" g_cons_utf8="הוא">
+                        <word source="word_group" trailer=" " lex="HW&gt;" cons="HW&gt;" voc="HW&gt;" cons_utf8="הוא" voc_utf8="הוא">הוא</word>
+                    </word_group>
+                    <word_group id="55598" rank="73" reading="0" g_voc="݀݀݀" g_voc_utf8="ּּּ">
+                        <word source="word_group" trailer="" voc="݀݀݀" voc_utf8="ּּּ"/>
+                    </word_group>
+                </segment>
+            </verse>
+        </chapter>
+    </book>
+</text>

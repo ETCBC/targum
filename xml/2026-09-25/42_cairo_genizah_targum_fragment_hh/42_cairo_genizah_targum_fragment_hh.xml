@@ -1,0 +1,697 @@
+<?xml version="1.0" ?>
+<text text="cairo_genizah_targum_fragment_hh" view="full_text">
+    <book book="Exodus" id="2">
+        <chapter chapter="12">
+            <verse verse="1" uid="2941" line="W&gt;MAR MMRJH DH LWAWT MCH WLWAWT &gt;AHAROn B݀&gt;AR&lt;@H D݀MIYRAJIm LM;JMAR" line_utf8="ואמַר ממריה דה לוַות משׁה ולוַות אַהַרֹן בּאַרעָה דּמִצרַיִם למֵימַר">
+                <segment id="800556" start_idx="1" end_idx="7" type="broken_text" rank="1" segment="W&gt;MAR" segment_utf8="ואמַר">
+                    <word_group id="55673" rank="0" reading="0" g_voc="W&gt;MAR" g_cons="W&gt;MR" g_voc_utf8="ואמַר" g_cons_utf8="ואמר">
+                        <word id="73789" source="word" trailer="" uid="2700001660600503995_3bd223f7" lex="W&gt;MR" cons="W" voc="W" cons_utf8="ו" voc_utf8="ו" root="W" sp="conj" gloss="also, and" definition="also, and | clause level initial, and, also" description="conjunction, conjunction">ו</word>
+                    </word_group>
+                    <word_group id="55683" rank="0" reading="0" g_voc="W&gt;MAR" g_cons="W&gt;MR" g_voc_utf8="ואמַר" g_cons_utf8="ואמר">
+                        <word id="73792" source="word" trailer="" uid="2700001660600503997_b1e4aacd" lex="W&gt;MR" root="&gt;MR" vs="G" sp="verb" gloss="to say, command, speak" definition="Gt: to say, to be said" description="verbal, peal"/>
+                    </word_group>
+                    <word_group id="55673" rank="0" reading="0" g_voc="W&gt;MAR" g_cons="W&gt;MR" g_voc_utf8="ואמַר" g_cons_utf8="ואמר">
+                        <word id="73790" source="word" trailer="" uid="2700001660600503996_b90f905a" lex="W&gt;MR" root="&gt;MR" vs="G" sp="verb" gloss="to say, command, speak" definition="Gt: to say, to be said" description="verbal, peal"/>
+                    </word_group>
+                    <word_group id="55683" rank="0" reading="0" g_voc="W&gt;MAR" g_cons="W&gt;MR" g_voc_utf8="ואמַר" g_cons_utf8="ואמר">
+                        <word id="73821" source="word" trailer="" uid="2700001660600504026_65658bd2" lex="W&gt;MR" cons="W" voc="W" cons_utf8="ו" voc_utf8="ו" root="W" sp="conj" gloss="also, and" definition="also, and | clause level initial, and, also" description="conjunction, conjunction">ו</word>
+                    </word_group>
+                    <word_group id="55673" rank="0" reading="0" g_voc="W&gt;MAR" g_cons="W&gt;MR" g_voc_utf8="ואמַר" g_cons_utf8="ואמר">
+                        <word id="73791" source="word" trailer="" uid="2700001660600503996_2a7bcac6" lex="W&gt;MR" cons="&gt;" voc="&gt;" cons_utf8="א" voc_utf8="א" root="W" sp="conj" gloss="also, and" definition="also, and | clause level initial, and, also" description="conjunction, conjunction">א</word>
+                    </word_group>
+                    <word_group id="55683" rank="0" reading="0" g_voc="W&gt;MAR" g_cons="W&gt;MR" g_voc_utf8="ואמַר" g_cons_utf8="ואמר">
+                        <word id="73822" source="word" trailer="" uid="2700001660600504027_86c33cfb" lex="W&gt;MR" cons="&gt;" voc="&gt;" cons_utf8="א" voc_utf8="א" root="&gt;MR" vs="G" sp="verb" gloss="to say, command, speak" definition="Gt: to say, to be said" description="verbal, peal">א</word>
+                    </word_group>
+                    <word_group id="55673" rank="0" reading="0" g_voc="W&gt;MAR" g_cons="W&gt;MR" g_voc_utf8="ואמַר" g_cons_utf8="ואמר">
+                        <word id="73823" source="word" trailer="" uid="2700001660600504027_ec803a91" lex="W&gt;MR" cons="MR" voc="MAR" cons_utf8="מר" voc_utf8="מַר" root="W" sp="conj" gloss="also, and" definition="also, and | clause level initial, and, also" description="conjunction, conjunction">מר</word>
+                    </word_group>
+                    <word_group id="55683" rank="0" reading="0" g_voc="W&gt;MAR" g_cons="W&gt;MR" g_voc_utf8="ואמַר" g_cons_utf8="ואמר">
+                        <word id="73824" source="word" trailer=" " uid="2700001660600504028_3cfbdf65" lex="W&gt;MR" cons="MR" voc="MAR" cons_utf8="מר" voc_utf8="מַר" root="&gt;MR" vs="G" sp="verb" gloss="to say, command, speak" definition="Gt: to say, to be said" description="verbal, peal">מר</word>
+                    </word_group>
+                </segment>
+                <segment id="800558" start_idx="8" end_idx="81" type="unmarked_text" rank="3" segment="MMRJH DH LWAWT MCH WLWAWT &gt;AHAROn B.&gt;AR&lt;@H D.MIYRAJIm LM;JMAR" segment_utf8="ממריה דה לוַות משׁה ולוַות אַהַרֹן בּאַרעָה דּמִצרַיִם למֵימַר">
+                    <word_group id="55674" rank="1" reading="0" g_voc="MMRJH" g_cons="MMRJH" g_voc_utf8="ממריה" g_cons_utf8="ממריה">
+                        <word id="73793" source="word" trailer="" uid="2700001660600503999_9fe601cd" lex="MMRJH" root="&gt;MR" sp="subs" st="emphatic" nu="s" gloss="speech" definition="speech | memra, speech | command, speech" description="noun, singular emphatic"/>
+                    </word_group>
+                    <word_group id="55684" rank="1" reading="0" g_voc="MMRJH" g_cons="MMRJH" g_voc_utf8="ממריה" g_cons_utf8="ממריה">
+                        <word id="73825" source="word" trailer="" uid="2700001660600504028_423cee2c" lex="MMRJH" root="&gt;MR" sp="subs" st="emphatic" nu="s" gloss="speech" definition="speech | memra, speech | command, speech" description="noun, singular emphatic"/>
+                    </word_group>
+                    <word_group id="55674" rank="1" reading="0" g_voc="MMRJH" g_cons="MMRJH" g_voc_utf8="ממריה" g_cons_utf8="ממריה">
+                        <word id="73794" source="word" trailer="" uid="2700001660600504000_5b89b550" lex="MMRJH" cons="MMRJH" voc="MMRJH" cons_utf8="ממריה" voc_utf8="ממריה" root="&gt;MR" sp="subs" st="emphatic" nu="s" gloss="speech" definition="speech | memra, speech | command, speech" description="noun, singular emphatic">ממריה</word>
+                    </word_group>
+                    <word_group id="55684" rank="1" reading="0" g_voc="MMRJH" g_cons="MMRJH" g_voc_utf8="ממריה" g_cons_utf8="ממריה">
+                        <word id="73826" source="word" trailer=" " uid="2700001660600504029_ece40c1d" lex="MMRJH" cons="MMRJH" voc="MMRJH" cons_utf8="ממריה" voc_utf8="ממריה" root="&gt;MR" sp="subs" st="emphatic" nu="s" gloss="speech" definition="speech | memra, speech | command, speech" description="noun, singular emphatic">ממריה</word>
+                    </word_group>
+                    <word_group id="55675" rank="2" reading="0" g_voc="DH" g_cons="DH" g_voc_utf8="דה" g_cons_utf8="דה">
+                        <word id="73795" source="word" trailer="" uid="2700001660600504001_4e0dcb40" lex="DJ" cons="D" voc="D" cons_utf8="ד" voc_utf8="ד" root="DJ" sp="conj" gloss="which, who" definition="which, who | the one who, who, which | so that, who, which | verbs of perception, who, which | before direct speech, who, which" description="conjunction, conjunction">ד</word>
+                    </word_group>
+                    <word_group id="55685" rank="2" reading="0" g_voc="DH" g_cons="DH" g_voc_utf8="דה" g_cons_utf8="דה">
+                        <word id="73796" source="word" trailer="" uid="2700001660600504002_e907748a" lex="H" cons="D" voc="D" cons_utf8="ד" voc_utf8="ד" gloss="nominal, proper name" description="nominal, proper name">ד</word>
+                    </word_group>
+                    <word_group id="55675" rank="2" reading="0" g_voc="DH" g_cons="DH" g_voc_utf8="דה" g_cons_utf8="דה">
+                        <word id="73797" source="word" trailer="" uid="2700001660600504002_9531e56e" lex="DJ" root="DJ" sp="conj" gloss="which, who" definition="which, who | the one who, who, which | so that, who, which | verbs of perception, who, which | before direct speech, who, which" description="conjunction, conjunction"/>
+                    </word_group>
+                    <word_group id="55685" rank="2" reading="0" g_voc="DH" g_cons="DH" g_voc_utf8="דה" g_cons_utf8="דה">
+                        <word id="73798" source="word" trailer=" " uid="2700001660600504003_fd860943" lex="H" cons="H" voc="H" cons_utf8="ה" voc_utf8="ה" gloss="nominal, proper name" description="nominal, proper name">ה</word>
+                    </word_group>
+                    <word_group id="55675" rank="2" reading="0" g_voc="DH" g_cons="DH" g_voc_utf8="דה" g_cons_utf8="דה">
+                        <word id="73827" source="word" trailer="" uid="2700001660600504029_4f795f49" lex="DJ" root="DJ" sp="conj" gloss="which, who" definition="which, who | the one who, who, which | so that, who, which | verbs of perception, who, which | before direct speech, who, which" description="conjunction, conjunction"/>
+                    </word_group>
+                    <word_group id="55685" rank="2" reading="0" g_voc="DH" g_cons="DH" g_voc_utf8="דה" g_cons_utf8="דה">
+                        <word id="73828" source="word" trailer="" uid="2700001660600504030_0160dc58" lex="H" gloss="nominal, proper name" description="nominal, proper name"/>
+                    </word_group>
+                    <word_group id="55675" rank="2" reading="0" g_voc="DH" g_cons="DH" g_voc_utf8="דה" g_cons_utf8="דה">
+                        <word id="73829" source="word" trailer="" uid="2700001660600504030_573a819b" lex="DJ" cons="H" voc="H" cons_utf8="ה" voc_utf8="ה" root="DJ" sp="conj" gloss="which, who" definition="which, who | the one who, who, which | so that, who, which | verbs of perception, who, which | before direct speech, who, which" description="conjunction, conjunction">ה</word>
+                    </word_group>
+                    <word_group id="55685" rank="2" reading="0" g_voc="DH" g_cons="DH" g_voc_utf8="דה" g_cons_utf8="דה">
+                        <word id="73830" source="word" trailer="" uid="2700001660600504031_814e1358" lex="H" gloss="nominal, proper name" description="nominal, proper name"/>
+                    </word_group>
+                    <word_group id="55676" rank="3" reading="0" g_voc="LWAWT" g_cons="LWWT" g_voc_utf8="לוַות" g_cons_utf8="לוות">
+                        <word id="73799" source="word" trailer="" uid="2700001660600504003_fa6686d3" lex="LWT" root="L" gloss="preposition, independent (preposition)" description="preposition, independent (preposition)"/>
+                    </word_group>
+                    <word_group id="55686" rank="3" reading="0" g_voc="LWAWT" g_cons="LWWT" g_voc_utf8="לוַות" g_cons_utf8="לוות">
+                        <word id="73831" source="word" trailer="" uid="2700001660600504031_82ec4c74" lex="LWT" root="L" gloss="preposition, independent (preposition)" description="preposition, independent (preposition)"/>
+                    </word_group>
+                    <word_group id="55676" rank="3" reading="0" g_voc="LWAWT" g_cons="LWWT" g_voc_utf8="לוַות" g_cons_utf8="לוות">
+                        <word id="73800" source="word" trailer="" uid="2700001660600504004_2d847532" lex="LWT" cons="LWWT" voc="LWAWT" cons_utf8="לוות" voc_utf8="לוַות" root="L" gloss="preposition, independent (preposition)" description="preposition, independent (preposition)">לוות</word>
+                    </word_group>
+                    <word_group id="55686" rank="3" reading="0" g_voc="LWAWT" g_cons="LWWT" g_voc_utf8="לוַות" g_cons_utf8="לוות">
+                        <word id="73832" source="word" trailer=" " uid="2700001660600504032_07a3d07d" lex="LWT" cons="LWWT" voc="LWAWT" cons_utf8="לוות" voc_utf8="לוַות" root="L" gloss="preposition, independent (preposition)" description="preposition, independent (preposition)">לוות</word>
+                    </word_group>
+                    <word_group id="55677" rank="4" reading="0" g_voc="MCH" g_cons="MCH" g_voc_utf8="משׁה" g_cons_utf8="משׁה">
+                        <word id="73801" source="word" trailer="" uid="2700001660600504005_9627ebd1" lex="MCH" cons="MCH" voc="MCH" cons_utf8="משׁה" voc_utf8="משׁה" gloss="nominal, proper name" description="nominal, proper name">משׁה</word>
+                    </word_group>
+                    <word_group id="55687" rank="4" reading="0" g_voc="MCH" g_cons="MCH" g_voc_utf8="משׁה" g_cons_utf8="משׁה">
+                        <word id="73833" source="word" trailer=" " uid="2700001660600504032_4972d094" lex="MCH" cons="MCH" voc="MCH" cons_utf8="משׁה" voc_utf8="משׁה" gloss="nominal, proper name" description="nominal, proper name">משׁה</word>
+                    </word_group>
+                    <word_group id="55677" rank="4" reading="0" g_voc="MCH" g_cons="MCH" g_voc_utf8="משׁה" g_cons_utf8="משׁה">
+                        <word id="73802" source="word" trailer="" uid="2700001660600504006_3e87a48a" lex="MCH" gloss="nominal, proper name" description="nominal, proper name"/>
+                    </word_group>
+                    <word_group id="55687" rank="4" reading="0" g_voc="MCH" g_cons="MCH" g_voc_utf8="משׁה" g_cons_utf8="משׁה">
+                        <word id="73834" source="word" trailer="" uid="2700001660600504033_25faa3ce" lex="MCH" gloss="nominal, proper name" description="nominal, proper name"/>
+                    </word_group>
+                    <word_group id="55688" rank="5" reading="0" g_voc="WLWAWT" g_cons="WLWWT" g_voc_utf8="ולוַות" g_cons_utf8="ולוות">
+                        <word id="73803" source="word" trailer="" uid="2700001660600504008_434a0fa6" lex="W" cons="W" voc="W" cons_utf8="ו" voc_utf8="ו" root="W" sp="conj" gloss="also, and" definition="also, and | clause level initial, and, also" description="conjunction, conjunction">ו</word>
+                    </word_group>
+                    <word_group id="55678" rank="5" reading="0" g_voc="WLWAWT" g_cons="WLWWT" g_voc_utf8="ולוַות" g_cons_utf8="ולוות">
+                        <word id="73805" source="word" trailer="" uid="2700001660600504009_c04ad600" lex="W" cons="W" voc="W" cons_utf8="ו" voc_utf8="ו" root="W" sp="conj" gloss="also, and" definition="also, and | clause level initial, and, also" description="conjunction, conjunction">ו</word>
+                        <word id="73804" source="word" trailer="" uid="2700001660600504009_60fa5e6b" lex="LWT" cons="LWWT" voc="LWAWT" cons_utf8="לוות" voc_utf8="לוַות" root="L" gloss="preposition, independent (preposition)" description="preposition, independent (preposition)">לוות</word>
+                    </word_group>
+                    <word_group id="55688" rank="5" reading="0" g_voc="WLWAWT" g_cons="WLWWT" g_voc_utf8="ולוַות" g_cons_utf8="ולוות">
+                        <word id="73806" source="word" trailer="" uid="2700001660600504010_5ccb8120" lex="LWT" root="L" gloss="preposition, independent (preposition)" description="preposition, independent (preposition)"/>
+                    </word_group>
+                    <word_group id="55678" rank="5" reading="0" g_voc="WLWAWT" g_cons="WLWWT" g_voc_utf8="ולוַות" g_cons_utf8="ולוות">
+                        <word id="73835" source="word" trailer="" uid="2700001660600504033_3157d9eb" lex="W" root="W" sp="conj" gloss="also, and" definition="also, and | clause level initial, and, also" description="conjunction, conjunction"/>
+                    </word_group>
+                    <word_group id="55688" rank="5" reading="0" g_voc="WLWAWT" g_cons="WLWWT" g_voc_utf8="ולוַות" g_cons_utf8="ולוות">
+                        <word id="73836" source="word" trailer="" uid="2700001660600504034_5a929e1f" lex="LWT" root="L" gloss="preposition, independent (preposition)" description="preposition, independent (preposition)"/>
+                    </word_group>
+                    <word_group id="55678" rank="5" reading="0" g_voc="WLWAWT" g_cons="WLWWT" g_voc_utf8="ולוַות" g_cons_utf8="ולוות">
+                        <word id="73837" source="word" trailer="" uid="2700001660600504034_ff519ca1" lex="W" root="W" sp="conj" gloss="also, and" definition="also, and | clause level initial, and, also" description="conjunction, conjunction"/>
+                    </word_group>
+                    <word_group id="55688" rank="5" reading="0" g_voc="WLWAWT" g_cons="WLWWT" g_voc_utf8="ולוַות" g_cons_utf8="ולוות">
+                        <word id="73838" source="word" trailer=" " uid="2700001660600504035_0bb5ab00" lex="LWT" cons="LWWT" voc="LWAWT" cons_utf8="לוות" voc_utf8="לוַות" root="L" gloss="preposition, independent (preposition)" description="preposition, independent (preposition)">לוות</word>
+                    </word_group>
+                    <word_group id="55679" rank="6" reading="0" g_voc="&gt;AHAROn" g_cons="&gt;HRn" g_voc_utf8="אַהַרֹן" g_cons_utf8="אהרן">
+                        <word id="73807" source="word" trailer="" uid="2700001660600504010_765b1215" lex="&gt;HRn" gloss="nominal, proper name" description="nominal, proper name"/>
+                    </word_group>
+                    <word_group id="55689" rank="6" reading="0" g_voc="&gt;AHAROn" g_cons="&gt;HRn" g_voc_utf8="אַהַרֹן" g_cons_utf8="אהרן">
+                        <word id="73839" source="word" trailer="" uid="2700001660600504035_4bf80b01" lex="&gt;HRn" gloss="nominal, proper name" description="nominal, proper name"/>
+                    </word_group>
+                    <word_group id="55679" rank="6" reading="0" g_voc="&gt;AHAROn" g_cons="&gt;HRn" g_voc_utf8="אַהַרֹן" g_cons_utf8="אהרן">
+                        <word id="73808" source="word" trailer="" uid="2700001660600504011_4a51c224" lex="&gt;HRn" cons="&gt;HRn" voc="&gt;AHAROn" cons_utf8="אהרן" voc_utf8="אַהַרֹן" gloss="nominal, proper name" description="nominal, proper name">אהרן</word>
+                    </word_group>
+                    <word_group id="55689" rank="6" reading="0" g_voc="&gt;AHAROn" g_cons="&gt;HRn" g_voc_utf8="אַהַרֹן" g_cons_utf8="אהרן">
+                        <word id="73840" source="word" trailer=" " uid="2700001660600504036_827249b6" lex="&gt;HRn" cons="&gt;HRn" voc="&gt;AHAROn" cons_utf8="אהרן" voc_utf8="אַהַרֹן" gloss="nominal, proper name" description="nominal, proper name">אהרן</word>
+                    </word_group>
+                    <word_group id="55680" rank="7" reading="0" g_voc="B݀&gt;AR&lt;@H" g_cons="B&gt;R&lt;H" g_voc_utf8="בּאַרעָה" g_cons_utf8="בארעה">
+                        <word id="73809" source="word" trailer="" uid="2700001660600504013_6f9cd047" lex="B" cons="B" voc="B݀" cons_utf8="ב" voc_utf8="בּ" root="B" sp="prep" gloss="with, in" definition="with, in | among, in, with | at, in, with | to, in, with | place, in, with | within a structure or other enclosing object, in, with | during a time period, in, with | using, in, with | having, in, with | adjective, in, with | to do some (damage, in, with | certain time, in, with | for, in, with | see, in, with | with many verbs supplying a negative relationship to an object, in, with" description="preposition, with pronominal suffix (preposition)">ב</word>
+                    </word_group>
+                    <word_group id="55690" rank="7" reading="0" g_voc="B݀&gt;AR&lt;@H" g_cons="B&gt;R&lt;H" g_voc_utf8="בּאַרעָה" g_cons_utf8="בארעה">
+                        <word id="73810" source="word" trailer="" uid="2700001660600504014_f2d2b427" lex="&gt;R&lt;" root="&gt;R&lt;" sp="subs" st="emphatic" nu="s" gloss="Earth, ground, land" definition="Earth, ground, land | the Earth, ground, land, Earth | soil, ground, land, Earth | in the expression &quot;Heaven and Earth, ground, land, Earth | piece of land, ground, land, Earth" description="noun, singular emphatic"/>
+                        <word id="73811" source="word" trailer="" uid="2700001660600504014_fb23f086" lex="B" cons="B" voc="B݀" cons_utf8="ב" voc_utf8="בּ" root="B" sp="prep" gloss="with, in" definition="with, in | among, in, with | at, in, with | to, in, with | place, in, with | within a structure or other enclosing object, in, with | during a time period, in, with | using, in, with | having, in, with | adjective, in, with | to do some (damage, in, with | certain time, in, with | for, in, with | see, in, with | with many verbs supplying a negative relationship to an object, in, with" description="preposition, with pronominal suffix (preposition)">ב</word>
+                    </word_group>
+                    <word_group id="55680" rank="7" reading="0" g_voc="B݀&gt;AR&lt;@H" g_cons="B&gt;R&lt;H" g_voc_utf8="בּאַרעָה" g_cons_utf8="בארעה">
+                        <word id="73841" source="word" trailer="" uid="2700001660600504036_58a72706" lex="B" root="B" sp="prep" gloss="with, in" definition="with, in | among, in, with | at, in, with | to, in, with | place, in, with | within a structure or other enclosing object, in, with | during a time period, in, with | using, in, with | having, in, with | adjective, in, with | to do some (damage, in, with | certain time, in, with | for, in, with | see, in, with | with many verbs supplying a negative relationship to an object, in, with" description="preposition, with pronominal suffix (preposition)"/>
+                    </word_group>
+                    <word_group id="55690" rank="7" reading="0" g_voc="B݀&gt;AR&lt;@H" g_cons="B&gt;R&lt;H" g_voc_utf8="בּאַרעָה" g_cons_utf8="בארעה">
+                        <word id="73812" source="word" trailer="" uid="2700001660600504015_8a1594d6" lex="&gt;R&lt;" cons="&gt;" voc="&gt;A" cons_utf8="א" voc_utf8="אַ" root="&gt;R&lt;" sp="subs" st="emphatic" nu="s" gloss="Earth, ground, land" definition="Earth, ground, land | the Earth, ground, land, Earth | soil, ground, land, Earth | in the expression &quot;Heaven and Earth, ground, land, Earth | piece of land, ground, land, Earth" description="noun, singular emphatic">א</word>
+                    </word_group>
+                    <word_group id="55680" rank="7" reading="0" g_voc="B݀&gt;AR&lt;@H" g_cons="B&gt;R&lt;H" g_voc_utf8="בּאַרעָה" g_cons_utf8="בארעה">
+                        <word id="73843" source="word" trailer="" uid="2700001660600504037_fcc233b5" lex="B" cons="&gt;" voc="&gt;A" cons_utf8="א" voc_utf8="אַ" root="B" sp="prep" gloss="with, in" definition="with, in | among, in, with | at, in, with | to, in, with | place, in, with | within a structure or other enclosing object, in, with | during a time period, in, with | using, in, with | having, in, with | adjective, in, with | to do some (damage, in, with | certain time, in, with | for, in, with | see, in, with | with many verbs supplying a negative relationship to an object, in, with" description="preposition, with pronominal suffix (preposition)">א</word>
+                    </word_group>
+                    <word_group id="55690" rank="7" reading="0" g_voc="B݀&gt;AR&lt;@H" g_cons="B&gt;R&lt;H" g_voc_utf8="בּאַרעָה" g_cons_utf8="בארעה">
+                        <word id="73842" source="word" trailer=" " uid="2700001660600504037_45fa27f2" lex="&gt;R&lt;" cons="R&lt;H" voc="R&lt;@H" cons_utf8="רעה" voc_utf8="רעָה" root="&gt;R&lt;" sp="subs" st="emphatic" nu="s" gloss="Earth, ground, land" definition="Earth, ground, land | the Earth, ground, land, Earth | soil, ground, land, Earth | in the expression &quot;Heaven and Earth, ground, land, Earth | piece of land, ground, land, Earth" description="noun, singular emphatic">רעה</word>
+                    </word_group>
+                    <word_group id="55680" rank="7" reading="0" g_voc="B݀&gt;AR&lt;@H" g_cons="B&gt;R&lt;H" g_voc_utf8="בּאַרעָה" g_cons_utf8="בארעה">
+                        <word id="73844" source="word" trailer="" uid="2700001660600504038_5f876bbb" lex="&gt;R&lt;" cons="R&lt;H" voc="R&lt;@H" cons_utf8="רעה" voc_utf8="רעָה" root="&gt;R&lt;" sp="subs" st="emphatic" nu="s" gloss="Earth, ground, land" definition="Earth, ground, land | the Earth, ground, land, Earth | soil, ground, land, Earth | in the expression &quot;Heaven and Earth, ground, land, Earth | piece of land, ground, land, Earth" description="noun, singular emphatic">רעה</word>
+                    </word_group>
+                    <word_group id="55681" rank="8" reading="0" g_voc="D݀MIYRAJIm" g_cons="DMYRJm" g_voc_utf8="דּמִצרַיִם" g_cons_utf8="דמצרים">
+                        <word id="73813" source="word" trailer="" uid="2700001660600504016_ab638074" lex="DJ" cons="D" voc="D݀" cons_utf8="ד" voc_utf8="דּ" root="DJ" sp="prep" gloss="genitive particle, of" definition="genitive particle, of | first element of lexemes, of, genitive particle | see, of, genitive particle | the thing belonging/related to, of, genitive particle" description="preposition, independent (preposition)">ד</word>
+                    </word_group>
+                    <word_group id="55691" rank="8" reading="0" g_voc="D݀MIYRAJIm" g_cons="DMYRJm" g_voc_utf8="דּמִצרַיִם" g_cons_utf8="דמצרים">
+                        <word id="73814" source="word" trailer="" uid="2700001660600504016_e1709550" lex="MYRJm" gloss="nominal, geographical name" description="nominal, geographical name"/>
+                    </word_group>
+                    <word_group id="55681" rank="8" reading="0" g_voc="D݀MIYRAJIm" g_cons="DMYRJm" g_voc_utf8="דּמִצרַיִם" g_cons_utf8="דמצרים">
+                        <word id="73815" source="word" trailer="" uid="2700001660600504017_769d522f" lex="DJ" root="DJ" sp="prep" gloss="genitive particle, of" definition="genitive particle, of | first element of lexemes, of, genitive particle | see, of, genitive particle | the thing belonging/related to, of, genitive particle" description="preposition, independent (preposition)"/>
+                    </word_group>
+                    <word_group id="55691" rank="8" reading="0" g_voc="D݀MIYRAJIm" g_cons="DMYRJm" g_voc_utf8="דּמִצרַיִם" g_cons_utf8="דמצרים">
+                        <word id="73816" source="word" trailer="" uid="2700001660600504017_762968b6" lex="MYRJm" cons="D" voc="D݀" cons_utf8="ד" voc_utf8="דּ" gloss="nominal, geographical name" description="nominal, geographical name">ד</word>
+                    </word_group>
+                    <word_group id="55681" rank="8" reading="0" g_voc="D݀MIYRAJIm" g_cons="DMYRJm" g_voc_utf8="דּמִצרַיִם" g_cons_utf8="דמצרים">
+                        <word id="73845" source="word" trailer="" uid="2700001660600504038_0c23d8fd" lex="DJ" root="DJ" sp="prep" gloss="genitive particle, of" definition="genitive particle, of | first element of lexemes, of, genitive particle | see, of, genitive particle | the thing belonging/related to, of, genitive particle" description="preposition, independent (preposition)"/>
+                    </word_group>
+                    <word_group id="55691" rank="8" reading="0" g_voc="D݀MIYRAJIm" g_cons="DMYRJm" g_voc_utf8="דּמִצרַיִם" g_cons_utf8="דמצרים">
+                        <word id="73846" source="word" trailer="" uid="2700001660600504039_7df376b4" lex="MYRJm" cons="M" voc="MI" cons_utf8="מ" voc_utf8="מִ" gloss="nominal, geographical name" description="nominal, geographical name">מ</word>
+                    </word_group>
+                    <word_group id="55681" rank="8" reading="0" g_voc="D݀MIYRAJIm" g_cons="DMYRJm" g_voc_utf8="דּמִצרַיִם" g_cons_utf8="דמצרים">
+                        <word id="73847" source="word" trailer="" uid="2700001660600504039_9542c993" lex="DJ" cons="MYRJm" voc="MIYRAJIm" cons_utf8="מצרים" voc_utf8="מִצרַיִם" root="DJ" sp="prep" gloss="genitive particle, of" definition="genitive particle, of | first element of lexemes, of, genitive particle | see, of, genitive particle | the thing belonging/related to, of, genitive particle" description="preposition, independent (preposition)">מצרים</word>
+                    </word_group>
+                    <word_group id="55691" rank="8" reading="0" g_voc="D݀MIYRAJIm" g_cons="DMYRJm" g_voc_utf8="דּמִצרַיִם" g_cons_utf8="דמצרים">
+                        <word id="73848" source="word" trailer=" " uid="2700001660600504040_31ec41dd" lex="MYRJm" cons="YRJm" voc="YRAJIm" cons_utf8="צרים" voc_utf8="צרַיִם" gloss="nominal, geographical name" description="nominal, geographical name">צרים</word>
+                    </word_group>
+                    <word_group id="55682" rank="9" reading="0" g_voc="LM;JMAR" g_cons="LMJMR" g_voc_utf8="למֵימַר" g_cons_utf8="למימר">
+                        <word id="73817" source="word" trailer="" uid="2700001660600504019_1f2e3b66" lex="L" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, with pronominal suffix (preposition)"/>
+                    </word_group>
+                    <word_group id="55692" rank="9" reading="0" g_voc="LM;JMAR" g_cons="LMJMR" g_voc_utf8="למֵימַר" g_cons_utf8="למימר">
+                        <word id="73818" source="word" trailer="" uid="2700001660600504020_4f52d7cb" lex="LMJMR" root="&gt;MR" vs="G" sp="verb" gloss="to say, command, speak" definition="Gt: to say, to be said" description="verbal, peal"/>
+                    </word_group>
+                    <word_group id="55682" rank="9" reading="0" g_voc="LM;JMAR" g_cons="LMJMR" g_voc_utf8="למֵימַר" g_cons_utf8="למימר">
+                        <word id="73819" source="word" trailer="" uid="2700001660600504020_2106e8a6" lex="L" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, with pronominal suffix (preposition)"/>
+                    </word_group>
+                    <word_group id="55692" rank="9" reading="0" g_voc="LM;JMAR" g_cons="LMJMR" g_voc_utf8="למֵימַר" g_cons_utf8="למימר">
+                        <word id="73820" source="word" trailer="" uid="2700001660600504021_55b4fa50" lex="LMJMR" cons="L" voc="L" cons_utf8="ל" voc_utf8="ל" root="&gt;MR" vs="G" sp="verb" gloss="to say, command, speak" definition="Gt: to say, to be said" description="verbal, peal">ל</word>
+                        <word id="73849" source="word" trailer="" uid="2700001660600504040_a0773394" lex="L" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, with pronominal suffix (preposition)"/>
+                    </word_group>
+                    <word_group id="55682" rank="9" reading="0" g_voc="LM;JMAR" g_cons="LMJMR" g_voc_utf8="למֵימַר" g_cons_utf8="למימר">
+                        <word id="73851" source="word" trailer="" uid="2700001660600504041_92ec1247" lex="L" cons="L" voc="L" cons_utf8="ל" voc_utf8="ל" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, with pronominal suffix (preposition)">ל</word>
+                    </word_group>
+                    <word_group id="55692" rank="9" reading="0" g_voc="LM;JMAR" g_cons="LMJMR" g_voc_utf8="למֵימַר" g_cons_utf8="למימר">
+                        <word id="73850" source="word" trailer="" uid="2700001660600504041_f02fd23c" lex="LMJMR" cons="MJMR" voc="M;JMAR" cons_utf8="מימר" voc_utf8="מֵימַר" root="&gt;MR" vs="G" sp="verb" gloss="to say, command, speak" definition="Gt: to say, to be said" description="verbal, peal">מימר</word>
+                    </word_group>
+                    <word_group id="55682" rank="9" reading="0" g_voc="LM;JMAR" g_cons="LMJMR" g_voc_utf8="למֵימַר" g_cons_utf8="למימר">
+                        <word id="73852" source="word" trailer="" uid="2700001660600504042_0a042e9c" lex="LMJMR" cons="MJMR" voc="M;JMAR" cons_utf8="מימר" voc_utf8="מֵימַר" root="&gt;MR" vs="G" sp="verb" gloss="to say, command, speak" definition="Gt: to say, to be said" description="verbal, peal">מימר</word>
+                    </word_group>
+                </segment>
+            </verse>
+            <verse verse="2" uid="2943" line="JARXAH H@DJn NJSAn LKWOn R;&gt;C JARXIJn QADM;JJ HW.&gt; JITMAN;H LKWOn LAMINJAJn R@&gt;C;J JARX;J CAT݀@" line_utf8="יַרחַה הָדין ניסַן לכוֹן רֵאשׁ יַרחִין קַדמֵיי הוּא יִתמַנֵה לכוֹן לַמִניַין רָאשֵׁי יַרחֵי שַׁתָּ">
+                <segment id="800559" start_idx="1" end_idx="102" type="unmarked_text" rank="1" segment="JARXAH H@DJn NJSAn LKWOn R;&gt;C JARXIJn QADM;JJ HW.&gt; JITMAN;H LKWOn LAMINJAJn R@&gt;C;J JARX;J CAT.@" segment_utf8="יַרחַה הָדין ניסַן לכוֹן רֵאשׁ יַרחִין קַדמֵיי הוּא יִתמַנֵה לכוֹן לַמִניַין רָאשֵׁי יַרחֵי שַׁתָּ">
+                    <word_group id="55693" rank="0" reading="0" g_voc="JARXAH" g_cons="JRXH" g_voc_utf8="יַרחַה" g_cons_utf8="ירחה">
+                        <word id="73853" source="word" trailer="" uid="2700001660601003997_2e6095fa" lex="JRXH" root="JRX" sp="subs" st="emphatic" nu="s" gloss="month" definition="month | phase of the moon, month | new moon, month" description="noun, singular emphatic"/>
+                    </word_group>
+                    <word_group id="55707" rank="0" reading="0" g_voc="JARXAH" g_cons="JRXH" g_voc_utf8="יַרחַה" g_cons_utf8="ירחה">
+                        <word id="73883" source="word" trailer="" uid="2700001660601004042_816c3b88" lex="JRXH" root="JRX" sp="subs" st="emphatic" nu="s" gloss="month" definition="month | phase of the moon, month | new moon, month" description="noun, singular emphatic"/>
+                    </word_group>
+                    <word_group id="55693" rank="0" reading="0" g_voc="JARXAH" g_cons="JRXH" g_voc_utf8="יַרחַה" g_cons_utf8="ירחה">
+                        <word id="73854" source="word" trailer="" uid="2700001660601003998_54a4be7e" lex="JRXH" cons="JRXH" voc="JARXAH" cons_utf8="ירחה" voc_utf8="יַרחַה" root="JRX" sp="subs" st="emphatic" nu="s" gloss="month" definition="month | phase of the moon, month | new moon, month" description="noun, singular emphatic">ירחה</word>
+                    </word_group>
+                    <word_group id="55707" rank="0" reading="0" g_voc="JARXAH" g_cons="JRXH" g_voc_utf8="יַרחַה" g_cons_utf8="ירחה">
+                        <word id="73884" source="word" trailer=" " uid="2700001660601004043_d38bb093" lex="JRXH" cons="JRXH" voc="JARXAH" cons_utf8="ירחה" voc_utf8="יַרחַה" root="JRX" sp="subs" st="emphatic" nu="s" gloss="month" definition="month | phase of the moon, month | new moon, month" description="noun, singular emphatic">ירחה</word>
+                    </word_group>
+                    <word_group id="55694" rank="1" reading="0" g_voc="H@DJn" g_cons="HDJn" g_voc_utf8="הָדין" g_cons_utf8="הדין">
+                        <word id="73855" source="word" trailer="" uid="2700001660601003998_d3dac334" lex="HDJn" root="DJN" sp="pron" gloss="palm leaf, this" definition="palm leaf, this" description="preposition, independent (preposition)"/>
+                    </word_group>
+                    <word_group id="55708" rank="1" reading="0" g_voc="H@DJn" g_cons="HDJn" g_voc_utf8="הָדין" g_cons_utf8="הדין">
+                        <word id="73885" source="word" trailer="" uid="2700001660601004043_392c50fa" lex="HDJn" root="DJN" sp="pron" gloss="palm leaf, this" definition="palm leaf, this" description="preposition, independent (preposition)"/>
+                    </word_group>
+                    <word_group id="55694" rank="1" reading="0" g_voc="H@DJn" g_cons="HDJn" g_voc_utf8="הָדין" g_cons_utf8="הדין">
+                        <word id="73856" source="word" trailer="" uid="2700001660601003999_3e33f170" lex="HDJn" cons="HDJn" voc="H@DJn" cons_utf8="הדין" voc_utf8="הָדין" root="DJN" sp="pron" gloss="palm leaf, this" definition="palm leaf, this" description="preposition, independent (preposition)">הדין</word>
+                    </word_group>
+                    <word_group id="55708" rank="1" reading="0" g_voc="H@DJn" g_cons="HDJn" g_voc_utf8="הָדין" g_cons_utf8="הדין">
+                        <word id="73886" source="word" trailer=" " uid="2700001660601004044_ec2520a8" lex="HDJn" cons="HDJn" voc="H@DJn" cons_utf8="הדין" voc_utf8="הָדין" root="DJN" sp="pron" gloss="palm leaf, this" definition="palm leaf, this" description="preposition, independent (preposition)">הדין</word>
+                    </word_group>
+                    <word_group id="55695" rank="2" reading="0" g_voc="NJSAn" g_cons="NJSn" g_voc_utf8="ניסַן" g_cons_utf8="ניסן">
+                        <word id="73857" source="word" trailer="" uid="2700001660601004000_c0910488" lex="NJSn" cons="N" voc="N" cons_utf8="נ" voc_utf8="נ" root="NJSN" sp="subs" st="absolute or construct" nu="s" gloss="Nisan" definition="Nisan" description="noun, singular absolute or construct">נ</word>
+                    </word_group>
+                    <word_group id="55709" rank="2" reading="0" g_voc="NJSAn" g_cons="NJSn" g_voc_utf8="ניסַן" g_cons_utf8="ניסן">
+                        <word id="73887" source="word" trailer="" uid="2700001660601004044_597b2540" lex="NJSn" cons="N" voc="N" cons_utf8="נ" voc_utf8="נ" root="NJSN" sp="subs" st="absolute or construct" nu="s" gloss="Nisan" definition="Nisan" description="noun, singular absolute or construct">נ</word>
+                    </word_group>
+                    <word_group id="55695" rank="2" reading="0" g_voc="NJSAn" g_cons="NJSn" g_voc_utf8="ניסַן" g_cons_utf8="ניסן">
+                        <word id="73858" source="word" trailer="" uid="2700001660601004001_6f0739eb" lex="NJSn" cons="JSn" voc="JSAn" cons_utf8="יסן" voc_utf8="יסַן" root="NJSN" sp="subs" st="absolute or construct" nu="s" gloss="Nisan" definition="Nisan" description="noun, singular absolute or construct">יסן</word>
+                    </word_group>
+                    <word_group id="55709" rank="2" reading="0" g_voc="NJSAn" g_cons="NJSn" g_voc_utf8="ניסַן" g_cons_utf8="ניסן">
+                        <word id="73888" source="word" trailer=" " uid="2700001660601004045_04707a96" lex="NJSn" cons="JSn" voc="JSAn" cons_utf8="יסן" voc_utf8="יסַן" root="NJSN" sp="subs" st="absolute or construct" nu="s" gloss="Nisan" definition="Nisan" description="noun, singular absolute or construct">יסן</word>
+                    </word_group>
+                    <word_group id="55696" rank="3" reading="0" g_voc="LKWOn" g_cons="LKn" g_voc_utf8="לכוֹן" g_cons_utf8="לכן">
+                        <word id="73859" source="word" trailer="" uid="2700001660601004004_6617f084" lex="L" cons="L" voc="L" cons_utf8="ל" voc_utf8="ל" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, independent (preposition)">ל</word>
+                    </word_group>
+                    <word_group id="55710" rank="3" reading="0" g_voc="LKWOn" g_cons="LKn" g_voc_utf8="לכוֹן" g_cons_utf8="לכן">
+                        <word id="73889" source="word" trailer="" uid="2700001660601004045_60b4c542" lex="L" cons="L" voc="L" cons_utf8="ל" voc_utf8="ל" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, independent (preposition)">ל</word>
+                    </word_group>
+                    <word_group id="55696" rank="3" reading="0" g_voc="LKWOn" g_cons="LKn" g_voc_utf8="לכוֹן" g_cons_utf8="לכן">
+                        <word id="73860" source="word" trailer="" uid="2700001660601004005_e5916239" lex="L" cons="Kn" voc="KWOn" cons_utf8="כן" voc_utf8="כוֹן" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, independent (preposition)">כן</word>
+                    </word_group>
+                    <word_group id="55710" rank="3" reading="0" g_voc="LKWOn" g_cons="LKn" g_voc_utf8="לכוֹן" g_cons_utf8="לכן">
+                        <word id="73890" source="word" trailer=" " uid="2700001660601004046_d2fab595" lex="L" cons="Kn" voc="KWOn" cons_utf8="כן" voc_utf8="כוֹן" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, independent (preposition)">כן</word>
+                    </word_group>
+                    <word_group id="55697" rank="4" reading="0" g_voc="R;&gt;C" g_cons="R&gt;C" g_voc_utf8="רֵאשׁ" g_cons_utf8="ראשׁ">
+                        <word id="73861" source="word" trailer="" uid="2700001660601004005_ee4c01b6" lex="R&gt;C" root="RJC" sp="subs" st="absolute or construct" nu="s" gloss="chief, head, top" definition="chief, head, top" description="noun, singular absolute or construct"/>
+                    </word_group>
+                    <word_group id="55711" rank="4" reading="0" g_voc="R;&gt;C" g_cons="R&gt;C" g_voc_utf8="רֵאשׁ" g_cons_utf8="ראשׁ">
+                        <word id="73891" source="word" trailer="" uid="2700001660601004046_70cadd34" lex="R&gt;C" root="RJC" sp="subs" st="absolute or construct" nu="s" gloss="chief, head, top" definition="chief, head, top" description="noun, singular absolute or construct"/>
+                    </word_group>
+                    <word_group id="55697" rank="4" reading="0" g_voc="R;&gt;C" g_cons="R&gt;C" g_voc_utf8="רֵאשׁ" g_cons_utf8="ראשׁ">
+                        <word id="73862" source="word" trailer="" uid="2700001660601004007_96111e97" lex="R&gt;C" cons="R&gt;C" voc="R;&gt;C" cons_utf8="ראשׁ" voc_utf8="רֵאשׁ" root="RJC" sp="subs" st="absolute or construct" nu="s" gloss="chief, head, top" definition="chief, head, top" description="noun, singular absolute or construct">ראשׁ</word>
+                    </word_group>
+                    <word_group id="55711" rank="4" reading="0" g_voc="R;&gt;C" g_cons="R&gt;C" g_voc_utf8="רֵאשׁ" g_cons_utf8="ראשׁ">
+                        <word id="73892" source="word" trailer=" " uid="2700001660601004047_28b0c999" lex="R&gt;C" cons="R&gt;C" voc="R;&gt;C" cons_utf8="ראשׁ" voc_utf8="רֵאשׁ" root="RJC" sp="subs" st="absolute or construct" nu="s" gloss="chief, head, top" definition="chief, head, top" description="noun, singular absolute or construct">ראשׁ</word>
+                    </word_group>
+                    <word_group id="55698" rank="5" reading="0" g_voc="JARXIJn" g_cons="JRXJn" g_voc_utf8="יַרחִין" g_cons_utf8="ירחין">
+                        <word id="73863" source="word" trailer="" uid="2700001660601004007_8936ab36" lex="JRXJn" root="JRX" sp="subs" st="absolute" nu="pl" gloss="month" definition="month | phase of the moon, month | new moon, month" description="noun, plural absolute"/>
+                    </word_group>
+                    <word_group id="55712" rank="5" reading="0" g_voc="JARXIJn" g_cons="JRXJn" g_voc_utf8="יַרחִין" g_cons_utf8="ירחין">
+                        <word id="73893" source="word" trailer="" uid="2700001660601004047_91ce9931" lex="JRXJn" root="JRX" sp="subs" st="absolute" nu="pl" gloss="month" definition="month | phase of the moon, month | new moon, month" description="noun, plural absolute"/>
+                    </word_group>
+                    <word_group id="55698" rank="5" reading="0" g_voc="JARXIJn" g_cons="JRXJn" g_voc_utf8="יַרחִין" g_cons_utf8="ירחין">
+                        <word id="73864" source="word" trailer="" uid="2700001660601004008_c676f909" lex="JRXJn" cons="JRXJn" voc="JARXIJn" cons_utf8="ירחין" voc_utf8="יַרחִין" root="JRX" sp="subs" st="absolute" nu="pl" gloss="month" definition="month | phase of the moon, month | new moon, month" description="noun, plural absolute">ירחין</word>
+                    </word_group>
+                    <word_group id="55712" rank="5" reading="0" g_voc="JARXIJn" g_cons="JRXJn" g_voc_utf8="יַרחִין" g_cons_utf8="ירחין">
+                        <word id="73894" source="word" trailer=" " uid="2700001660601004048_33d81723" lex="JRXJn" cons="JRXJn" voc="JARXIJn" cons_utf8="ירחין" voc_utf8="יַרחִין" root="JRX" sp="subs" st="absolute" nu="pl" gloss="month" definition="month | phase of the moon, month | new moon, month" description="noun, plural absolute">ירחין</word>
+                    </word_group>
+                    <word_group id="55699" rank="6" reading="0" g_voc="QADM;JJ" g_cons="QDMJJ" g_voc_utf8="קַדמֵיי" g_cons_utf8="קדמיי">
+                        <word id="73865" source="word" trailer="" uid="2700001660601004011_93b1ff41" lex="QDMJJ" root="QDM" sp="adjv" st="absolute or construct" nu="s" gloss="first" definition="first | former, first | primeval, first" description="adjective, singular absolute or construct"/>
+                    </word_group>
+                    <word_group id="55713" rank="6" reading="0" g_voc="QADM;JJ" g_cons="QDMJJ" g_voc_utf8="קַדמֵיי" g_cons_utf8="קדמיי">
+                        <word id="73895" source="word" trailer="" uid="2700001660601004048_67f207e5" lex="QDMJJ" root="QDM" sp="adjv" st="absolute or construct" nu="s" gloss="first" definition="first | former, first | primeval, first" description="adjective, singular absolute or construct"/>
+                    </word_group>
+                    <word_group id="55699" rank="6" reading="0" g_voc="QADM;JJ" g_cons="QDMJJ" g_voc_utf8="קַדמֵיי" g_cons_utf8="קדמיי">
+                        <word id="73866" source="word" trailer="" uid="2700001660601004012_fd88d30f" lex="QDMJJ" cons="QDMJJ" voc="QADM;JJ" cons_utf8="קדמיי" voc_utf8="קַדמֵיי" root="QDM" sp="adjv" st="absolute or construct" nu="s" gloss="first" definition="first | former, first | primeval, first" description="adjective, singular absolute or construct">קדמיי</word>
+                    </word_group>
+                    <word_group id="55713" rank="6" reading="0" g_voc="QADM;JJ" g_cons="QDMJJ" g_voc_utf8="קַדמֵיי" g_cons_utf8="קדמיי">
+                        <word id="73896" source="word" trailer=" " uid="2700001660601004049_be143c2d" lex="QDMJJ" cons="QDMJJ" voc="QADM;JJ" cons_utf8="קדמיי" voc_utf8="קַדמֵיי" root="QDM" sp="adjv" st="absolute or construct" nu="s" gloss="first" definition="first | former, first | primeval, first" description="adjective, singular absolute or construct">קדמיי</word>
+                    </word_group>
+                    <word_group id="55700" rank="7" reading="0" g_voc="HW.&gt;" g_cons="H&gt;" g_voc_utf8="הוּא" g_cons_utf8="הא">
+                        <word id="73867" source="word" trailer="" uid="2700001660601004012_b5f63218" lex="H&gt;" root="HW&gt;" sp="pron" gloss="he" definition="he | as copula, he" description="preposition, independent (preposition)"/>
+                    </word_group>
+                    <word_group id="55714" rank="7" reading="0" g_voc="HW.&gt;" g_cons="H&gt;" g_voc_utf8="הוּא" g_cons_utf8="הא">
+                        <word id="73897" source="word" trailer="" uid="2700001660601004049_f2ea8ff3" lex="H&gt;" root="HW&gt;" sp="pron" gloss="he" definition="he | as copula, he" description="preposition, independent (preposition)"/>
+                    </word_group>
+                    <word_group id="55700" rank="7" reading="0" g_voc="HW.&gt;" g_cons="H&gt;" g_voc_utf8="הוּא" g_cons_utf8="הא">
+                        <word id="73868" source="word" trailer="" uid="2700001660601004013_dae1a59a" lex="H&gt;" cons="H&gt;" voc="HW݀&gt;" cons_utf8="הא" voc_utf8="הוּא" root="HW&gt;" sp="pron" gloss="he" definition="he | as copula, he" description="preposition, independent (preposition)">הא</word>
+                    </word_group>
+                    <word_group id="55714" rank="7" reading="0" g_voc="HW.&gt;" g_cons="H&gt;" g_voc_utf8="הוּא" g_cons_utf8="הא">
+                        <word id="73898" source="word" trailer=" " uid="2700001660601004050_f2657522" lex="H&gt;" cons="H&gt;" voc="HW݀&gt;" cons_utf8="הא" voc_utf8="הוּא" root="HW&gt;" sp="pron" gloss="he" definition="he | as copula, he" description="preposition, independent (preposition)">הא</word>
+                    </word_group>
+                    <word_group id="55701" rank="8" reading="0" g_voc="JITMAN;H" g_cons="JTMNH" g_voc_utf8="יִתמַנֵה" g_cons_utf8="יתמנה">
+                        <word id="73869" source="word" trailer="" uid="2700001660601004015_f74d51a9" lex="JTMNH" root="MNJ" vs="Dt" sp="verb" gloss="to count, to number, to be appointed" definition="D: to appoint, to assign, to assign as punishment, to array against, to be counted, to be appointed, to be designated, to be assigned, to count, to number | G: to count, to number, to number the days of, to recite to music, to appoint, to assign, to assign as punishment, to array against, to be counted, to be appointed, to be designated | Gt: to be counted, to be appointed, to be designated, to be assigned, to count, to number | Dt: to count, to number, to be appointed" description="verbal, ethpaal"/>
+                    </word_group>
+                    <word_group id="55715" rank="8" reading="0" g_voc="JITMAN;H" g_cons="JTMNH" g_voc_utf8="יִתמַנֵה" g_cons_utf8="יתמנה">
+                        <word id="73899" source="word" trailer="" uid="2700001660601004050_724943ef" lex="JTMNH" root="MNJ" vs="Dt" sp="verb" gloss="to count, to number, to be appointed" definition="D: to appoint, to assign, to assign as punishment, to array against, to be counted, to be appointed, to be designated, to be assigned, to count, to number | G: to count, to number, to number the days of, to recite to music, to appoint, to assign, to assign as punishment, to array against, to be counted, to be appointed, to be designated | Gt: to be counted, to be appointed, to be designated, to be assigned, to count, to number | Dt: to count, to number, to be appointed" description="verbal, ethpaal"/>
+                    </word_group>
+                    <word_group id="55701" rank="8" reading="0" g_voc="JITMAN;H" g_cons="JTMNH" g_voc_utf8="יִתמַנֵה" g_cons_utf8="יתמנה">
+                        <word id="73870" source="word" trailer="" uid="2700001660601004016_bbdc7a9d" lex="JTMNH" cons="JTMNH" voc="JITMAN;H" cons_utf8="יתמנה" voc_utf8="יִתמַנֵה" root="MNJ" vs="Dt" sp="verb" gloss="to count, to number, to be appointed" definition="D: to appoint, to assign, to assign as punishment, to array against, to be counted, to be appointed, to be designated, to be assigned, to count, to number | G: to count, to number, to number the days of, to recite to music, to appoint, to assign, to assign as punishment, to array against, to be counted, to be appointed, to be designated | Gt: to be counted, to be appointed, to be designated, to be assigned, to count, to number | Dt: to count, to number, to be appointed" description="verbal, ethpaal">יתמנה</word>
+                    </word_group>
+                    <word_group id="55715" rank="8" reading="0" g_voc="JITMAN;H" g_cons="JTMNH" g_voc_utf8="יִתמַנֵה" g_cons_utf8="יתמנה">
+                        <word id="73900" source="word" trailer=" " uid="2700001660601004051_b6189c0e" lex="JTMNH" cons="JTMNH" voc="JITMAN;H" cons_utf8="יתמנה" voc_utf8="יִתמַנֵה" root="MNJ" vs="Dt" sp="verb" gloss="to count, to number, to be appointed" definition="D: to appoint, to assign, to assign as punishment, to array against, to be counted, to be appointed, to be designated, to be assigned, to count, to number | G: to count, to number, to number the days of, to recite to music, to appoint, to assign, to assign as punishment, to array against, to be counted, to be appointed, to be designated | Gt: to be counted, to be appointed, to be designated, to be assigned, to count, to number | Dt: to count, to number, to be appointed" description="verbal, ethpaal">יתמנה</word>
+                    </word_group>
+                    <word_group id="55702" rank="9" reading="0" g_voc="LKWOn" g_cons="LKn" g_voc_utf8="לכוֹן" g_cons_utf8="לכן">
+                        <word id="73871" source="word" trailer="" uid="2700001660601004018_13b91650" lex="L" cons="L" voc="L" cons_utf8="ל" voc_utf8="ל" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, independent (preposition)">ל</word>
+                    </word_group>
+                    <word_group id="55716" rank="9" reading="0" g_voc="LKWOn" g_cons="LKn" g_voc_utf8="לכוֹן" g_cons_utf8="לכן">
+                        <word id="73901" source="word" trailer="" uid="2700001660601004051_38fc8daa" lex="L" cons="L" voc="L" cons_utf8="ל" voc_utf8="ל" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, independent (preposition)">ל</word>
+                    </word_group>
+                    <word_group id="55702" rank="9" reading="0" g_voc="LKWOn" g_cons="LKn" g_voc_utf8="לכוֹן" g_cons_utf8="לכן">
+                        <word id="73872" source="word" trailer="" uid="2700001660601004019_cb1671bf" lex="L" cons="Kn" voc="KWOn" cons_utf8="כן" voc_utf8="כוֹן" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, independent (preposition)">כן</word>
+                    </word_group>
+                    <word_group id="55716" rank="9" reading="0" g_voc="LKWOn" g_cons="LKn" g_voc_utf8="לכוֹן" g_cons_utf8="לכן">
+                        <word id="73902" source="word" trailer=" " uid="2700001660601004052_21916f47" lex="L" cons="Kn" voc="KWOn" cons_utf8="כן" voc_utf8="כוֹן" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, independent (preposition)">כן</word>
+                    </word_group>
+                    <word_group id="55703" rank="10" reading="0" g_voc="LAMINJAJn" g_cons="LMNJJn" g_voc_utf8="לַמִניַין" g_cons_utf8="למניין">
+                        <word id="73873" source="word" trailer="" uid="2700001660601004021_bae3308b" lex="L" cons="L" voc="LA" cons_utf8="ל" voc_utf8="לַ" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, proclitic (preposition)">ל</word>
+                    </word_group>
+                    <word_group id="55717" rank="10" reading="0" g_voc="LAMINJAJn" g_cons="LMNJJn" g_voc_utf8="לַמִניַין" g_cons_utf8="למניין">
+                        <word id="73874" source="word" trailer="" uid="2700001660601004022_a5981657" lex="MNJN" root="MNJ" sp="subs" st="absolute or construct" nu="s" gloss="amount, number" definition="amount, number | countable, number, amount" description="noun, singular absolute or construct"/>
+                    </word_group>
+                    <word_group id="55703" rank="10" reading="0" g_voc="LAMINJAJn" g_cons="LMNJJn" g_voc_utf8="לַמִניַין" g_cons_utf8="למניין">
+                        <word id="73875" source="word" trailer="" uid="2700001660601004022_bb5037ec" lex="L" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, proclitic (preposition)"/>
+                    </word_group>
+                    <word_group id="55717" rank="10" reading="0" g_voc="LAMINJAJn" g_cons="LMNJJn" g_voc_utf8="לַמִניַין" g_cons_utf8="למניין">
+                        <word id="73876" source="word" trailer="" uid="2700001660601004023_4208a307" lex="MNJN" cons="L" voc="LA" cons_utf8="ל" voc_utf8="לַ" root="MNJ" sp="subs" st="absolute or construct" nu="s" gloss="amount, number" definition="amount, number | countable, number, amount" description="noun, singular absolute or construct">ל</word>
+                    </word_group>
+                    <word_group id="55703" rank="10" reading="0" g_voc="LAMINJAJn" g_cons="LMNJJn" g_voc_utf8="לַמִניַין" g_cons_utf8="למניין">
+                        <word id="73903" source="word" trailer="" uid="2700001660601004052_ed0167b6" lex="L" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, proclitic (preposition)"/>
+                    </word_group>
+                    <word_group id="55717" rank="10" reading="0" g_voc="LAMINJAJn" g_cons="LMNJJn" g_voc_utf8="לַמִניַין" g_cons_utf8="למניין">
+                        <word id="73904" source="word" trailer="" uid="2700001660601004053_21d30a9d" lex="MNJN" cons="M" voc="MI" cons_utf8="מ" voc_utf8="מִ" root="MNJ" sp="subs" st="absolute or construct" nu="s" gloss="amount, number" definition="amount, number | countable, number, amount" description="noun, singular absolute or construct">מ</word>
+                    </word_group>
+                    <word_group id="55703" rank="10" reading="0" g_voc="LAMINJAJn" g_cons="LMNJJn" g_voc_utf8="לַמִניַין" g_cons_utf8="למניין">
+                        <word id="73905" source="word" trailer="" uid="2700001660601004053_d4a9338e" lex="L" cons="MNJJn" voc="MINJAJn" cons_utf8="מניין" voc_utf8="מִניַין" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, proclitic (preposition)">מניין</word>
+                    </word_group>
+                    <word_group id="55717" rank="10" reading="0" g_voc="LAMINJAJn" g_cons="LMNJJn" g_voc_utf8="לַמִניַין" g_cons_utf8="למניין">
+                        <word id="73906" source="word" trailer=" " uid="2700001660601004054_f7551c35" lex="MNJN" cons="NJJn" voc="NJAJn" cons_utf8="ניין" voc_utf8="ניַין" root="MNJ" sp="subs" st="absolute or construct" nu="s" gloss="amount, number" definition="amount, number | countable, number, amount" description="noun, singular absolute or construct">ניין</word>
+                    </word_group>
+                    <word_group id="55704" rank="11" reading="0" g_voc="R@&gt;C;J" g_cons="R&gt;CJ" g_voc_utf8="רָאשֵׁי" g_cons_utf8="ראשׁי">
+                        <word id="73877" source="word" trailer="" uid="2700001660601004023_9b875b7b" lex="R&gt;CJ" root="RJC" sp="subs" st="construct" nu="pl" gloss="chief, head, top" definition="chief, head, top" description="noun, plural construct"/>
+                    </word_group>
+                    <word_group id="55718" rank="11" reading="0" g_voc="R@&gt;C;J" g_cons="R&gt;CJ" g_voc_utf8="רָאשֵׁי" g_cons_utf8="ראשׁי">
+                        <word id="73907" source="word" trailer="" uid="2700001660601004054_2a3ba63f" lex="R&gt;CJ" root="RJC" sp="subs" st="construct" nu="pl" gloss="chief, head, top" definition="chief, head, top" description="noun, plural construct"/>
+                    </word_group>
+                    <word_group id="55704" rank="11" reading="0" g_voc="R@&gt;C;J" g_cons="R&gt;CJ" g_voc_utf8="רָאשֵׁי" g_cons_utf8="ראשׁי">
+                        <word id="73878" source="word" trailer="" uid="2700001660601004024_1ab512c7" lex="R&gt;CJ" cons="R&gt;CJ" voc="R@&gt;C;J" cons_utf8="ראשׁי" voc_utf8="רָאשֵׁי" root="RJC" sp="subs" st="construct" nu="pl" gloss="chief, head, top" definition="chief, head, top" description="noun, plural construct">ראשׁי</word>
+                    </word_group>
+                    <word_group id="55718" rank="11" reading="0" g_voc="R@&gt;C;J" g_cons="R&gt;CJ" g_voc_utf8="רָאשֵׁי" g_cons_utf8="ראשׁי">
+                        <word id="73908" source="word" trailer=" " uid="2700001660601004055_4356e657" lex="R&gt;CJ" cons="R&gt;CJ" voc="R@&gt;C;J" cons_utf8="ראשׁי" voc_utf8="רָאשֵׁי" root="RJC" sp="subs" st="construct" nu="pl" gloss="chief, head, top" definition="chief, head, top" description="noun, plural construct">ראשׁי</word>
+                    </word_group>
+                    <word_group id="55705" rank="12" reading="0" g_voc="JARX;J" g_cons="JRXJ" g_voc_utf8="יַרחֵי" g_cons_utf8="ירחי">
+                        <word id="73879" source="word" trailer="" uid="2700001660601004024_859e9236" lex="JRXJ" root="JRX" sp="subs" st="construct" nu="pl" gloss="month" definition="month | phase of the moon, month | new moon, month" description="noun, plural construct"/>
+                    </word_group>
+                    <word_group id="55719" rank="12" reading="0" g_voc="JARX;J" g_cons="JRXJ" g_voc_utf8="יַרחֵי" g_cons_utf8="ירחי">
+                        <word id="73909" source="word" trailer="" uid="2700001660601004055_032c63a0" lex="JRXJ" root="JRX" sp="subs" st="construct" nu="pl" gloss="month" definition="month | phase of the moon, month | new moon, month" description="noun, plural construct"/>
+                    </word_group>
+                    <word_group id="55705" rank="12" reading="0" g_voc="JARX;J" g_cons="JRXJ" g_voc_utf8="יַרחֵי" g_cons_utf8="ירחי">
+                        <word id="73880" source="word" trailer="" uid="2700001660601004025_bc657ca8" lex="JRXJ" cons="JRXJ" voc="JARX;J" cons_utf8="ירחי" voc_utf8="יַרחֵי" root="JRX" sp="subs" st="construct" nu="pl" gloss="month" definition="month | phase of the moon, month | new moon, month" description="noun, plural construct">ירחי</word>
+                    </word_group>
+                    <word_group id="55719" rank="12" reading="0" g_voc="JARX;J" g_cons="JRXJ" g_voc_utf8="יַרחֵי" g_cons_utf8="ירחי">
+                        <word id="73910" source="word" trailer=" " uid="2700001660601004056_915de839" lex="JRXJ" cons="JRXJ" voc="JARX;J" cons_utf8="ירחי" voc_utf8="יַרחֵי" root="JRX" sp="subs" st="construct" nu="pl" gloss="month" definition="month | phase of the moon, month | new moon, month" description="noun, plural construct">ירחי</word>
+                    </word_group>
+                    <word_group id="55706" rank="13" reading="0" g_voc="CAT݀@" g_cons="CT" g_voc_utf8="שַׁתָּ" g_cons_utf8="שׁת">
+                        <word id="73881" source="word" trailer="" uid="2700001660601004025_2cf1f267" lex="CT" root="CNH" sp="subs" st="emphatic" nu="s" gloss="year" definition="of an era, year" description="noun, singular emphatic"/>
+                    </word_group>
+                    <word_group id="55720" rank="13" reading="0" g_voc="CAT݀@" g_cons="CT" g_voc_utf8="שַׁתָּ" g_cons_utf8="שׁת">
+                        <word id="73911" source="word" trailer="" uid="2700001660601004056_260a20e2" lex="CT" root="CNH" sp="subs" st="emphatic" nu="s" gloss="year" definition="of an era, year" description="noun, singular emphatic"/>
+                    </word_group>
+                    <word_group id="55706" rank="13" reading="0" g_voc="CAT݀@" g_cons="CT" g_voc_utf8="שַׁתָּ" g_cons_utf8="שׁת">
+                        <word id="73882" source="word" trailer="" uid="2700001660601004026_29fd9087" lex="CT" cons="CT" voc="CAT݀@" cons_utf8="שׁת" voc_utf8="שַׁתָּ" root="CNH" sp="subs" st="emphatic" nu="s" gloss="year" definition="of an era, year" description="noun, singular emphatic">שׁת</word>
+                    </word_group>
+                    <word_group id="55720" rank="13" reading="0" g_voc="CAT݀@" g_cons="CT" g_voc_utf8="שַׁתָּ" g_cons_utf8="שׁת">
+                        <word id="73912" source="word" trailer="" uid="2700001660601004057_bd0a253c" lex="CT" cons="CT" voc="CAT݀@" cons_utf8="שׁת" voc_utf8="שַׁתָּ" root="CNH" sp="subs" st="emphatic" nu="s" gloss="year" definition="of an era, year" description="noun, singular emphatic">שׁת</word>
+                    </word_group>
+                </segment>
+            </verse>
+            <verse verse="3" uid="2945" line="MALIJLW. LBT &lt;Am K݀NIJCT݀@H D݀IBN;J JICR@&gt;;L B&lt;ACR@H JWOMIJn LJARX@H H@D;Jn NIJS@n WJISABW.n LHWOn GBAR &gt;IJMR LB;JT &gt;BAH@TH &gt;IJMAR LK@L BAJJTH" line_utf8="מַלִילוּ לבת עַם כּנִישׁתָּה דִּבנֵי יִשׁרָאֵל בעַשׁרָה יוֹמִין ליַרחָה הָדֵין נִיסָן ויִסַבוּן להוֹן גבַר אִימר לבֵית אבַהָתה אִימַר לכָל בַייתה">
+                <segment id="800560" start_idx="1" end_idx="140" type="unmarked_text" rank="1" segment="MALIJLW. LBT &lt;Am K.NIJCT.@H D.IBN;J JICR@&gt;;L B&lt;ACR@H JWOMIJn LJARX@H H@D;Jn NIJS@n WJISABW.n LHWOn GBAR &gt;IJMR LB;JT &gt;BAH@T" segment_utf8="מַלִילוּ לבת עַם כּנִישׁתָּה דִּבנֵי יִשׁרָאֵל בעַשׁרָה יוֹמִין ליַרחָה הָדֵין נִיסָן ויִסַבוּן להוֹן גבַר אִימר לבֵית אבַהָת">
+                    <word_group id="55721" rank="0" reading="0" g_voc="MALIJLW." g_cons="MLJL" g_voc_utf8="מַלִילוּ" g_cons_utf8="מליל">
+                        <word id="73913" source="word" trailer="" uid="2700001660601504057_48922cea" lex="MLJL" root="MLL" vs="D" gloss="Dt: to speak, to be spoken" definition="Dt: to speak, to be spoken" description="verbal, pael"/>
+                    </word_group>
+                    <word_group id="55741" rank="0" reading="0" g_voc="MALIJLW." g_cons="MLJL" g_voc_utf8="מַלִילוּ" g_cons_utf8="מליל">
+                        <word id="73967" source="word" trailer="" uid="2700001660601504084_8c67bda7" lex="MLJL" root="MLL" vs="D" gloss="Dt: to speak, to be spoken" definition="Dt: to speak, to be spoken" description="verbal, pael"/>
+                    </word_group>
+                    <word_group id="55721" rank="0" reading="0" g_voc="MALIJLW." g_cons="MLJL" g_voc_utf8="מַלִילוּ" g_cons_utf8="מליל">
+                        <word id="73914" source="word" trailer="" uid="2700001660601504058_8ccb8070" lex="MLJL" cons="MLJL" voc="MALIJLW݀" cons_utf8="מליל" voc_utf8="מַלִילוּ" root="MLL" vs="D" gloss="Dt: to speak, to be spoken" definition="Dt: to speak, to be spoken" description="verbal, pael">מליל</word>
+                    </word_group>
+                    <word_group id="55741" rank="0" reading="0" g_voc="MALIJLW." g_cons="MLJL" g_voc_utf8="מַלִילוּ" g_cons_utf8="מליל">
+                        <word id="73968" source="word" trailer=" " uid="2700001660601504085_8406d9c3" lex="MLJL" cons="MLJL" voc="MALIJLW݀" cons_utf8="מליל" voc_utf8="מַלִילוּ" root="MLL" vs="D" gloss="Dt: to speak, to be spoken" definition="Dt: to speak, to be spoken" description="verbal, pael">מליל</word>
+                    </word_group>
+                    <word_group id="55722" rank="1" reading="0" g_voc="LBT" g_cons="LBT" g_voc_utf8="לבת" g_cons_utf8="לבת">
+                        <word id="73915" source="word" trailer="" uid="2700001660601504058_4fef77ae" lex="LWT" root="L" gloss="preposition, independent (preposition)" description="preposition, independent (preposition)"/>
+                    </word_group>
+                    <word_group id="55742" rank="1" reading="0" g_voc="LBT" g_cons="LBT" g_voc_utf8="לבת" g_cons_utf8="לבת">
+                        <word id="73969" source="word" trailer="" uid="2700001660601504085_a9034ca1" lex="LWT" root="L" gloss="preposition, independent (preposition)" description="preposition, independent (preposition)"/>
+                    </word_group>
+                    <word_group id="55722" rank="1" reading="0" g_voc="LBT" g_cons="LBT" g_voc_utf8="לבת" g_cons_utf8="לבת">
+                        <word id="73916" source="word" trailer="" uid="2700001660601504059_29b53b1c" lex="LWT" cons="LBT" voc="LBT" cons_utf8="לבת" voc_utf8="לבת" root="L" gloss="preposition, independent (preposition)" description="preposition, independent (preposition)">לבת</word>
+                    </word_group>
+                    <word_group id="55742" rank="1" reading="0" g_voc="LBT" g_cons="LBT" g_voc_utf8="לבת" g_cons_utf8="לבת">
+                        <word id="73970" source="word" trailer=" " uid="2700001660601504086_6241b8f1" lex="LWT" cons="LBT" voc="LBT" cons_utf8="לבת" voc_utf8="לבת" root="L" gloss="preposition, independent (preposition)" description="preposition, independent (preposition)">לבת</word>
+                    </word_group>
+                    <word_group id="55723" rank="2" reading="0" g_voc="&lt;Am" g_cons="&lt;m" g_voc_utf8="עַם" g_cons_utf8="עם">
+                        <word id="73917" source="word" trailer="" uid="2700001660601504059_8f657fe4" lex="&lt;m" root="&lt;M" sp="subs" st="absolute or construct" nu="s" gloss="related group of people, people" definition="related group of people, people | people" description="noun, singular absolute or construct"/>
+                    </word_group>
+                    <word_group id="55743" rank="2" reading="0" g_voc="&lt;Am" g_cons="&lt;m" g_voc_utf8="עַם" g_cons_utf8="עם">
+                        <word id="73971" source="word" trailer="" uid="2700001660601504086_b393c2a0" lex="&lt;m" root="&lt;M" sp="subs" st="absolute or construct" nu="s" gloss="related group of people, people" definition="related group of people, people | people" description="noun, singular absolute or construct"/>
+                    </word_group>
+                    <word_group id="55723" rank="2" reading="0" g_voc="&lt;Am" g_cons="&lt;m" g_voc_utf8="עַם" g_cons_utf8="עם">
+                        <word id="73918" source="word" trailer="" uid="2700001660601504060_2173b101" lex="&lt;m" cons="&lt;m" voc="&lt;Am" cons_utf8="עם" voc_utf8="עַם" root="&lt;M" sp="subs" st="absolute or construct" nu="s" gloss="related group of people, people" definition="related group of people, people | people" description="noun, singular absolute or construct">עם</word>
+                    </word_group>
+                    <word_group id="55743" rank="2" reading="0" g_voc="&lt;Am" g_cons="&lt;m" g_voc_utf8="עַם" g_cons_utf8="עם">
+                        <word id="73972" source="word" trailer=" " uid="2700001660601504087_fa7402b3" lex="&lt;m" cons="&lt;m" voc="&lt;Am" cons_utf8="עם" voc_utf8="עַם" root="&lt;M" sp="subs" st="absolute or construct" nu="s" gloss="related group of people, people" definition="related group of people, people | people" description="noun, singular absolute or construct">עם</word>
+                    </word_group>
+                    <word_group id="55724" rank="3" reading="0" g_voc="K݀NIJCT݀@H" g_cons="KNJCTH" g_voc_utf8="כּנִישׁתָּה" g_cons_utf8="כנישׁתה">
+                        <word id="73919" source="word" trailer="" uid="2700001660601504060_6914c475" lex="KNJCH" root="KNC" sp="subs" st="emphatic" nu="s" gloss="gathering, assembling" definition="synagogue, assembling | entering together, assembling" description="noun, singular emphatic"/>
+                    </word_group>
+                    <word_group id="55744" rank="3" reading="0" g_voc="K݀NIJCT݀@H" g_cons="KNJCTH" g_voc_utf8="כּנִישׁתָּה" g_cons_utf8="כנישׁתה">
+                        <word id="73973" source="word" trailer="" uid="2700001660601504087_91a1abe3" lex="KNJCH" root="KNC" sp="subs" st="emphatic" nu="s" gloss="gathering, assembling" definition="synagogue, assembling | entering together, assembling" description="noun, singular emphatic"/>
+                    </word_group>
+                    <word_group id="55724" rank="3" reading="0" g_voc="K݀NIJCT݀@H" g_cons="KNJCTH" g_voc_utf8="כּנִישׁתָּה" g_cons_utf8="כנישׁתה">
+                        <word id="73920" source="word" trailer="" uid="2700001660601504061_d305e317" lex="KNJCH" cons="KNJCTH" voc="K݀NIJCT݀@H" cons_utf8="כנישׁתה" voc_utf8="כּנִישׁתָּה" root="KNC" sp="subs" st="emphatic" nu="s" gloss="gathering, assembling" definition="synagogue, assembling | entering together, assembling" description="noun, singular emphatic">כנישׁתה</word>
+                    </word_group>
+                    <word_group id="55744" rank="3" reading="0" g_voc="K݀NIJCT݀@H" g_cons="KNJCTH" g_voc_utf8="כּנִישׁתָּה" g_cons_utf8="כנישׁתה">
+                        <word id="73974" source="word" trailer=" " uid="2700001660601504088_c25013d6" lex="KNJCH" cons="KNJCTH" voc="K݀NIJCT݀@H" cons_utf8="כנישׁתה" voc_utf8="כּנִישׁתָּה" root="KNC" sp="subs" st="emphatic" nu="s" gloss="gathering, assembling" definition="synagogue, assembling | entering together, assembling" description="noun, singular emphatic">כנישׁתה</word>
+                    </word_group>
+                    <word_group id="55725" rank="4" reading="0" g_voc="D݀IBN;J" g_cons="DBNJ" g_voc_utf8="דִּבנֵי" g_cons_utf8="דבני">
+                        <word id="73921" source="word" trailer="" uid="2700001660601504061_8198d17e" lex="DJ" cons="D" voc="D݀I" cons_utf8="ד" voc_utf8="דִּ" root="DJ" sp="prep" gloss="genitive particle, of" definition="genitive particle, of | first element of lexemes, of, genitive particle | see, of, genitive particle | the thing belonging/related to, of, genitive particle" description="preposition, independent (preposition)">ד</word>
+                    </word_group>
+                    <word_group id="55745" rank="4" reading="0" g_voc="D݀IBN;J" g_cons="DBNJ" g_voc_utf8="דִּבנֵי" g_cons_utf8="דבני">
+                        <word id="73922" source="word" trailer="" uid="2700001660601504062_09e760a6" lex="BR" root="BR" sp="subs" st="construct" nu="pl" gloss="son" definition="son | member of the same cohort, son | in construct with units of measure, son | of an animal, son | descendant, son | of time to express age, son | of size or value, son" description="noun, plural construct"/>
+                        <word id="73923" source="word" trailer="" uid="2700001660601504062_640ab082" lex="DJ" cons="D" voc="D݀I" cons_utf8="ד" voc_utf8="דִּ" root="DJ" sp="prep" gloss="genitive particle, of" definition="genitive particle, of | first element of lexemes, of, genitive particle | see, of, genitive particle | the thing belonging/related to, of, genitive particle" description="preposition, independent (preposition)">ד</word>
+                    </word_group>
+                    <word_group id="55725" rank="4" reading="0" g_voc="D݀IBN;J" g_cons="DBNJ" g_voc_utf8="דִּבנֵי" g_cons_utf8="דבני">
+                        <word id="73975" source="word" trailer="" uid="2700001660601504088_a384710b" lex="DJ" root="DJ" sp="prep" gloss="genitive particle, of" definition="genitive particle, of | first element of lexemes, of, genitive particle | see, of, genitive particle | the thing belonging/related to, of, genitive particle" description="preposition, independent (preposition)"/>
+                    </word_group>
+                    <word_group id="55745" rank="4" reading="0" g_voc="D݀IBN;J" g_cons="DBNJ" g_voc_utf8="דִּבנֵי" g_cons_utf8="דבני">
+                        <word id="73924" source="word" trailer="" uid="2700001660601504063_bfa15876" lex="BR" cons="B" voc="B" cons_utf8="ב" voc_utf8="ב" root="BR" sp="subs" st="construct" nu="pl" gloss="son" definition="son | member of the same cohort, son | in construct with units of measure, son | of an animal, son | descendant, son | of time to express age, son | of size or value, son" description="noun, plural construct">ב</word>
+                    </word_group>
+                    <word_group id="55725" rank="4" reading="0" g_voc="D݀IBN;J" g_cons="DBNJ" g_voc_utf8="דִּבנֵי" g_cons_utf8="דבני">
+                        <word id="73976" source="word" trailer="" uid="2700001660601504089_b2843cc4" lex="BR" root="BR" sp="subs" st="construct" nu="pl" gloss="son" definition="son | member of the same cohort, son | in construct with units of measure, son | of an animal, son | descendant, son | of time to express age, son | of size or value, son" description="noun, plural construct"/>
+                        <word id="73977" source="word" trailer="" uid="2700001660601504089_ffec08da" lex="DJ" cons="BNJ" voc="BN;J" cons_utf8="בני" voc_utf8="בנֵי" root="DJ" sp="prep" gloss="genitive particle, of" definition="genitive particle, of | first element of lexemes, of, genitive particle | see, of, genitive particle | the thing belonging/related to, of, genitive particle" description="preposition, independent (preposition)">בני</word>
+                    </word_group>
+                    <word_group id="55745" rank="4" reading="0" g_voc="D݀IBN;J" g_cons="DBNJ" g_voc_utf8="דִּבנֵי" g_cons_utf8="דבני">
+                        <word id="73978" source="word" trailer=" " uid="2700001660601504090_5eea9375" lex="BR" cons="NJ" voc="N;J" cons_utf8="ני" voc_utf8="נֵי" root="BR" sp="subs" st="construct" nu="pl" gloss="son" definition="son | member of the same cohort, son | in construct with units of measure, son | of an animal, son | descendant, son | of time to express age, son | of size or value, son" description="noun, plural construct">ני</word>
+                    </word_group>
+                    <word_group id="55726" rank="5" reading="0" g_voc="JICR@&gt;;L" g_cons="JCR&gt;L" g_voc_utf8="יִשׁרָאֵל" g_cons_utf8="ישׁראל">
+                        <word id="73925" source="word" trailer="" uid="2700001660601504063_bba0eefb" lex="JCR&gt;L" gloss="nominal, proper name" description="nominal, proper name"/>
+                    </word_group>
+                    <word_group id="55746" rank="5" reading="0" g_voc="JICR@&gt;;L" g_cons="JCR&gt;L" g_voc_utf8="יִשׁרָאֵל" g_cons_utf8="ישׁראל">
+                        <word id="73979" source="word" trailer="" uid="2700001660601504090_e8bd840e" lex="JCR&gt;L" gloss="nominal, proper name" description="nominal, proper name"/>
+                    </word_group>
+                    <word_group id="55726" rank="5" reading="0" g_voc="JICR@&gt;;L" g_cons="JCR&gt;L" g_voc_utf8="יִשׁרָאֵל" g_cons_utf8="ישׁראל">
+                        <word id="73926" source="word" trailer="" uid="2700001660601504064_500f1dff" lex="JCR&gt;L" cons="JCR&gt;L" voc="JICR@&gt;;L" cons_utf8="ישׁראל" voc_utf8="יִשׁרָאֵל" gloss="nominal, proper name" description="nominal, proper name">ישׁראל</word>
+                    </word_group>
+                    <word_group id="55746" rank="5" reading="0" g_voc="JICR@&gt;;L" g_cons="JCR&gt;L" g_voc_utf8="יִשׁרָאֵל" g_cons_utf8="ישׁראל">
+                        <word id="73980" source="word" trailer=" " uid="2700001660601504091_0fdd64a3" lex="JCR&gt;L" cons="JCR&gt;L" voc="JICR@&gt;;L" cons_utf8="ישׁראל" voc_utf8="יִשׁרָאֵל" gloss="nominal, proper name" description="nominal, proper name">ישׁראל</word>
+                    </word_group>
+                    <word_group id="55727" rank="6" reading="0" g_voc="B&lt;ACR@H" g_cons="B&lt;CRH" g_voc_utf8="בעַשׁרָה" g_cons_utf8="בעשׁרה">
+                        <word id="73927" source="word" trailer="" uid="2700001660601504064_0db70156" lex="B" cons="B" voc="B" cons_utf8="ב" voc_utf8="ב" root="B" sp="prep" gloss="with, in" definition="with, in | among, in, with | at, in, with | to, in, with | place, in, with | within a structure or other enclosing object, in, with | during a time period, in, with | using, in, with | having, in, with | adjective, in, with | to do some (damage, in, with | certain time, in, with | for, in, with | see, in, with | with many verbs supplying a negative relationship to an object, in, with" description="preposition, with pronominal suffix (preposition)">ב</word>
+                    </word_group>
+                    <word_group id="55747" rank="6" reading="0" g_voc="B&lt;ACR@H" g_cons="B&lt;CRH" g_voc_utf8="בעַשׁרָה" g_cons_utf8="בעשׁרה">
+                        <word id="73928" source="word" trailer="" uid="2700001660601504065_37a2cb74" lex="&lt;SR" root="&lt;SR" sp="unknown" st="absolute or construct" nu="s" gloss="erect, ten" definition="erect, ten | erect, ten, see under the first number" description="noun, singular absolute or construct"/>
+                    </word_group>
+                    <word_group id="55727" rank="6" reading="0" g_voc="B&lt;ACR@H" g_cons="B&lt;CRH" g_voc_utf8="בעַשׁרָה" g_cons_utf8="בעשׁרה">
+                        <word id="73929" source="word" trailer="" uid="2700001660601504065_47c3d2f8" lex="B" root="B" sp="prep" gloss="with, in" definition="with, in | among, in, with | at, in, with | to, in, with | place, in, with | within a structure or other enclosing object, in, with | during a time period, in, with | using, in, with | having, in, with | adjective, in, with | to do some (damage, in, with | certain time, in, with | for, in, with | see, in, with | with many verbs supplying a negative relationship to an object, in, with" description="preposition, with pronominal suffix (preposition)"/>
+                    </word_group>
+                    <word_group id="55747" rank="6" reading="0" g_voc="B&lt;ACR@H" g_cons="B&lt;CRH" g_voc_utf8="בעַשׁרָה" g_cons_utf8="בעשׁרה">
+                        <word id="73930" source="word" trailer="" uid="2700001660601504066_30a9f97e" lex="&lt;SR" cons="B" voc="B" cons_utf8="ב" voc_utf8="ב" root="&lt;SR" sp="unknown" st="absolute or construct" nu="s" gloss="erect, ten" definition="erect, ten | erect, ten, see under the first number" description="noun, singular absolute or construct">ב</word>
+                        <word id="73981" source="word" trailer="" uid="2700001660601504091_f34746fc" lex="B" cons="&lt;" voc="&lt;A" cons_utf8="ע" voc_utf8="עַ" root="B" sp="prep" gloss="with, in" definition="with, in | among, in, with | at, in, with | to, in, with | place, in, with | within a structure or other enclosing object, in, with | during a time period, in, with | using, in, with | having, in, with | adjective, in, with | to do some (damage, in, with | certain time, in, with | for, in, with | see, in, with | with many verbs supplying a negative relationship to an object, in, with" description="preposition, with pronominal suffix (preposition)">ע</word>
+                    </word_group>
+                    <word_group id="55727" rank="6" reading="0" g_voc="B&lt;ACR@H" g_cons="B&lt;CRH" g_voc_utf8="בעַשׁרָה" g_cons_utf8="בעשׁרה">
+                        <word id="73983" source="word" trailer="" uid="2700001660601504092_c05779aa" lex="B" cons="&lt;" voc="&lt;A" cons_utf8="ע" voc_utf8="עַ" root="B" sp="prep" gloss="with, in" definition="with, in | among, in, with | at, in, with | to, in, with | place, in, with | within a structure or other enclosing object, in, with | during a time period, in, with | using, in, with | having, in, with | adjective, in, with | to do some (damage, in, with | certain time, in, with | for, in, with | see, in, with | with many verbs supplying a negative relationship to an object, in, with" description="preposition, with pronominal suffix (preposition)">ע</word>
+                    </word_group>
+                    <word_group id="55747" rank="6" reading="0" g_voc="B&lt;ACR@H" g_cons="B&lt;CRH" g_voc_utf8="בעַשׁרָה" g_cons_utf8="בעשׁרה">
+                        <word id="73982" source="word" trailer=" " uid="2700001660601504092_f5793aa8" lex="&lt;SR" cons="CRH" voc="CR@H" cons_utf8="שׁרה" voc_utf8="שׁרָה" root="&lt;SR" sp="unknown" st="absolute or construct" nu="s" gloss="erect, ten" definition="erect, ten | erect, ten, see under the first number" description="noun, singular absolute or construct">שׁרה</word>
+                    </word_group>
+                    <word_group id="55727" rank="6" reading="0" g_voc="B&lt;ACR@H" g_cons="B&lt;CRH" g_voc_utf8="בעַשׁרָה" g_cons_utf8="בעשׁרה">
+                        <word id="73984" source="word" trailer="" uid="2700001660601504093_33c147fd" lex="&lt;SR" cons="CRH" voc="CR@H" cons_utf8="שׁרה" voc_utf8="שׁרָה" root="&lt;SR" sp="unknown" st="absolute or construct" nu="s" gloss="erect, ten" definition="erect, ten | erect, ten, see under the first number" description="noun, singular absolute or construct">שׁרה</word>
+                    </word_group>
+                    <word_group id="55728" rank="7" reading="0" g_voc="JWOMIJn" g_cons="JMJn" g_voc_utf8="יוֹמִין" g_cons_utf8="ימין">
+                        <word id="73931" source="word" trailer="" uid="2700001660601504066_251a5f61" lex="JMJn" root="JWM" sp="subs" st="absolute" nu="pl" gloss="day" definition="day | time period, day | daytime, day | when, day | lifetime, day" description="noun, plural absolute"/>
+                    </word_group>
+                    <word_group id="55748" rank="7" reading="0" g_voc="JWOMIJn" g_cons="JMJn" g_voc_utf8="יוֹמִין" g_cons_utf8="ימין">
+                        <word id="73985" source="word" trailer="" uid="2700001660601504093_dee620cc" lex="JMJn" root="JWM" sp="subs" st="absolute" nu="pl" gloss="day" definition="day | time period, day | daytime, day | when, day | lifetime, day" description="noun, plural absolute"/>
+                    </word_group>
+                    <word_group id="55728" rank="7" reading="0" g_voc="JWOMIJn" g_cons="JMJn" g_voc_utf8="יוֹמִין" g_cons_utf8="ימין">
+                        <word id="73932" source="word" trailer="" uid="2700001660601504067_a67a840c" lex="JMJn" cons="JMJn" voc="JWOMIJn" cons_utf8="ימין" voc_utf8="יוֹמִין" root="JWM" sp="subs" st="absolute" nu="pl" gloss="day" definition="day | time period, day | daytime, day | when, day | lifetime, day" description="noun, plural absolute">ימין</word>
+                    </word_group>
+                    <word_group id="55748" rank="7" reading="0" g_voc="JWOMIJn" g_cons="JMJn" g_voc_utf8="יוֹמִין" g_cons_utf8="ימין">
+                        <word id="73986" source="word" trailer=" " uid="2700001660601504094_f3943793" lex="JMJn" cons="JMJn" voc="JWOMIJn" cons_utf8="ימין" voc_utf8="יוֹמִין" root="JWM" sp="subs" st="absolute" nu="pl" gloss="day" definition="day | time period, day | daytime, day | when, day | lifetime, day" description="noun, plural absolute">ימין</word>
+                    </word_group>
+                    <word_group id="55729" rank="8" reading="0" g_voc="LJARX@H" g_cons="LJRXH" g_voc_utf8="ליַרחָה" g_cons_utf8="לירחה">
+                        <word id="73933" source="word" trailer="" uid="2700001660601504067_38b01847" lex="L" cons="L" voc="L" cons_utf8="ל" voc_utf8="ל" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, proclitic (preposition)">ל</word>
+                    </word_group>
+                    <word_group id="55749" rank="8" reading="0" g_voc="LJARX@H" g_cons="LJRXH" g_voc_utf8="ליַרחָה" g_cons_utf8="לירחה">
+                        <word id="73934" source="word" trailer="" uid="2700001660601504068_70adcbf5" lex="JRX" root="JRX" sp="subs" st="emphatic" nu="s" gloss="month" definition="month | phase of the moon, month | new moon, month" description="noun, singular emphatic"/>
+                    </word_group>
+                    <word_group id="55729" rank="8" reading="0" g_voc="LJARX@H" g_cons="LJRXH" g_voc_utf8="ליַרחָה" g_cons_utf8="לירחה">
+                        <word id="73935" source="word" trailer="" uid="2700001660601504068_245253e8" lex="L" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, proclitic (preposition)"/>
+                    </word_group>
+                    <word_group id="55749" rank="8" reading="0" g_voc="LJARX@H" g_cons="LJRXH" g_voc_utf8="ליַרחָה" g_cons_utf8="לירחה">
+                        <word id="73936" source="word" trailer="" uid="2700001660601504069_5b4107fd" lex="JRX" cons="L" voc="L" cons_utf8="ל" voc_utf8="ל" root="JRX" sp="subs" st="emphatic" nu="s" gloss="month" definition="month | phase of the moon, month | new moon, month" description="noun, singular emphatic">ל</word>
+                    </word_group>
+                    <word_group id="55729" rank="8" reading="0" g_voc="LJARX@H" g_cons="LJRXH" g_voc_utf8="ליַרחָה" g_cons_utf8="לירחה">
+                        <word id="73987" source="word" trailer="" uid="2700001660601504094_fcebc007" lex="L" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, proclitic (preposition)"/>
+                    </word_group>
+                    <word_group id="55749" rank="8" reading="0" g_voc="LJARX@H" g_cons="LJRXH" g_voc_utf8="ליַרחָה" g_cons_utf8="לירחה">
+                        <word id="73988" source="word" trailer="" uid="2700001660601504095_d21ea061" lex="JRX" cons="J" voc="JA" cons_utf8="י" voc_utf8="יַ" root="JRX" sp="subs" st="emphatic" nu="s" gloss="month" definition="month | phase of the moon, month | new moon, month" description="noun, singular emphatic">י</word>
+                    </word_group>
+                    <word_group id="55729" rank="8" reading="0" g_voc="LJARX@H" g_cons="LJRXH" g_voc_utf8="ליַרחָה" g_cons_utf8="לירחה">
+                        <word id="73989" source="word" trailer="" uid="2700001660601504095_13b6d62c" lex="L" cons="JRXH" voc="JARX@H" cons_utf8="ירחה" voc_utf8="יַרחָה" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, proclitic (preposition)">ירחה</word>
+                    </word_group>
+                    <word_group id="55749" rank="8" reading="0" g_voc="LJARX@H" g_cons="LJRXH" g_voc_utf8="ליַרחָה" g_cons_utf8="לירחה">
+                        <word id="73990" source="word" trailer=" " uid="2700001660601504096_aa969421" lex="JRX" cons="RXH" voc="RX@H" cons_utf8="רחה" voc_utf8="רחָה" root="JRX" sp="subs" st="emphatic" nu="s" gloss="month" definition="month | phase of the moon, month | new moon, month" description="noun, singular emphatic">רחה</word>
+                    </word_group>
+                    <word_group id="55730" rank="9" reading="0" g_voc="H@D;Jn" g_cons="HDJn" g_voc_utf8="הָדֵין" g_cons_utf8="הדין">
+                        <word id="73937" source="word" trailer="" uid="2700001660601504069_9e9761e2" lex="HDJn" root="DJN" sp="pron" gloss="palm leaf, this" definition="palm leaf, this" description="preposition, independent (preposition)"/>
+                    </word_group>
+                    <word_group id="55750" rank="9" reading="0" g_voc="H@D;Jn" g_cons="HDJn" g_voc_utf8="הָדֵין" g_cons_utf8="הדין">
+                        <word id="73991" source="word" trailer="" uid="2700001660601504096_0de986ef" lex="HDJn" root="DJN" sp="pron" gloss="palm leaf, this" definition="palm leaf, this" description="preposition, independent (preposition)"/>
+                    </word_group>
+                    <word_group id="55730" rank="9" reading="0" g_voc="H@D;Jn" g_cons="HDJn" g_voc_utf8="הָדֵין" g_cons_utf8="הדין">
+                        <word id="73938" source="word" trailer="" uid="2700001660601504070_b2bcd9b0" lex="HDJn" cons="HDJn" voc="H@D;Jn" cons_utf8="הדין" voc_utf8="הָדֵין" root="DJN" sp="pron" gloss="palm leaf, this" definition="palm leaf, this" description="preposition, independent (preposition)">הדין</word>
+                    </word_group>
+                    <word_group id="55750" rank="9" reading="0" g_voc="H@D;Jn" g_cons="HDJn" g_voc_utf8="הָדֵין" g_cons_utf8="הדין">
+                        <word id="73992" source="word" trailer=" " uid="2700001660601504097_01552533" lex="HDJn" cons="HDJn" voc="H@D;Jn" cons_utf8="הדין" voc_utf8="הָדֵין" root="DJN" sp="pron" gloss="palm leaf, this" definition="palm leaf, this" description="preposition, independent (preposition)">הדין</word>
+                    </word_group>
+                    <word_group id="55731" rank="10" reading="0" g_voc="NIJS@n" g_cons="NJSn" g_voc_utf8="נִיסָן" g_cons_utf8="ניסן">
+                        <word id="73939" source="word" trailer="" uid="2700001660601504070_b3d12430" lex="NJSn" cons="N" voc="NI" cons_utf8="נ" voc_utf8="נִ" root="NJSN" sp="subs" st="absolute or construct" nu="s" gloss="Nisan" definition="Nisan" description="noun, singular absolute or construct">נ</word>
+                    </word_group>
+                    <word_group id="55751" rank="10" reading="0" g_voc="NIJS@n" g_cons="NJSn" g_voc_utf8="נִיסָן" g_cons_utf8="ניסן">
+                        <word id="73993" source="word" trailer="" uid="2700001660601504097_eaa16610" lex="NJSn" cons="N" voc="NI" cons_utf8="נ" voc_utf8="נִ" root="NJSN" sp="subs" st="absolute or construct" nu="s" gloss="Nisan" definition="Nisan" description="noun, singular absolute or construct">נ</word>
+                    </word_group>
+                    <word_group id="55731" rank="10" reading="0" g_voc="NIJS@n" g_cons="NJSn" g_voc_utf8="נִיסָן" g_cons_utf8="ניסן">
+                        <word id="73940" source="word" trailer="" uid="2700001660601504071_d900799d" lex="NJSn" cons="JSn" voc="JS@n" cons_utf8="יסן" voc_utf8="יסָן" root="NJSN" sp="subs" st="absolute or construct" nu="s" gloss="Nisan" definition="Nisan" description="noun, singular absolute or construct">יסן</word>
+                    </word_group>
+                    <word_group id="55751" rank="10" reading="0" g_voc="NIJS@n" g_cons="NJSn" g_voc_utf8="נִיסָן" g_cons_utf8="ניסן">
+                        <word id="73994" source="word" trailer=" " uid="2700001660601504098_9e6cf2ae" lex="NJSn" cons="JSn" voc="JS@n" cons_utf8="יסן" voc_utf8="יסָן" root="NJSN" sp="subs" st="absolute or construct" nu="s" gloss="Nisan" definition="Nisan" description="noun, singular absolute or construct">יסן</word>
+                    </word_group>
+                    <word_group id="55752" rank="11" reading="0" g_voc="WJISABW.n" g_cons="WJSBn" g_voc_utf8="ויִסַבוּן" g_cons_utf8="ויסבן">
+                        <word id="73941" source="word" trailer="" uid="2700001660601504071_80efcea2" lex="W" cons="W" voc="W" cons_utf8="ו" voc_utf8="ו" root="W" sp="conj" gloss="also, and" definition="also, and | clause level initial, and, also" description="conjunction, conjunction">ו</word>
+                    </word_group>
+                    <word_group id="55732" rank="11" reading="0" g_voc="WJISABW.n" g_cons="WJSBn" g_voc_utf8="ויִסַבוּן" g_cons_utf8="ויסבן">
+                        <word id="73943" source="word" trailer="" uid="2700001660601504072_56c3ac17" lex="W" cons="W" voc="W" cons_utf8="ו" voc_utf8="ו" root="W" sp="conj" gloss="also, and" definition="also, and | clause level initial, and, also" description="conjunction, conjunction">ו</word>
+                    </word_group>
+                    <word_group id="55752" rank="11" reading="0" g_voc="WJISABW.n" g_cons="WJSBn" g_voc_utf8="ויִסַבוּן" g_cons_utf8="ויסבן">
+                        <word id="73942" source="word" trailer="" uid="2700001660601504072_9b3f3041" lex="WJSBn" root="NSJ" vs="G" sp="verb" gloss="to take, to pick up, to carry, to remove, to bring, to marry, to favor, to be patient, to bargain, to take up arms, to adopt" definition="C: to take, to marry off a woman | G: to take, to pick up, to carry, to remove, to bring, to marry, to favor, to be patient, to bargain, to take up arms, to adopt | Gt: to be taken, to get married, to be removed, to be favored, to be fetched" description="verbal, peal"/>
+                    </word_group>
+                    <word_group id="55732" rank="11" reading="0" g_voc="WJISABW.n" g_cons="WJSBn" g_voc_utf8="ויִסַבוּן" g_cons_utf8="ויסבן">
+                        <word id="73995" source="word" trailer="" uid="2700001660601504098_0a709055" lex="W" root="W" sp="conj" gloss="also, and" definition="also, and | clause level initial, and, also" description="conjunction, conjunction"/>
+                    </word_group>
+                    <word_group id="55752" rank="11" reading="0" g_voc="WJISABW.n" g_cons="WJSBn" g_voc_utf8="ויִסַבוּן" g_cons_utf8="ויסבן">
+                        <word id="73944" source="word" trailer="" uid="2700001660601504073_bc52e6c6" lex="WJSBn" cons="J" voc="JI" cons_utf8="י" voc_utf8="יִ" root="NSJ" vs="G" sp="verb" gloss="to take, to pick up, to carry, to remove, to bring, to marry, to favor, to be patient, to bargain, to take up arms, to adopt" definition="C: to take, to marry off a woman | G: to take, to pick up, to carry, to remove, to bring, to marry, to favor, to be patient, to bargain, to take up arms, to adopt | Gt: to be taken, to get married, to be removed, to be favored, to be fetched" description="verbal, peal">י</word>
+                    </word_group>
+                    <word_group id="55732" rank="11" reading="0" g_voc="WJISABW.n" g_cons="WJSBn" g_voc_utf8="ויִסַבוּן" g_cons_utf8="ויסבן">
+                        <word id="73996" source="word" trailer="" uid="2700001660601504099_9ab578fa" lex="WJSBn" root="NSJ" vs="G" sp="verb" gloss="to take, to pick up, to carry, to remove, to bring, to marry, to favor, to be patient, to bargain, to take up arms, to adopt" definition="C: to take, to marry off a woman | G: to take, to pick up, to carry, to remove, to bring, to marry, to favor, to be patient, to bargain, to take up arms, to adopt | Gt: to be taken, to get married, to be removed, to be favored, to be fetched" description="verbal, peal"/>
+                        <word id="73997" source="word" trailer="" uid="2700001660601504099_6381a4f7" lex="W" cons="JSBn" voc="JISABW݀n" cons_utf8="יסבן" voc_utf8="יִסַבוּן" root="W" sp="conj" gloss="also, and" definition="also, and | clause level initial, and, also" description="conjunction, conjunction">יסבן</word>
+                    </word_group>
+                    <word_group id="55752" rank="11" reading="0" g_voc="WJISABW.n" g_cons="WJSBn" g_voc_utf8="ויִסַבוּן" g_cons_utf8="ויסבן">
+                        <word id="73998" source="word" trailer=" " uid="2700001660601504100_040663eb" lex="WJSBn" cons="SBn" voc="SABW݀n" cons_utf8="סבן" voc_utf8="סַבוּן" root="NSJ" vs="G" sp="verb" gloss="to take, to pick up, to carry, to remove, to bring, to marry, to favor, to be patient, to bargain, to take up arms, to adopt" definition="C: to take, to marry off a woman | G: to take, to pick up, to carry, to remove, to bring, to marry, to favor, to be patient, to bargain, to take up arms, to adopt | Gt: to be taken, to get married, to be removed, to be favored, to be fetched" description="verbal, peal">סבן</word>
+                    </word_group>
+                    <word_group id="55733" rank="12" reading="0" g_voc="LHWOn" g_cons="LHn" g_voc_utf8="להוֹן" g_cons_utf8="להן">
+                        <word id="73945" source="word" trailer="" uid="2700001660601504073_3ef6cd33" lex="L" cons="L" voc="L" cons_utf8="ל" voc_utf8="ל" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, independent (preposition)">ל</word>
+                    </word_group>
+                    <word_group id="55753" rank="12" reading="0" g_voc="LHWOn" g_cons="LHn" g_voc_utf8="להוֹן" g_cons_utf8="להן">
+                        <word id="73999" source="word" trailer="" uid="2700001660601504100_3de4752a" lex="L" cons="L" voc="L" cons_utf8="ל" voc_utf8="ל" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, independent (preposition)">ל</word>
+                    </word_group>
+                    <word_group id="55733" rank="12" reading="0" g_voc="LHWOn" g_cons="LHn" g_voc_utf8="להוֹן" g_cons_utf8="להן">
+                        <word id="73946" source="word" trailer="" uid="2700001660601504074_9b57390c" lex="L" cons="Hn" voc="HWOn" cons_utf8="הן" voc_utf8="הוֹן" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, independent (preposition)">הן</word>
+                    </word_group>
+                    <word_group id="55753" rank="12" reading="0" g_voc="LHWOn" g_cons="LHn" g_voc_utf8="להוֹן" g_cons_utf8="להן">
+                        <word id="74000" source="word" trailer=" " uid="2700001660601504101_de3c7834" lex="L" cons="Hn" voc="HWOn" cons_utf8="הן" voc_utf8="הוֹן" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, independent (preposition)">הן</word>
+                    </word_group>
+                    <word_group id="55734" rank="13" reading="0" g_voc="GBAR" g_cons="GBR" g_voc_utf8="גבַר" g_cons_utf8="גבר">
+                        <word id="73947" source="word" trailer="" uid="2700001660601504074_6599b253" lex="GBR" root="GBR" sp="subs" st="absolute or construct" nu="s" gloss="man, person, individual, one" definition="man, person, individual, one | person | specifically a male as opposed to a female | absolute as a distributive | everyone" description="noun, singular absolute or construct"/>
+                    </word_group>
+                    <word_group id="55754" rank="13" reading="0" g_voc="GBAR" g_cons="GBR" g_voc_utf8="גבַר" g_cons_utf8="גבר">
+                        <word id="74001" source="word" trailer="" uid="2700001660601504101_f6fccf74" lex="GBR" root="GBR" sp="subs" st="absolute or construct" nu="s" gloss="man, person, individual, one" definition="man, person, individual, one | person | specifically a male as opposed to a female | absolute as a distributive | everyone" description="noun, singular absolute or construct"/>
+                    </word_group>
+                    <word_group id="55734" rank="13" reading="0" g_voc="GBAR" g_cons="GBR" g_voc_utf8="גבַר" g_cons_utf8="גבר">
+                        <word id="73948" source="word" trailer="" uid="2700001660601504075_1dca9376" lex="GBR" cons="GBR" voc="GBAR" cons_utf8="גבר" voc_utf8="גבַר" root="GBR" sp="subs" st="absolute or construct" nu="s" gloss="man, person, individual, one" definition="man, person, individual, one | person | specifically a male as opposed to a female | absolute as a distributive | everyone" description="noun, singular absolute or construct">גבר</word>
+                    </word_group>
+                    <word_group id="55754" rank="13" reading="0" g_voc="GBAR" g_cons="GBR" g_voc_utf8="גבַר" g_cons_utf8="גבר">
+                        <word id="74002" source="word" trailer=" " uid="2700001660601504102_37cc0890" lex="GBR" cons="GBR" voc="GBAR" cons_utf8="גבר" voc_utf8="גבַר" root="GBR" sp="subs" st="absolute or construct" nu="s" gloss="man, person, individual, one" definition="man, person, individual, one | person | specifically a male as opposed to a female | absolute as a distributive | everyone" description="noun, singular absolute or construct">גבר</word>
+                    </word_group>
+                    <word_group id="55735" rank="14" reading="0" g_voc="&gt;IJMR" g_cons="&gt;JMR" g_voc_utf8="אִימר" g_cons_utf8="אימר">
+                        <word id="73949" source="word" trailer="" uid="2700001660601504075_c3890bbc" lex="&gt;JMR" cons="&gt;JMR" voc="&gt;IJMR" cons_utf8="אימר" voc_utf8="אִימר" root="&gt;MR" sp="subs" st="absolute or construct" nu="s" gloss="lamb" definition="lamb" description="noun, singular absolute or construct">אימר</word>
+                    </word_group>
+                    <word_group id="55755" rank="14" reading="0" g_voc="&gt;IJMR" g_cons="&gt;JMR" g_voc_utf8="אִימר" g_cons_utf8="אימר">
+                        <word id="74003" source="word" trailer="" uid="2700001660601504102_f72c6d9a" lex="&gt;JMR" root="&gt;MR" sp="subs" st="absolute or construct" nu="s" gloss="lamb" definition="lamb" description="noun, singular absolute or construct"/>
+                    </word_group>
+                    <word_group id="55735" rank="14" reading="0" g_voc="&gt;IJMR" g_cons="&gt;JMR" g_voc_utf8="אִימר" g_cons_utf8="אימר">
+                        <word id="73950" source="word" trailer="" uid="2700001660601504076_af0d6b5c" lex="&gt;JMR" root="&gt;MR" sp="subs" st="absolute or construct" nu="s" gloss="lamb" definition="lamb" description="noun, singular absolute or construct"/>
+                    </word_group>
+                    <word_group id="55755" rank="14" reading="0" g_voc="&gt;IJMR" g_cons="&gt;JMR" g_voc_utf8="אִימר" g_cons_utf8="אימר">
+                        <word id="74004" source="word" trailer=" " uid="2700001660601504103_3951729f" lex="&gt;JMR" cons="&gt;JMR" voc="&gt;IJMR" cons_utf8="אימר" voc_utf8="אִימר" root="&gt;MR" sp="subs" st="absolute or construct" nu="s" gloss="lamb" definition="lamb" description="noun, singular absolute or construct">אימר</word>
+                    </word_group>
+                    <word_group id="55756" rank="15" reading="0" g_voc="LB;JT" g_cons="LBJT" g_voc_utf8="לבֵית" g_cons_utf8="לבית">
+                        <word id="73953" source="word" trailer="" uid="2700001660601504077_fda8a68e" lex="&gt;B" cons="L" voc="L" cons_utf8="ל" voc_utf8="ל" root="&gt;B" sp="subs" st="emphatic" nu="s" gloss="father" definition="see, extended family" description="noun, singular emphatic">ל</word>
+                    </word_group>
+                    <word_group id="55736" rank="15" reading="0" g_voc="LB;JT" g_cons="LBJT" g_voc_utf8="לבֵית" g_cons_utf8="לבית">
+                        <word id="74007" source="word" trailer="" uid="2700001660601504104_6769e1ff" lex="&gt;B" cons="L" voc="L" cons_utf8="ל" voc_utf8="ל" root="&gt;B" sp="subs" st="emphatic" nu="s" gloss="father" definition="see, extended family" description="noun, singular emphatic">ל</word>
+                        <word id="73951" source="word" trailer="" uid="2700001660601504076_13266158" lex="L" cons="B" voc="B" cons_utf8="ב" voc_utf8="ב" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, proclitic (preposition)">ב</word>
+                    </word_group>
+                    <word_group id="55756" rank="15" reading="0" g_voc="LB;JT" g_cons="LBJT" g_voc_utf8="לבֵית" g_cons_utf8="לבית">
+                        <word id="73954" source="word" trailer="" uid="2700001660601504078_39d4a1c4" lex="L" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, proclitic (preposition)"/>
+                        <word id="73955" source="word" trailer="" uid="2700001660601504078_6d93c2eb" lex="BJ" cons="B" voc="B;" cons_utf8="ב" voc_utf8="בֵ" root="&gt;B" sp="subs" st="emphatic" nu="s" gloss="building for dwelling, house, structure, place" definition="see, extended family" description="noun, singular emphatic">ב</word>
+                    </word_group>
+                    <word_group id="55736" rank="15" reading="0" g_voc="LB;JT" g_cons="LBJT" g_voc_utf8="לבֵית" g_cons_utf8="לבית">
+                        <word id="74005" source="word" trailer="" uid="2700001660601504103_28fa7c1b" lex="L" cons="JT" voc=";JT" cons_utf8="ית" voc_utf8="ֵית" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, proclitic (preposition)">ית</word>
+                    </word_group>
+                    <word_group id="55756" rank="15" reading="0" g_voc="LB;JT" g_cons="LBJT" g_voc_utf8="לבֵית" g_cons_utf8="לבית">
+                        <word id="73956" source="word" trailer="" uid="2700001660601504079_52fe692d" lex="&gt;B" root="&gt;B" sp="subs" st="emphatic" nu="s" gloss="father" definition="see, extended family" description="noun, singular emphatic"/>
+                    </word_group>
+                    <word_group id="55736" rank="15" reading="0" g_voc="LB;JT" g_cons="LBJT" g_voc_utf8="לבֵית" g_cons_utf8="לבית">
+                        <word id="74008" source="word" trailer="" uid="2700001660601504105_1f51c0d4" lex="L" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, proclitic (preposition)"/>
+                    </word_group>
+                    <word_group id="55756" rank="15" reading="0" g_voc="LB;JT" g_cons="LBJT" g_voc_utf8="לבֵית" g_cons_utf8="לבית">
+                        <word id="74006" source="word" trailer="" uid="2700001660601504104_a42eee50" lex="BJ" cons="J" voc="J" cons_utf8="י" voc_utf8="י" root="&gt;B" sp="subs" st="emphatic" nu="s" gloss="building for dwelling, house, structure, place" definition="see, extended family" description="noun, singular emphatic">י</word>
+                    </word_group>
+                    <word_group id="55736" rank="15" reading="0" g_voc="LB;JT" g_cons="LBJT" g_voc_utf8="לבֵית" g_cons_utf8="לבית">
+                        <word id="74010" source="word" trailer="" uid="2700001660601504106_0b1b20ab" lex="&gt;B" root="&gt;B" sp="subs" st="emphatic" nu="s" gloss="father" definition="see, extended family" description="noun, singular emphatic"/>
+                        <word id="73952" source="word" trailer="" uid="2700001660601504077_c0f39a8d" lex="BJ" root="&gt;B" sp="subs" st="emphatic" nu="s" gloss="building for dwelling, house, structure, place" definition="see, extended family" description="noun, singular emphatic"/>
+                    </word_group>
+                    <word_group id="55756" rank="15" reading="0" g_voc="LB;JT" g_cons="LBJT" g_voc_utf8="לבֵית" g_cons_utf8="לבית">
+                        <word id="74009" source="word" trailer=" " uid="2700001660601504105_bbd78470" lex="BJ" cons="T" voc="T" cons_utf8="ת" voc_utf8="ת" root="&gt;B" sp="subs" st="emphatic" nu="s" gloss="building for dwelling, house, structure, place" definition="see, extended family" description="noun, singular emphatic">ת</word>
+                    </word_group>
+                    <word_group id="55737" rank="16" reading="0" g_voc="&gt;BAH@TH" g_cons="&gt;BHTH" g_voc_utf8="אבַהָתה" g_cons_utf8="אבהתה">
+                        <word id="73957" source="word" trailer="" uid="2700001660601504079_11a20ca4"/>
+                    </word_group>
+                    <word_group id="55757" rank="16" reading="0" g_voc="&gt;BAH@TH" g_cons="&gt;BHTH" g_voc_utf8="אבַהָתה" g_cons_utf8="אבהתה">
+                        <word id="74011" source="word" trailer="" uid="2700001660601504106_b43187ad"/>
+                    </word_group>
+                    <word_group id="55737" rank="16" reading="0" g_voc="&gt;BAH@TH" g_cons="&gt;BHTH" g_voc_utf8="אבַהָתה" g_cons_utf8="אבהתה">
+                        <word id="73958" source="word" trailer="" uid="2700001660601504080_840e4847" cons="&gt;BHTH" voc="&gt;BAH@TH" cons_utf8="אבהתה" voc_utf8="אבַהָתה">אבהתה</word>
+                    </word_group>
+                    <word_group id="55757" rank="16" reading="0" g_voc="&gt;BAH@TH" g_cons="&gt;BHTH" g_voc_utf8="אבַהָתה" g_cons_utf8="אבהתה">
+                        <word id="74012" source="word" trailer=" " uid="2700001660601504107_29e9fc1c" cons="&gt;BHTH" voc="&gt;BAH@TH" cons_utf8="אבהתה" voc_utf8="אבַהָתה">אבהתה</word>
+                    </word_group>
+                </segment>
+                <segment id="800563" start_idx="144" end_idx="162" type="unmarked_text" rank="4" segment="&gt;IJMAR LK@L BAJJ" segment_utf8="אִימַר לכָל בַיי">
+                    <word_group id="55738" rank="17" reading="0" g_voc="&gt;IJMAR" g_cons="&gt;JMR" g_voc_utf8="אִימַר" g_cons_utf8="אימר">
+                        <word id="73959" source="word" trailer="" uid="2700001660601504080_54008f7d" lex="&gt;JMR" cons="&gt;JMR" voc="&gt;IJMAR" cons_utf8="אימר" voc_utf8="אִימַר" root="&gt;MR" sp="subs" st="absolute or construct" nu="s" gloss="lamb" definition="lamb" description="noun, singular absolute or construct">אימר</word>
+                    </word_group>
+                    <word_group id="55758" rank="17" reading="0" g_voc="&gt;IJMAR" g_cons="&gt;JMR" g_voc_utf8="אִימַר" g_cons_utf8="אימר">
+                        <word id="74013" source="word" trailer="" uid="2700001660601504107_4825450a" lex="&gt;JMR" root="&gt;MR" sp="subs" st="absolute or construct" nu="s" gloss="lamb" definition="lamb" description="noun, singular absolute or construct"/>
+                    </word_group>
+                    <word_group id="55738" rank="17" reading="0" g_voc="&gt;IJMAR" g_cons="&gt;JMR" g_voc_utf8="אִימַר" g_cons_utf8="אימר">
+                        <word id="73960" source="word" trailer="" uid="2700001660601504081_fb905265" lex="&gt;JMR" root="&gt;MR" sp="subs" st="absolute or construct" nu="s" gloss="lamb" definition="lamb" description="noun, singular absolute or construct"/>
+                    </word_group>
+                    <word_group id="55758" rank="17" reading="0" g_voc="&gt;IJMAR" g_cons="&gt;JMR" g_voc_utf8="אִימַר" g_cons_utf8="אימר">
+                        <word id="74014" source="word" trailer=" " uid="2700001660601504108_fde15f95" lex="&gt;JMR" cons="&gt;JMR" voc="&gt;IJMAR" cons_utf8="אימר" voc_utf8="אִימַר" root="&gt;MR" sp="subs" st="absolute or construct" nu="s" gloss="lamb" definition="lamb" description="noun, singular absolute or construct">אימר</word>
+                    </word_group>
+                    <word_group id="55739" rank="18" reading="0" g_voc="LK@L" g_cons="LKL" g_voc_utf8="לכָל" g_cons_utf8="לכל">
+                        <word id="73961" source="word" trailer="" uid="2700001660601504081_7dbf8c77" lex="L" cons="L" voc="L" cons_utf8="ל" voc_utf8="ל" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, proclitic (preposition)">ל</word>
+                    </word_group>
+                    <word_group id="55759" rank="18" reading="0" g_voc="LK@L" g_cons="LKL" g_voc_utf8="לכָל" g_cons_utf8="לכל">
+                        <word id="73962" source="word" trailer="" uid="2700001660601504082_277a2ec8" lex="KL" root="KLL" sp="subs" st="absolute or construct" nu="s" gloss="impediment, all, every, as a postpositive with resumptive pronominal suffixes" definition="impediment, all, every, as a postpositive with resumptive pronominal suffixes | every, whoever, whatever, all | all the, all, every | all, every, any, each | every, all | every, completely, all | impediment, all, every, with anticipatory pronominal suffix" description="noun, singular absolute or construct"/>
+                    </word_group>
+                    <word_group id="55739" rank="18" reading="0" g_voc="LK@L" g_cons="LKL" g_voc_utf8="לכָל" g_cons_utf8="לכל">
+                        <word id="73963" source="word" trailer="" uid="2700001660601504082_d9a271d9" lex="L" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, proclitic (preposition)"/>
+                    </word_group>
+                    <word_group id="55759" rank="18" reading="0" g_voc="LK@L" g_cons="LKL" g_voc_utf8="לכָל" g_cons_utf8="לכל">
+                        <word id="73964" source="word" trailer="" uid="2700001660601504083_d1b3c5d7" lex="KL" cons="L" voc="L" cons_utf8="ל" voc_utf8="ל" root="KLL" sp="subs" st="absolute or construct" nu="s" gloss="impediment, all, every, as a postpositive with resumptive pronominal suffixes" definition="impediment, all, every, as a postpositive with resumptive pronominal suffixes | every, whoever, whatever, all | all the, all, every | all, every, any, each | every, all | every, completely, all | impediment, all, every, with anticipatory pronominal suffix" description="noun, singular absolute or construct">ל</word>
+                        <word id="74015" source="word" trailer="" uid="2700001660601504108_1e8490e5" lex="L" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, proclitic (preposition)"/>
+                    </word_group>
+                    <word_group id="55739" rank="18" reading="0" g_voc="LK@L" g_cons="LKL" g_voc_utf8="לכָל" g_cons_utf8="לכל">
+                        <word id="74017" source="word" trailer="" uid="2700001660601504109_1975fe28" lex="L" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, proclitic (preposition)"/>
+                    </word_group>
+                    <word_group id="55759" rank="18" reading="0" g_voc="LK@L" g_cons="LKL" g_voc_utf8="לכָל" g_cons_utf8="לכל">
+                        <word id="74016" source="word" trailer=" " uid="2700001660601504109_911c4ca7" lex="KL" cons="KL" voc="K@L" cons_utf8="כל" voc_utf8="כָל" root="KLL" sp="subs" st="absolute or construct" nu="s" gloss="impediment, all, every, as a postpositive with resumptive pronominal suffixes" definition="impediment, all, every, as a postpositive with resumptive pronominal suffixes | every, whoever, whatever, all | all the, all, every | all, every, any, each | every, all | every, completely, all | impediment, all, every, with anticipatory pronominal suffix" description="noun, singular absolute or construct">כל</word>
+                    </word_group>
+                    <word_group id="55739" rank="18" reading="0" g_voc="LK@L" g_cons="LKL" g_voc_utf8="לכָל" g_cons_utf8="לכל">
+                        <word id="74018" source="word" trailer="" uid="2700001660601504110_cd7a075b" lex="KL" cons="KL" voc="K@L" cons_utf8="כל" voc_utf8="כָל" root="KLL" sp="subs" st="absolute or construct" nu="s" gloss="impediment, all, every, as a postpositive with resumptive pronominal suffixes" definition="impediment, all, every, as a postpositive with resumptive pronominal suffixes | every, whoever, whatever, all | all the, all, every | all, every, any, each | every, all | every, completely, all | impediment, all, every, with anticipatory pronominal suffix" description="noun, singular absolute or construct">כל</word>
+                    </word_group>
+                    <word_group id="55740" rank="19" reading="0" g_voc="BAJJTH" g_cons="BJJTH" g_voc_utf8="בַייתה" g_cons_utf8="בייתה">
+                        <word id="73965" source="word" trailer="" uid="2700001660601504083_a603f2d6" lex="BJ" cons="B" voc="BA" cons_utf8="ב" voc_utf8="בַ" root="BJ" sp="subs" st="emphatic" nu="s" gloss="building for dwelling, house, structure, place" definition="building for dwelling, house, structure, place | household, house, structure, place | palace, house, structure, place | place, house, structure | place or area where something occurs or is found, house, structure, place | area of the body characterized by something, house, structure, place | area of such and such a size, house, structure, place | place where something occurs, house, structure, place" description="noun, singular emphatic">ב</word>
+                    </word_group>
+                    <word_group id="55760" rank="19" reading="0" g_voc="BAJJTH" g_cons="BJJTH" g_voc_utf8="בַייתה" g_cons_utf8="בייתה">
+                        <word id="74019" source="word" trailer="" uid="2700001660601504110_5b9d1e41" lex="BJ" cons="B" voc="BA" cons_utf8="ב" voc_utf8="בַ" root="BJ" sp="subs" st="emphatic" nu="s" gloss="building for dwelling, house, structure, place" definition="building for dwelling, house, structure, place | household, house, structure, place | palace, house, structure, place | place, house, structure | place or area where something occurs or is found, house, structure, place | area of the body characterized by something, house, structure, place | area of such and such a size, house, structure, place | place where something occurs, house, structure, place" description="noun, singular emphatic">ב</word>
+                    </word_group>
+                    <word_group id="55740" rank="19" reading="0" g_voc="BAJJTH" g_cons="BJJTH" g_voc_utf8="בַייתה" g_cons_utf8="בייתה">
+                        <word id="73966" source="word" trailer="" uid="2700001660601504084_b4112c5d" lex="BJ" cons="JJTH" voc="JJTH" cons_utf8="ייתה" voc_utf8="ייתה" root="BJ" sp="subs" st="emphatic" nu="s" gloss="building for dwelling, house, structure, place" definition="building for dwelling, house, structure, place | household, house, structure, place | palace, house, structure, place | place, house, structure | place or area where something occurs or is found, house, structure, place | area of the body characterized by something, house, structure, place | area of such and such a size, house, structure, place | place where something occurs, house, structure, place" description="noun, singular emphatic">ייתה</word>
+                    </word_group>
+                    <word_group id="55760" rank="19" reading="0" g_voc="BAJJTH" g_cons="BJJTH" g_voc_utf8="בַייתה" g_cons_utf8="בייתה">
+                        <word id="74020" source="word" trailer="" uid="2700001660601504111_37f63080" lex="BJ" cons="JJTH" voc="JJTH" cons_utf8="ייתה" voc_utf8="ייתה" root="BJ" sp="subs" st="emphatic" nu="s" gloss="building for dwelling, house, structure, place" definition="building for dwelling, house, structure, place | household, house, structure, place | palace, house, structure, place | place, house, structure | place or area where something occurs or is found, house, structure, place | area of the body characterized by something, house, structure, place | area of such and such a size, house, structure, place | place where something occurs, house, structure, place" description="noun, singular emphatic">ייתה</word>
+                    </word_group>
+                </segment>
+            </verse>
+        </chapter>
+    </book>
+</text>

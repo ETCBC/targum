@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<text text="fragment_targum_n" view="full_text">
+    <book book="Leviticus" id="3">
+        <chapter chapter="27">
+            <verse verse="23" uid="18100" line="WJXCJB LJH KHN JT &gt;PRCWT &lt;JLWJJH &lt;D CT&gt; DJWBL&gt; WJTn JT &lt;JLWJH BJWM HDJn QWDC LCM&gt; DH" line_utf8="ויחשׁיב ליה כהן ית אפרשׁות עילוייה עד שׁתא דיובלא ויתן ית עילויה ביום הדין קודשׁ לשׁמא דה">
+                <segment id="912288" start_idx="1" end_idx="87" type="unmarked_text" rank="1" segment="WJXCJB LJH KHN JT &gt;PRCWT &lt;JLWJJH &lt;D CT&gt; DJWBL&gt; WJTn JT &lt;JLWJH BJWM HDJn QWDC LCM&gt; DH" segment_utf8="ויחשׁיב ליה כהן ית אפרשׁות עילוייה עד שׁתא דיובלא ויתן ית עילויה ביום הדין קודשׁ לשׁמא דה">
+                    <word_group id="583430" rank="0" reading="0" g_voc="WJXCJB" g_cons="WJXCJB" g_voc_utf8="ויחשׁיב" g_cons_utf8="ויחשׁיב">
+                        <word id="554925" source="word" trailer="" uid="270011516361500018_46cf180f" lex="W" cons="WJ" voc="WJ" cons_utf8="וי" voc_utf8="וי" root="W" sp="conj" gloss="also, and" definition="also, and | clause level initial, and, also" description="conjunction, conjunction">וי</word>
+                        <word id="554926" source="word" trailer=" " uid="270011516361500018_16aeede8" lex="XCB" cons="XCJB" voc="XCJB" cons_utf8="חשׁיב" voc_utf8="חשׁיב" root="XCB" vs="D" sp="verb" gloss="to think, calculate, to calculate, u to think" definition="Dt: to think, calculate, to be determined to do something, u to think | G: to think, calculate, to think a thought about, u to think" description="verbal, pael">חשׁיב</word>
+                    </word_group>
+                    <word_group id="583431" rank="1" reading="0" g_voc="LJH" g_cons="LJH" g_voc_utf8="ליה" g_cons_utf8="ליה">
+                        <word id="554927" source="word" trailer=" " uid="270011516361500019_75d73346" lex="L" cons="LJH" voc="LJH" cons_utf8="ליה" voc_utf8="ליה" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, independent (preposition)">ליה</word>
+                    </word_group>
+                    <word_group id="583432" rank="2" reading="0" g_voc="KHN" g_cons="KHN" g_voc_utf8="כהן" g_cons_utf8="כהן">
+                        <word id="554928" source="word" trailer=" " uid="270011516361500019_2f1d1d43" lex="KHN" cons="KHN" voc="KHN" cons_utf8="כהן" voc_utf8="כהן" root="KHN" sp="subs" st="emphatic" nu="s" gloss="priest" definition="priest" description="noun, singular emphatic">כהן</word>
+                    </word_group>
+                    <word_group id="583433" rank="3" reading="0" g_voc="JT" g_cons="JT" g_voc_utf8="ית" g_cons_utf8="ית">
+                        <word id="554929" source="word" trailer=" " uid="270011516361500020_c34e0fd0" lex="JT" cons="JT" voc="JT" cons_utf8="ית" voc_utf8="ית" root="JT" sp="prep" gloss="accusative particle" definition="accusative particle | as semantic patient but grammatical subject of passive verbs, accusative particle | that which, accusative particle" description="preposition, independent (preposition)">ית</word>
+                    </word_group>
+                    <word_group id="583434" rank="4" reading="0" g_voc="&gt;PRCWT" g_cons="&gt;PRCWT" g_voc_utf8="אפרשׁות" g_cons_utf8="אפרשׁות">
+                        <word id="554930" source="word" trailer=" " uid="270011516361500020_18fcd56d" lex="&gt;PRCW" cons="&gt;PRCWT" voc="&gt;PRCWT" cons_utf8="אפרשׁות" voc_utf8="אפרשׁות" root="PRC" sp="subs" st="absolute or construct" nu="s" gloss="portion set aside as a priestly offering=Hebrew, separating, a separated offering" definition="separating for such an offering, separating, a separated offering" description="noun, singular absolute or construct">אפרשׁות</word>
+                    </word_group>
+                    <word_group id="583435" rank="5" reading="0" g_voc="&lt;JLWJJH" g_cons="&lt;JLWJJH" g_voc_utf8="עילוייה" g_cons_utf8="עילוייה">
+                        <word id="554931" source="word" trailer=" " uid="270011516361500021_5e919f91" lex="&lt;JLWJ" cons="&lt;JLWJJH" voc="&lt;JLWJJH" cons_utf8="עילוייה" voc_utf8="עילוייה" root="&lt;LJ" sp="subs" st="emphatic" nu="s" gloss="evaluation" definition="evaluation" description="noun, singular emphatic">עילוייה</word>
+                    </word_group>
+                    <word_group id="583436" rank="6" reading="0" g_voc="&lt;D" g_cons="&lt;D" g_voc_utf8="עד" g_cons_utf8="עד">
+                        <word id="554932" source="word" trailer=" " uid="270011516361500021_3e1e582a" lex="&lt;D" cons="&lt;D" voc="&lt;D" cons_utf8="עד" voc_utf8="עד" root="&lt;D" sp="prep" gloss="until" definition="until | see, until | in space, until | in time, until | amount, until" description="preposition, independent (preposition)">עד</word>
+                    </word_group>
+                    <word_group id="583437" rank="7" reading="0" g_voc="CT&gt;" g_cons="CT&gt;" g_voc_utf8="שׁתא" g_cons_utf8="שׁתא">
+                        <word id="554933" source="word" trailer=" " uid="270011516361500022_c4ada9dd" lex="CNH" cons="CT&gt;" voc="CT&gt;" cons_utf8="שׁתא" voc_utf8="שׁתא" root="CNH" sp="subs" st="emphatic" nu="s" gloss="year" definition="of an era, year" description="noun, singular emphatic">שׁתא</word>
+                    </word_group>
+                    <word_group id="583438" rank="8" reading="0" g_voc="DJWBL&gt;" g_cons="DJWBL&gt;" g_voc_utf8="דיובלא" g_cons_utf8="דיובלא">
+                        <word id="554934" source="word" trailer="" uid="270011516361500022_38ca0c3e" lex="DJ" cons="DJ" voc="DJ" cons_utf8="די" voc_utf8="די" root="DJ" sp="prep" gloss="genitive particle, of" definition="genitive particle, of | first element of lexemes, of, genitive particle | see, of, genitive particle | the thing belonging/related to, of, genitive particle" description="preposition, independent (preposition)">די</word>
+                        <word id="554935" source="word" trailer=" " uid="270011516361500023_adbf7c6c" lex="JWBL" cons="WBL&gt;" voc="WBL&gt;" cons_utf8="ובלא" voc_utf8="ובלא" root="JWBL" sp="subs" st="emphatic" nu="s" gloss="jubilee year" definition="jubilee year | jubilee cycle, jubilee year" description="noun, singular emphatic">ובלא</word>
+                    </word_group>
+                    <word_group id="583439" rank="9" reading="0" g_voc="WJTn" g_cons="WJTn" g_voc_utf8="ויתן" g_cons_utf8="ויתן">
+                        <word id="554936" source="word" trailer="" uid="270011516361500023_08b4dfea" lex="W" cons="W" voc="W" cons_utf8="ו" voc_utf8="ו" root="W" sp="conj" gloss="also, and" definition="also, and | clause level initial, and, also" description="conjunction, conjunction">ו</word>
+                        <word id="554937" source="word" trailer=" " uid="270011516361500024_00d56e48" lex="NTN" cons="JTn" voc="JTn" cons_utf8="יתן" voc_utf8="יתן" root="NTN" vs="G" sp="verb" gloss="to sell, to exchange, to place, to punish, to allow, to grant, to give, to make into" definition="G: to sell, to exchange, to place, to punish, to allow, to grant, to give, to make into" description="verbal, peal">יתן</word>
+                    </word_group>
+                    <word_group id="583440" rank="10" reading="0" g_voc="JT" g_cons="JT" g_voc_utf8="ית" g_cons_utf8="ית">
+                        <word id="554938" source="word" trailer=" " uid="270011516361500024_4a8521ce" lex="JT" cons="JT" voc="JT" cons_utf8="ית" voc_utf8="ית" root="JT" sp="prep" gloss="accusative particle" definition="accusative particle | as semantic patient but grammatical subject of passive verbs, accusative particle | that which, accusative particle" description="preposition, independent (preposition)">ית</word>
+                    </word_group>
+                    <word_group id="583441" rank="11" reading="0" g_voc="&lt;JLWJH" g_cons="&lt;JLWJH" g_voc_utf8="עילויה" g_cons_utf8="עילויה">
+                        <word id="554939" source="word" trailer=" " uid="270011516361500025_b291226f" lex="&lt;JLWJ" cons="&lt;JLWJH" voc="&lt;JLWJH" cons_utf8="עילויה" voc_utf8="עילויה" root="&lt;LJ" sp="subs" st="emphatic" nu="s" gloss="evaluation" definition="evaluation" description="noun, singular emphatic">עילויה</word>
+                    </word_group>
+                    <word_group id="583442" rank="12" reading="0" g_voc="BJWM" g_cons="BJWM" g_voc_utf8="ביום" g_cons_utf8="ביום">
+                        <word id="554940" source="word" trailer="" uid="270011516361500025_969cc911" lex="B" cons="B" voc="B" cons_utf8="ב" voc_utf8="ב" root="B" sp="prep" gloss="with, in" definition="with, in | among, in, with | at, in, with | to, in, with | place, in, with | within a structure or other enclosing object, in, with | during a time period, in, with | using, in, with | having, in, with | adjective, in, with | to do some (damage, in, with | certain time, in, with | for, in, with | see, in, with | with many verbs supplying a negative relationship to an object, in, with" description="preposition, with pronominal suffix (preposition)">ב</word>
+                        <word id="554941" source="word" trailer=" " uid="270011516361500026_e729297d" lex="JWM" cons="JWM" voc="JWM" cons_utf8="יום" voc_utf8="יום" root="JWM" sp="subs" st="emphatic" nu="s" gloss="day" definition="day | time period, day | daytime, day | when, day | lifetime, day" description="noun, singular emphatic">יום</word>
+                    </word_group>
+                    <word_group id="583443" rank="13" reading="0" g_voc="HDJn" g_cons="HDJn" g_voc_utf8="הדין" g_cons_utf8="הדין">
+                        <word id="554942" source="word" trailer=" " uid="270011516361500026_02be268c" lex="HDN" cons="HDJn" voc="HDJn" cons_utf8="הדין" voc_utf8="הדין" root="DJN" sp="pron" gloss="palm leaf, this" definition="palm leaf, this" description="preposition, independent (preposition)">הדין</word>
+                    </word_group>
+                    <word_group id="583444" rank="14" reading="0" g_voc="QWDC" g_cons="QWDC" g_voc_utf8="קודשׁ" g_cons_utf8="קודשׁ">
+                        <word id="554943" source="word" trailer=" " uid="270011516361500027_be7593fd" lex="QDWC" cons="QWDC" voc="QWDC" cons_utf8="קודשׁ" voc_utf8="קודשׁ" root="QDC" st="absolute or construct" nu="s" gloss="holiness" definition="holiness" description="noun, singular absolute or construct">קודשׁ</word>
+                    </word_group>
+                    <word_group id="583445" rank="15" reading="0" g_voc="LCM&gt;" g_cons="LCM&gt;" g_voc_utf8="לשׁמא" g_cons_utf8="לשׁמא">
+                        <word id="554944" source="word" trailer="" uid="270011516361500027_34b38b9e" lex="L" cons="L" voc="L" cons_utf8="ל" voc_utf8="ל" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, proclitic (preposition)">ל</word>
+                        <word id="554945" source="word" trailer=" " uid="270011516361500028_7f0716ab" lex="CM" cons="CM&gt;" voc="CM&gt;" cons_utf8="שׁמא" voc_utf8="שׁמא" root="CM" sp="subs" st="emphatic" nu="s" gloss="name" definition="name | repute, fame, reputation" description="noun, singular emphatic">שׁמא</word>
+                    </word_group>
+                    <word_group id="583446" rank="16" reading="0" g_voc="DH" g_cons="DH" g_voc_utf8="דה" g_cons_utf8="דה">
+                        <word id="554946" source="word" trailer="" uid="270011516361500028_b439dcdf" lex="DJ" cons="D" voc="D" cons_utf8="ד" voc_utf8="ד" root="DJ" sp="prep" gloss="genitive particle, of" definition="genitive particle, of | first element of lexemes, of, genitive particle | see, of, genitive particle | the thing belonging/related to, of, genitive particle" description="preposition, independent (preposition)">ד</word>
+                        <word id="554947" source="word" trailer="" uid="270011516361500029_57650b2a" lex="JWJ" cons="H" voc="H" cons_utf8="ה" voc_utf8="ה" root="JHWH" sp="subs" gloss="abbreviation for the Tetragram" definition="abbreviation for the Tetragram" description="nominal, divine name">ה</word>
+                    </word_group>
+                </segment>
+            </verse>
+        </chapter>
+    </book>
+</text>

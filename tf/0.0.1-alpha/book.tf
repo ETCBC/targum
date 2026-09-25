@@ -10,11 +10,11 @@
 @sourceFormat=XML
 @valueType=str
 @version=0.0.1-alpha
-@xmlVersion=2026-09-13
+@xmlVersion=2026-09-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-09-13T22:49:21+00:00Z
+@dateWritten=2026-09-25T19:42:04+00:00Z
 
-495027	Deuteronomy
+488324	Deuteronomy
 Exodus
 Genesis
 Exodus
@@ -29,13 +29,9 @@ Exodus
 Genesis
 Genesis
 Genesis
-Exodus
-Deuteronomy
-Genesis
 Genesis
 Exodus
 Leviticus
-Numbers
 Deuteronomy
 Genesis
 Exodus
@@ -47,8 +43,6 @@ Exodus
 Deuteronomy
 Genesis
 Exodus
-Numbers
-Deuteronomy
 Exodus
 Exodus
 Deuteronomy
@@ -67,6 +61,11 @@ Exodus
 Genesis
 Numbers
 Deuteronomy
+Exodus
+Genesis
+Exodus
+Genesis
+Exodus
 Genesis
 Exodus
 Genesis
@@ -75,7 +74,13 @@ Numbers
 Genesis
 Genesis
 Exodus
+Genesis
+Exodus
+Genesis
 Leviticus
+Genesis
+Leviticus
+Exodus
 Exodus
 Exodus
 Exodus
