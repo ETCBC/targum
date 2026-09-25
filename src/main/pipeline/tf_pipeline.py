@@ -7,127 +7,74 @@ from typing import Dict, Any, List, Optional
 from xml.dom import minidom
 
 from main.config import XML_DIR, PROGRAMS_DIR
-from main.loaders.sql_to_xml import XMLConversionRepository
+from main.pipeline.sql_to_xml import XMLConversionRepository
 
+# text > book > chapter > verse > segment > word_group > word.
+#
+# `word_group` is the one space-delimited unit of the line together with the readings
+# that compete for its position. `config/xml.yml` has carried a declaration for this node type
+# word is the Text-Fabric slot.
 HIERARCHY = [
     "text",
     "book",
     "chapter",
     "verse",
     "segment",
+    "word_group",
     "word",
 ]
 
-TAGS = [
-    "word",
-    "word",
-    "word",
-    "word",
-    "word",
-    "word",
-    "word",
-    "word",
-    "word",
-    "word",
-    "word",
-    "word",
-    "word",
-    "word",
-    "word",
-    "word",
-    "word",
-    "word",
-    "segment",
-    "segment",
-    "segment",
-    "segment",
-    "segment",
-    "segment",
-    "segment",
-    "verse",
-    "verse",
-    "verse",
-    "verse",
-    "chapter",
-    "book",
-    "book",
-    "text",
-    "text",
+# One row per emitted XML attribute: (tag, attribute, view column). TAGS, ATTRS and COLS are
+# the three columns of this table, kept as separate lists because `_build_schema` pairs them by
+# position and `sql_to_xml.from_view` builds its SELECT from COLS.
+#
+SCHEMA_ROWS = [
+    ("word_group", "id", "word_group_id"),
+    ("word_group", "rank", "word_group_rank"),
+    ("word_group", "reading", "word_group_reading"),
+    ("word_group", "g_voc", "word_group_voc"),
+    ("word_group", "g_cons", "word_group_cons"),
+    ("word_group", "g_voc_utf8", "word_group_voc_utf8"),
+    ("word_group", "g_cons_utf8", "word_group_cons_utf8"),
+    ("word", "id", "word_id"),
+    ("word", "source", "word_source"),
+    ("word", "trailer", "word_trailer"),
+    ("word", "uid", "word_uid"),
+    ("word", "lex", "word_lex"),
+    ("word", "cons", "word_cons"),
+    ("word", "voc", "word_voc"),
+    ("word", "cons_utf8", "word_cons_utf8"),
+    ("word", "voc_utf8", "word_voc_utf8"),
+    ("word", "root", "word_root"),
+    ("word", "gn", "word_gn"),
+    ("word", "vs", "word_vs"),
+    ("word", "sp", "word_sp"),
+    ("word", "st", "word_st"),
+    ("word", "nu", "word_nu"),
+    ("word", "gloss", "word_gloss"),
+    ("word", "definition", "word_definition"),
+    ("word", "description", "word_description"),
+    ("segment", "id", "segment_id"),
+    ("segment", "start_idx", "segment_start_idx"),
+    ("segment", "end_idx", "segment_end_idx"),
+    ("segment", "type", "segment_type"),
+    ("segment", "rank", "segment_rank"),
+    ("segment", "segment", "segment_segment"),
+    ("segment", "segment_utf8", "segment_segment_utf8"),
+    ("verse", "verse", "verse_verse"),
+    ("verse", "uid", "verse_uid"),
+    ("verse", "line", "verse_line"),
+    ("verse", "line_utf8", "verse_line_utf8"),
+    ("chapter", "chapter", "chapter_chapter"),
+    ("book", "book", "book_book"),
+    ("book", "id", "book_id"),
+    ("text", "text", "text_text"),
+    ("text", "view", "text_view"),
 ]
 
-ATTRS = [
-    "id",
-    "group_id",
-    "trailer",
-    "uid",
-    "lex",
-    "cons",
-    "voc",
-    "cons_utf8",
-    "voc_utf8",
-    "root",
-    "gn",
-    "vs",
-    "sp",
-    "st",
-    "nu",
-    "gloss",
-    "definition",
-    "description",
-    "id",
-    "start_idx",
-    "end_idx",
-    "type",
-    "rank",
-    "segment",
-    "segment_utf8",
-    "verse",
-    "uid",
-    "line",
-    "line_utf8",
-    "chapter",
-    "book",
-    "id",
-    "text",
-    "view",
-]
-
-COLS = [
-    "word_id",
-    "word_group_id",
-    "word_trailer",
-    "word_uid",
-    "word_lex",
-    "word_cons",
-    "word_voc",
-    "word_cons_utf8",
-    "word_voc_utf8",
-    "word_root",
-    "word_gn",
-    "word_vs",
-    "word_sp",
-    "word_st",
-    "word_nu",
-    "word_gloss",
-    "word_definition",
-    "word_description",
-    "segment_id",
-    "segment_start_idx",
-    "segment_end_idx",
-    "segment_type",
-    "segment_rank",
-    "segment_segment",
-    "segment_segment_utf8",
-    "verse_verse",
-    "verse_uid",
-    "verse_line",
-    "verse_line_utf8",
-    "chapter_chapter",
-    "book_book",
-    "book_id",
-    "text_text",
-    "text_view",
-]
+TAGS = [row[0] for row in SCHEMA_ROWS]
+ATTRS = [row[1] for row in SCHEMA_ROWS]
+COLS = [row[2] for row in SCHEMA_ROWS]
 
 
 class TFPipeline:
@@ -302,7 +249,7 @@ if __name__ == "__main__":
     for start_id, end_id in psj_view_ids:
         print(f"\n--- Processing range: {start_id} to {end_id} ---")
         tf_pipeline = TFPipeline(range_start=start_id, range_end=end_id)
-        tf_pipeline.from_view("psj_mat")
+        tf_pipeline.from_view("psj_tf")
 
     fg_view_id_ranges = [
         (275, 485),  # Fragment Targum P Genesis
@@ -323,7 +270,7 @@ if __name__ == "__main__":
     for start_id, end_id in fg_view_id_ranges:
         print(f"\n--- Processing range: {start_id} to {end_id} ---")
         tf_pipeline = TFPipeline(range_start=start_id, range_end=end_id)
-        tf_pipeline.from_view("frag_targ_mat")
+        tf_pipeline.from_view("frag_targ_tf")
 
     cg_view_ids = [
         (1827, 1901),
@@ -370,7 +317,7 @@ if __name__ == "__main__":
     for start_id, end_id in cg_view_ids:
         print(f"\n--- Processing range: {start_id} to {end_id} ---")
         tf_pipeline = TFPipeline(range_start=start_id, range_end=end_id)
-        tf_pipeline.from_view("cairo_genizah_mat_view")
+        tf_pipeline.from_view("cairo_genizah_tf")
 
     neofiti_base_raw_id = [
         (1, 1524),
@@ -384,7 +331,7 @@ if __name__ == "__main__":
         tf_pipeline = TFPipeline(
             range_start=start_id, range_end=end_id, file_suffix="_BASE_RAW"
         )
-        tf_pipeline.from_view("neofiti_base_raw_mat")
+        tf_pipeline.from_view("neofiti_base_raw_tf")
 
     neofiti_full_ids = [
         (12248, 13771),
@@ -398,6 +345,6 @@ if __name__ == "__main__":
         tf_pipeline = TFPipeline(
             range_start=start_id, range_end=end_id, file_suffix="_FULL_TEXT"
         )
-        tf_pipeline.from_view("neofiti_full_mat")
+        tf_pipeline.from_view("neofiti_full_tf")
 
     TFPipeline.convert_xml_to_tf()

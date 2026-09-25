@@ -6,6 +6,12 @@ if TYPE_CHECKING:
     pass
 
 
+TF_ORDER_BY = (
+    "ORDER BY verse_sort NULLS LAST, verse_uid, word_group_rank, "
+    "word_group_reading NULLS FIRST, word_rank NULLS LAST, (word_id)::bigint"
+)
+
+
 class XMLConversionRepository:
 
     def from_materialized_view(
@@ -38,7 +44,10 @@ class XMLConversionRepository:
 
         cols_string = ", ".join(COLS)
         where_clause = f" WHERE verse_uid >= {range_start} AND verse_uid <= {range_end}"
-        query = f"SELECT {cols_string} FROM {view_name}{where_clause}"
+        # The ordering keys are deliberately not in COLS: that list is positionally paired with
+        # tf_pipeline.TAGS and ATTRS, so adding to it would change the serialised schema. SQL is
+        # happy to order by view columns that are not selected.
+        query = f"SELECT {cols_string} FROM {view_name}{where_clause} {TF_ORDER_BY}"
 
         with db.get_cursor() as cur:
             cur.execute(query)
