@@ -14,7 +14,7 @@
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
 @version=0.0.1-alpha
-@xmlVersion=2026-09-25
+@xmlVersion=2026-09-29
 @writtenBy=Text-Fabric
-@dateWritten=2026-09-25T19:42:10+00:00Z
+@dateWritten=2026-09-30T01:09:09+00:00Z
 
