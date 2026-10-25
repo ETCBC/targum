@@ -36,8 +36,7 @@ class Database:
         self.close()
 
     def close_pool(self):
-        if self.pool is not None:
-            self.pool.close()
+        self.close()
 
     def connect(self):
         if self.pool is None:
@@ -51,8 +50,26 @@ class Database:
             self.pool.open()
 
     def close(self):
+        """Close the pool and discard the reference, so that the next use builds a fresh one.
+
+        Discarding the reference is the substance of this method. The module-level instance below
+        is a singleton, and several modules hold it in a context manager whose exit lands here. A
+        connection pool cannot be reopened once it has been closed, and the lazy guards on the
+        accessors below all test whether the attribute is set, a condition that a closed pool
+        satisfies because a closed pool is still a truthy object. Leaving the attribute in place
+        therefore meant that the first module to finish with the singleton closed it for every
+        later caller in the same process, and the next request for a connection raised rather
+        than reconnecting.
+
+        That cost nothing while each module was its own invocation, which is how all of them had
+        previously been run. The consolidated build runs eleven stages in a single process by
+        calling each module in turn, so the second stage to require the database was the first to
+        pay the cost, and the first authorised run of that build failed partway through for this
+        reason.
+        """
         if self.pool is not None:
             self.pool.close()
+            self.pool = None
 
     def flush(self, resource: Union[Connection, Cursor]):
         if hasattr(resource, "commit"):

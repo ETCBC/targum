@@ -1,6 +1,5 @@
 apiVersion: 3
 dataDisplay:
-  textFormat: text-orig-full
   excludedFeatures: []
   noneValues:
   - none
@@ -8,22 +7,35 @@ dataDisplay:
   - null
   - NA
   sectionSep1: '@'
+  textFormat: text-orig-full
 docs:
   docPage: about
-  featureBase: '{docBase}/transcription.md'
+  featureBase: '{docBase}/transcription.md#<feature>'
   featurePage: transcription
 interfaceDefaults:
   fmt: text-orig-full
 provenanceSpec:
+  backend: github
+  branch: main
   corpus: '{org} - {repo}{relative}'
-  doi: 10.5281/zenodo.notyet
+  doi: 10.5281/zenodo.21925395
   moduleSpecs: []
-  version: '0.2'
-  webBase: https://public.{org}.org/{repo}
+  org: ETCBC
+  repo: targum
+  version: '0.1'
+  webBase: https://github.com/ETCBC/targum
   webHint: Show this on the website
   webLang: en
-  webUrl: '{webBase}/<1>/<2>/<3>&version={version}'
-  webUrlLex: '{webBase}/word?version={version}&id=<lid>'
-  branch: main
-typeDisplay: {}
-writing: ''
+  webUrl: '{webBase}/tree/{branch}#<1>-<2>-<3>'
+typeDisplay:
+  lexeme:
+    features: lex lex0 lex_utf8 freq_lex rank_lex
+    lexOcc: word
+    template: '{lex}'
+  segment:
+    features: type start_idx end_idx
+    template: '{type}'
+  word_group:
+    features: reading rank
+    template: '{g_voc}'
+writing: hbo

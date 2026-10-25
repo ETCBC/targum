@@ -1,4 +1,62 @@
+"""
+Serialisation of the corpus from its relational form into XML and then into Text-Fabric.
+
+This module reads one publication view per manuscript, writes an XML tree per view beneath
+``xml/``, and invokes ``programs/xml_to_tf.py`` to compile those trees into a Text-Fabric
+dataset beneath ``tf/``. The relational database is the source of truth, and both serialised
+forms are regenerated from it rather than edited in place.
+
+Node hierarchy
+--------------
+The serialised tree nests as text, book, chapter, verse, segment, word_group, lexeme, word.
+A ``word`` is the Text-Fabric slot. A ``word_group`` is one space-delimited unit of the line
+together with any readings that compete for its position.
+
+``lexeme`` is the only level in that list which does not assert containment. A lexeme is not
+located inside a verse, because its occurrences are distributed across the whole corpus. The
+nesting is a serialisation convenience: each word is wrapped in a ``lexeme`` element carrying
+the lexical attributes, and the compiler builds a single Text-Fabric node from all elements
+belonging to one lexeme by resuming a node it has already opened rather than opening a second
+one. The resulting graph holds 6,363 lexeme nodes with discontiguous slot sets, while the XML
+remains a tree, which is the only shape that both ``generate_xml`` below and the compiler are
+able to traverse. The level sits immediately above ``word`` so that each element encloses
+exactly the words of which it is the lexeme. Placed any higher, it would enclose words
+belonging to other lexemes.
+
+The published schema
+--------------------
+``SCHEMA_ROWS`` holds one row per emitted XML attribute, as a triple of element name, attribute
+name and source column. ``TAGS``, ``ATTRS`` and ``COLS`` are its three columns, held as
+separate lists because ``_build_schema`` pairs them by position and ``sql_to_xml.from_view``
+builds its SELECT clause from ``COLS``. The table is therefore the publication boundary of the
+dataset. A column that exists in the underlying view but has no row here is read by the
+ordering clause or by the internal consistency checks, and is withheld deliberately.
+
+Two classes of column are withheld. The first is the surrogate keys of the relational model,
+whose values carry no meaning outside it. Verse identifiers in particular are not unique across
+the three underlying table families, so a consumer joining on one without also knowing its
+family would silently read an unrelated row. The canonical address of a verse and the ``uid``
+of a word are published as the identities instead. The second is any attribute whose value a
+consumer can recompute from the rest of the dataset, or whose value does not vary.
+
+``generate_xml`` identifies a node by the string form of its attribute dictionary and opens a
+new element whenever that value changes between consecutive rows. The set of published
+attributes is consequently load bearing for the node counts, and every removal from this table
+was measured against the tiers it could cause to collapse. Under the present schema the dataset
+holds 496,532 word, 368,322 word_group and 6,363 lexeme nodes. The lexeme tier is keyed by
+``rank_lex``, a total ranking over 1 to 6,363 and therefore a bijection onto the lexeme nodes.
+
+Elements carry attributes only and never character data. Text content is published through the
+named attributes of each tier, so the consonantal and vocalised forms of a word are read from
+``cons``, ``cons_utf8``, ``voc`` and ``voc_utf8`` rather than from the element body.
+
+``convert_xml_to_tf`` runs the compiler as a subprocess from the ``programs/`` directory and
+passes the source root on ``PYTHONPATH`` explicitly, so that the step behaves identically
+however the pipeline was launched.
+"""
+
 import os
+import shutil
 import subprocess
 import sys
 import xml.etree.ElementTree as ET
@@ -6,14 +64,9 @@ from datetime import datetime
 from typing import Dict, Any, List, Optional
 from xml.dom import minidom
 
-from main.config import XML_DIR, PROGRAMS_DIR
-from main.pipeline.sql_to_xml import XMLConversionRepository
+from main.config import XML_DIR, PROGRAMS_DIR, BASE_DIR
+from main.loaders.sql_to_xml import XMLConversionRepository
 
-# text > book > chapter > verse > segment > word_group > word.
-#
-# `word_group` is the one space-delimited unit of the line together with the readings
-# that compete for its position. `config/xml.yml` has carried a declaration for this node type
-# word is the Text-Fabric slot.
 HIERARCHY = [
     "text",
     "book",
@@ -21,13 +74,10 @@ HIERARCHY = [
     "verse",
     "segment",
     "word_group",
+    "lexeme",
     "word",
 ]
 
-# One row per emitted XML attribute: (tag, attribute, view column). TAGS, ATTRS and COLS are
-# the three columns of this table, kept as separate lists because `_build_schema` pairs them by
-# position and `sql_to_xml.from_view` builds its SELECT from COLS.
-#
 SCHEMA_ROWS = [
     ("word_group", "id", "word_group_id"),
     ("word_group", "rank", "word_group_rank"),
@@ -36,11 +86,15 @@ SCHEMA_ROWS = [
     ("word_group", "g_cons", "word_group_cons"),
     ("word_group", "g_voc_utf8", "word_group_voc_utf8"),
     ("word_group", "g_cons_utf8", "word_group_cons_utf8"),
-    ("word", "id", "word_id"),
     ("word", "source", "word_source"),
+    ("word", "part", "word_part"),
     ("word", "trailer", "word_trailer"),
+    ("word", "start_idx", "word_start_idx"),
+    ("word", "end_idx", "word_end_idx"),
     ("word", "uid", "word_uid"),
     ("word", "lex", "word_lex"),
+    ("word", "lex0", "word_lex0"),
+    ("word", "lex_utf8", "word_lex_utf8"),
     ("word", "cons", "word_cons"),
     ("word", "voc", "word_voc"),
     ("word", "cons_utf8", "word_cons_utf8"),
@@ -54,6 +108,11 @@ SCHEMA_ROWS = [
     ("word", "gloss", "word_gloss"),
     ("word", "definition", "word_definition"),
     ("word", "description", "word_description"),
+    ("lexeme", "lex", "lexeme_lex"),
+    ("lexeme", "lex0", "lexeme_lex0"),
+    ("lexeme", "lex_utf8", "lexeme_lex_utf8"),
+    ("lexeme", "freq_lex", "lexeme_freq_lex"),
+    ("lexeme", "rank_lex", "lexeme_rank_lex"),
     ("segment", "id", "segment_id"),
     ("segment", "start_idx", "segment_start_idx"),
     ("segment", "end_idx", "segment_end_idx"),
@@ -62,15 +121,16 @@ SCHEMA_ROWS = [
     ("segment", "segment", "segment_segment"),
     ("segment", "segment_utf8", "segment_segment_utf8"),
     ("verse", "verse", "verse_verse"),
-    ("verse", "uid", "verse_uid"),
     ("verse", "line", "verse_line"),
     ("verse", "line_utf8", "verse_line_utf8"),
     ("chapter", "chapter", "chapter_chapter"),
     ("book", "book", "book_book"),
     ("book", "id", "book_id"),
     ("text", "text", "text_text"),
+    ("text", "manuscript", "text_manuscript"),
     ("text", "view", "text_view"),
 ]
+
 
 TAGS = [row[0] for row in SCHEMA_ROWS]
 ATTRS = [row[1] for row in SCHEMA_ROWS]
@@ -78,13 +138,11 @@ COLS = [row[2] for row in SCHEMA_ROWS]
 
 
 class TFPipeline:
-    """
-    Converts processed text data with intermediate representations in SQL into Text-Fabric (TF) graphs.
+    """Convert the relational representation of the corpus into a Text-Fabric dataset.
 
-    Manages the generation of well-formed XML documents mapped to the specific
-    structural hierarchy. It handles file I/O operations for the XML output and
-    orchestrates the execution of external subprocess scripts (e.g., `xml_to_tf.py`) to
-    compile the raw XML into a fully functional Text-Fabric dataset.
+    One instance serialises a range of a single publication view into a well formed XML
+    document that follows the node hierarchy declared above, writes that document beneath
+    ``xml/``, and then invokes the compiler that produces the Text-Fabric feature files.
     """
 
     COUNTER = 1
@@ -107,8 +165,6 @@ class TFPipeline:
         )
         print(f"{len(data_rows)} rows fetched for {view_name}. Generating XML")
         self.generate_xml(data_rows)
-        # Note: If generating many XMLs sequentially, you may want to move
-        # _convert_xml_to_tf() outside this method so it only runs once at the end.
         print("XML generated, converting to TF")
 
     def _build_schema(self) -> Dict[str, Any]:
@@ -177,8 +233,6 @@ class TFPipeline:
                 if is_new:
                     new_el = ET.Element(level, level_attrs)
 
-                    if level == "word" and "cons_utf8" in level_attrs:
-                        new_el.text = level_attrs["cons_utf8"]
 
                     for child_level in HIERARCHY[level_idx + 1 :]:
                         current_identifiers[child_level] = None
@@ -223,19 +277,56 @@ class TFPipeline:
             print(
                 f"Attempting to executing {script_name} within context: {PROGRAMS_DIR}"
             )
+            env = dict(os.environ)
+            src_dir = str(BASE_DIR / "src")
+            existing = env.get("PYTHONPATH")
+            env["PYTHONPATH"] = f"{src_dir}{os.pathsep}{existing}" if existing else src_dir
             result = subprocess.run(
                 [sys.executable, script_name],
                 cwd=PROGRAMS_DIR,
                 check=True,
                 text=True,
+                env=env,
             )
             if result.stdout:
                 print("Output:\n", result.stdout)
+
+            TFPipeline.invalidate_corpus_caches()
 
         except subprocess.CalledProcessError as e:
             print(f"An error occurred while running {script_name}.")
             print(f"Error output:\n{e.stderr}")
             raise
+
+    @staticmethod
+    def invalidate_corpus_caches() -> List[str]:
+        """Delete the binary index that reading clients cache inside each corpus directory.
+
+        The index is keyed on the name of the corpus and holds no staleness check against the
+        feature files beside it, so a rebuild would otherwise leave it answering for the
+        previous version of the dataset. The cache lives on disk rather than in a running
+        process, so restarting a client does not clear it. Invalidation therefore belongs in
+        the step that produces a new dataset.
+
+        Only a directory named exactly ``.cfm`` immediately below a version directory of
+        ``tf/`` is removed. The feature sources and the binary cache that the compiler itself
+        rebuilds are left untouched. Removal is attempted rather than required, so a cache that
+        cannot be deleted is reported without failing a compile that has already succeeded.
+        """
+        removed: List[str] = []
+        tf_root = BASE_DIR / "tf"
+        if not tf_root.is_dir():
+            return removed
+        for version in sorted(tf_root.iterdir()):
+            cache = version / ".cfm"
+            if version.is_dir() and cache.is_dir():
+                shutil.rmtree(cache, ignore_errors=True)
+                if cache.exists():
+                    print(f"could not remove the stale corpus index at {cache}")
+                else:
+                    removed.append(str(cache))
+                    print(f"removed the stale corpus index at {cache}")
+        return removed
 
 
 if __name__ == "__main__":

@@ -1,0 +1,62 @@
+@node
+@compiler=S.P. Swire
+@converters=S.P. Swire
+@description=Name of an Aramaic text, often a manuscript. Carried by `text` nodes and by nothing else. It is the outermost structure feature and is not a section feature, the three section levels being `book`, `chapter` and `verse`, so the witness is reached through `structureTypes`. Read `cons_utf8` for the letters of a word
+@institute=ETCBC (Eep Talstra Centre for Bible and Computer)
+@license=MIT License
+@licenseUrl=https://mit-license.org/
+@name=ETCBC Targum Corpus
+@source=ETCBC Targum Corpus
+@sourceFormat=XML
+@valueType=str
+@version=0.1
+@xmlVersion=2026-10-25
+@writtenBy=Text-Fabric
+@dateWritten=2026-10-25T22:35:56+00:00Z
+
+559219	pseudo_jonathan
+fragment_targum_p
+fragment_targum_pa
+fragment_targum_v
+fragment_targum_n
+cairo_genizah_targum_fragment_a
+cairo_genizah_targum_fragment_b
+cairo_genizah_targum_fragment_c
+cairo_genizah_targum_fragment_d
+cairo_genizah_targum_fragment_e
+cairo_genizah_targum_fragment_f
+cairo_genizah_targum_fragment_f2
+cairo_genizah_targum_fragment_h
+cairo_genizah_targum_fragment_j
+cairo_genizah_targum_fragment_k
+cairo_genizah_targum_fragment_u
+cairo_genizah_targum_fragment_w
+cairo_genizah_targum_fragment_s
+cairo_genizah_targum_fragment_br
+cairo_genizah_targum_fragment_z
+cairo_genizah_targum_fragment_aa
+cairo_genizah_targum_fragment_bb
+cairo_genizah_targum_fragment_cc
+cairo_genizah_targum_fragment_dd
+cairo_genizah_targum_fragment_ll
+cairo_genizah_targum_fragment_kk
+cairo_genizah_targum_fragment_rr
+cairo_genizah_targum_fragment_hh
+cairo_genizah_targum_fragment_nn
+cairo_genizah_targum_fragment_aa(2)
+cairo_genizah_targum_fragment_g
+cairo_genizah_targum_fragment_i
+cairo_genizah_targum_fragment_m
+cairo_genizah_targum_fragment_q
+cairo_genizah_targum_fragment_r
+cairo_genizah_targum_fragment_t
+cairo_genizah_targum_fragment_x
+cairo_genizah_targum_fragment_y
+cairo_genizah_targum_fragment_ee
+cairo_genizah_targum_fragment_ff
+cairo_genizah_targum_fragment_gg
+cairo_genizah_targum_fragment_jj
+cairo_genizah_targum_fragment_mm
+cairo_genizah_targum_fragment_pp
+neofiti_base
+neofiti_full
