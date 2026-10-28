@@ -5,8 +5,6 @@ This repository contains [Text-Fabric](https://annotation.github.io/text-fabric/
 
 PostgreSQL and XML datasets are included as well, in addition to Extract-Transform-Load (ETL) pipelines to convert from SQL to XML to Text-Fabric.
 
-> **Status:** These datasets are a work in progress and should be treated as in an **alpha** stage.
-
 ---
 
 ## Texts
@@ -39,39 +37,53 @@ Consonantal texts use Aramaic square script, and vocalization of Palestinian Tar
 
 ### Word-Level Features
 
-* **`cons`**: Consonantal text of the realized word in ETCBC transcription
-* **`cons_utf8`**: Consonantal text of the realized word in Aramaic square script
-* **`voc`**: Vocalized text of the realized word in ETCBC transcription
-* **`voc_utf8`**: Vocalized text of the realized word in Aramaic square script
-* **`lex`**: Lexeme in ETCBC transcription
-* **`gloss`**: English gloss
-* **`definition`**: Extended translation or dictionary definition
-* **`sp`**: Part of speech
-* **`vs`**: Verbal stem / binyan
-* **`gn`**: Gender (nominal only)
-* **`nu`**: Number (nominal only)
-* **`st`**: Nominal state (partial)
-* **`trailer`**: Content after a word (empty space or `None`)
-* **`root`**: Root, typically of a verb
-
+- **`cons`**: Consonantal text of the realized word in ETCBC transcription
+- **`cons_utf8`**: Consonantal text of the realized word in Aramaic square script
+- **`g_cons`**: Consonantal text of a word group in ETCBC transcription
+- **`g_cons_utf8`**: Consonantal text of a word group in Aramaic square script
+- **`voc`**: Vocalized text of the realized word in ETCBC transcription
+- **`voc_utf8`**: Vocalized text of the realized word in Aramaic square script
+- **`g_voc`**: Vocalized text of a word group in ETCBC transcription
+- **`g_voc_utf8`**: Vocalized text of a word group in Aramaic square script
+- **`lex`**: Lexeme in ETCBC transcription
+- **`lex0`**: `lex` with the disambiguation material removed
+- **`lex_utf8`**: Lexeme in Aramaic square script
+- **`g_lex`**: Realization of the lexeme in ETCBC transcription
+- **`g_lex_utf8`**: Realization of the lexeme in Aramaic
+- **`freq_lex`**: How many words of the corpus carry this lexeme
+- **`rank_lex`**: Position of the lexeme in the frequency list of the corpus
+- **`gloss`**: English gloss
+- **`definition`**: Extended translation or dictionary definition
+- **`sp`**: Part of speech
+- **`vs`**: Verbal stem / binyan
+- **`vt`**: Verbal tense
+- **`vo`**: Voice
+- **`ps`**: Person
+- **`gn`**: Gender (nominal only, partial)
+- **`nu`**: Number (nominal only, partial)
+- **`st`**: Nominal state (abs/emph/cons, partial)
+- **`trailer`**: Content after a word (empty space or `None`)
+- **`root`**: Root, typically of a verb
+- **`part`**: Which part of a word this node is, counting from 1, where an editorial boundary divides one printed word in two
 
 ### Node Hierarchy
 
-* **`text`**: Name of an Aramaic text, typically by book
-* **`book`**: Biblical book (typically Pentateuchal)
-* **`chapter`**: Chapter of the Aramaic text (as applicable)
-* **`verse`**: A line of text, typically (though not always) corresponding to a verse in a book or manuscript
-* **`segment`**: Grouping of words/word groups based on position within discrete editorial or emendation blocks (e.g., variants)
-* **`word_group`**: WordGroup (space-delimited units of characters, including immediately ensuing variants; contains at least one Word)
-* **`word`**: Words (slots). Smallest elements with word-level features such as number, gender, and part of speech
+- **`text`**: Name of an Aramaic text, often a manuscript
+- **`manuscript`**: The manuscript that a text witnesses
+- **`book`**: Name of a Biblical book
+- **`chapter`**: Chapter of the book
+- **`view`**: Grouping of segments based on editorial and emendation filters present in the text
+- **`verse`**: A line of text, typically (though not always) corresponding to a verse in a book or manuscript
+- **`segment`**: Grouping of words and word groups based on position within discrete editorial or emendation blocks (e.g., variants)
+- **`word_group`**: Word groups (space-delimited units of characters, including immediately ensuing variants; contains at least one word)
+- **`lexeme`**: One node per lexeme of the corpus, carrying the lexical data that would otherwise be repeated on every token of it
+- **`word`**: Words (slots)—the smallest semantic elements, carrying number, gender, part of speech and the rest of the morphology
 
-### Planned Additions
+### Edge Features
 
-Future versions will more completely address `gn`, `nu`, and `st`, alongside the introduction of:
-
-* **`vt`**: Verbal tense
-* **`vo`**: Voice
-* **`ps`**: Person
+- **`parent`**: Edge between a node and its parent node
+- **`sibling`**: Edge between a node and each of its preceding sibling nodes, labelled with the distance between them
+- **`crossref`**: Parallel witnesses. An edge between two `verse` nodes that carry the same canonical `(book, chapter, verse)` address
 
 --- 
 ## Data Model

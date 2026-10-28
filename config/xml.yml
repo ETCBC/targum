@@ -1,54 +1,10 @@
-# Text-Fabric metadata for the ETCBC Targum Corpus.
-#
-# This file supplies the dataset metadata, the integer feature declarations and the feature
-# descriptions that the compiler writes into the header of every feature file. The descriptions
-# are published twice over, once in those headers and once in the generated feature
-# documentation, so they are written for a reader of the dataset rather than for a maintainer of
-# the pipeline.
-#
-# Integer features
-# ----------------
-# A feature declared under `intFeatures` is stored as an integer and therefore sorts
-# numerically. Every ordinal in the dataset is declared there. Omitting one leaves it sorted as
-# a string, which places chapter 10 before chapter 2.
-#
-# The published feature set
-# -------------------------
-# The schema in src/main/pipeline/tf_pipeline.py determines which features exist, and this file
-# must describe exactly that set in both directions. The release gate notebook asserts the
-# agreement, because a description without a feature reads as a promise the dataset does not
-# keep, and a feature without a description reaches the documentation page unexplained.
-#
-# Features are published only where the value is both attested and not recoverable from the
-# rest of the dataset. Three classes of candidate are therefore absent.
-#
-# The first is identifiers of the relational model that produced the dataset. Their values are
-# meaningful only inside that model, and the identifiers of a verse are not unique across the
-# three underlying table families, so a consumer joining on one without also knowing its family
-# would silently read an unrelated row. The canonical address of a verse and the `uid` of a word
-# are published as the identities instead.
-#
-# The second is any value a consumer can recompute. Among these are the realisation of a lexeme,
-# which is already published as the surface form of the word and as the lexeme itself with
-# nothing between the two, and the identifier of a book, which is published as `id` on the book
-# node.
-#
-# The third is any value that does not vary across the corpus, since a constant feature answers
-# no question while occupying space on every node of its tier.
-#
-# Verbal tense, voice and person are absent for a different reason. They are unattested in the
-# source data rather than omitted from it, and the columns that would hold them are empty on all
-# 591,862 analysed units of the corpus. The whole of the verbal morphology available here is the
-# stem, published as `vs`. Supplying the remainder would be new annotation rather than
-# extraction and is deferred to a later version.
-
 generic:
   name: ETCBC Targum Corpus
   source: ETCBC Targum Corpus
   institute: ETCBC (Eep Talstra Centre for Bible and Computer)
-  sourceFormat: Serialised first into PostgreSQL, then into XML, and finally into Text-Fabric.
-  license: MIT License
-  licenseUrl: https://mit-license.org/
+  sourceFormat: Data is first serialized into PostgreSQL, then XML, and finally Text Fabric. Base texts obtained from Comprehensive Aramaic Lexicon ("https://cal.huc.edu/")
+  license: Attribution-NonCommercial 4.0 International
+  licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/deed.en
   converters: S.P. Swire
   compiler: S.P. Swire
 
@@ -66,128 +22,63 @@ intFeatures:
   - rank_lex
 
 featureDescriptions:
-
+  # edge features
   parent:
-    Edge between a node and its parent node
+    edge between a node and its parent node
   sibling: >-
-    Edge between a node and each of its preceding sibling nodes, labelled with the distance
-    between them
-  crossref: >-
-    Parallel witnesses. An edge between two `verse` nodes that carry the same canonical
-    `(book, chapter, verse)` address, labelled with the relation it represents. A label of
-    `witness` means that two manuscripts translate this verse, which is a parallel. A label of
-    `view` means one manuscript presented under two editorial filters, which is not: the two
-    views of Neofiti are the same codex. A label of `same_witness` means one manuscript under
-    one filter holding more than one verse record at this address, which is neither. Collapsing
-    `witness` and `view` together makes the question of how many witnesses attest a verse wrong
-    by one on all 5,827 Neofiti addresses, which is why the edge is labelled rather than bare.
-    The relation is given by the data and is not inferred, so there is no similarity threshold
-    and no choice of method to report. The edge is symmetric and is emitted in both directions,
-    so `E.crossref.f(verse)` answers from either side. It is also total over the address, in
-    that every pair of `verse` nodes sharing an address is joined, which is what makes the edge
-    the relation itself rather than a subset of it. The corpus holds 5,866 canonical addresses,
-    of which 5,844 are shared by more than one `verse` node and 22 are attested once. Three
-    addresses are attested by eight manuscripts. 49,404 ordered pairs are published, comprising
-    37,730 labelled `witness`, 11,654 labelled `view` and 20 labelled `same_witness`
-
-  text: >-
-    Name of an Aramaic text, often a manuscript. Carried by `text` nodes and by nothing else.
-    It is the outermost structure feature and is not a section feature, the three section levels
-    being `book`, `chapter` and `verse`, so the witness is reached through `structureTypes`.
-    Read `cons_utf8` for the letters of a word
-  book: >-
-    Name of a biblical book, and section level 1. It names the biblical book rather than the
-    manuscript, so one book name is shared by every witness that transmits it. Of the 5,866
-    distinct `(book, chapter, verse)` addresses in the corpus, 5,827 are carried by more than
-    one manuscript and 5,844 by more than one `verse` node, the difference being the two views
-    of Neofiti. Use `text` or `structureTypes` to identify the witness, `manuscript` to identify
-    the codex, and `crossref` to reach the parallels
+    edge between a node and its preceding sibling nodes;
+    labelled with the distance between them
+  # node types
+  text:
+    Name of an Aramaic text, often a manuscript
+  book:
+    Name of Biblical book
   chapter:
-    Chapter of the book, and section level 2
-  verse: >-
-    A line of text, usually though not always corresponding to a verse of a book or manuscript.
-    Section level 3, which is what allows `T.nodeFromSection((book, chapter, verse))` to
-    resolve. Eleven verses carry no verse number in the source edition and publish a sentinel
-    in its place, either 0, or 0 and -2 where one chapter holds two of them, because a section
-    address can be neither null nor shared by two verses. Nine of the eleven are in the two
-    fragment targum manuscripts and two are Cairo Genizah fragments, at Exodus 15 and
-    Deuteronomy 34, which are the largest of the eleven at 42 and 148 words. The sentinel
-    descends in steps of two so that it skips -1, which reading clients reserve as the
-    missing-value sentinel of an integer feature. A published -1 would load back as a null and
-    a comparison against it would raise rather than answer
-  manuscript: >-
-    The manuscript that a text witnesses, carried by `text` nodes. The feature `text` is not
-    this: it names the manuscript everywhere except Neofiti, where `neofiti_base` and
-    `neofiti_full` are two views of a single codex, Neofiti 1. The corpus therefore carries 46
-    `text` values over 45 manuscripts, and that is the only such collapse. The feature is
-    published because it is the one fact in the parallel witness relation that nothing else in
-    the dataset can supply. Two verses are parallel when they share a `(book, chapter, verse)`
-    address, which is derivable, but distinguishing a parallel, where two manuscripts translate
-    the verse, from a single manuscript presented under two editorial filters, is not. Derived
-    without this feature the relation splits 49,384 witness against 20 view, in place of the
-    true 37,730, 11,654 and 20, so a consumer counting witnesses per verse would be wrong by one
-    on all 5,827 Neofiti addresses
+    Chapter of the book
   view:
-    Grouping of segments according to the editorial and emendation filters applied to the text
-  segment: >-
-    Grouping of words and word groups by their position within a discrete editorial or
-    emendation block such as a variant reading. On a `segment` node this feature also holds the
-    vocalised text of the segment in ETCBC transcription
-  word_group: >-
-    A space-delimited unit of characters together with any variant readings that immediately
-    follow it. Contains at least one word
-  lexeme: >-
-    One node per lexeme of the corpus, carrying the lexical data that would otherwise be
-    repeated on every token of it. This is the only node type in the dataset that is not
-    contained within the text tree. A lexeme is not located inside a verse, its slots are
-    distributed across the whole corpus, and the five witnesses share them, so a lexeme attested
-    in both Neofiti and Pseudo-Jonathan is a single node with slots in each. The tier holds
-    6,363 nodes over 482,964 words. Reach the lexeme of a word with
-    `L.u(w, otype='lexeme')[0]` and its words with `L.d(lexNode, otype='word')`. There is no
-    separate edge feature, because containment is the edge
+    Grouping of segments based on editorial and emendation filters present in the text
+  verse:
+    A line of text, typically (though not always) corresponding to a verse in a book or manuscript
+  segment:
+    Grouping of words and word groups based on position within discrete editorial or emendation blocks (e.g., variants)
+  word_group:
+    Word groups (space-delimited units of characters, including immediately ensuing variants; contains at least one word)
   word:
-    A word, and the slot type of the dataset
+    Words (slots)—the smallest semantic elements, carrying number, gender, part of speech and the rest of the morphology
 
+  # general and structural
   id:
-    Identifier of the node, corresponding to the primary key held in the relational source
-  uid:
-    Independent unique identifier of the node
-  type:
-    Type of the node, such as `unmarked_text` for a segment or `full_text` for a view
-  description:
-    Description of a text, view, word or lexical entry
+    xml id, associated to primary key in other data stores (SQL)
   rank: >-
-    Ordinal position of the node among its siblings, counting from the start of the enclosing
-    node within the line. On a word group it counts every published unit of the verse in the
-    order in which their characters appear in `line`, which includes the word groups that stand
-    for segments no word of the manuscript reaches
+    ordinal position of the node among its siblings, counting from the start of the enclosing node, within the line
   reading: >-
-    Which reading of a word group this is. Readings competing for one position in the line share
-    a `rank` and are distinguished here, 0 being the base reading that the edition prints and
-    the reading the first scribe wrote. Values 1 and above are the scribal or editorial
-    emendation candidates. Every rank that carries any reading carries a reading 0. The
-    distribution of these values is a property of the view type, and the candidates are defined
-    by segment types such as variant, interlinear and addition
+    which reading of a word group this is; readings competing for one position of the
+    line share a rank and differ here, 0 being the one the edition prints. Value 0 is the "original" reading the first scribe wrote in the manuscript, and 1, 2, 3 are the scribal or editorial emendation candidates. Every rank that has any reading has a reading 0. Almost all of them come from one editorial marker, and are defined by segment types such as 'variant,'interlinear,'addition' etc. This distribution is a property of the view type.
   source: >-
-    Provenance of a word. `word` where the morphological analysis was placed on the word itself,
-    `word_group` where the word group carries a surface form that no analysis points at, `none`
-    where the manuscript has a word that was never analysed, and `segment` where the word stands
-    for a segment that no word of the manuscript reaches and carries the text of that segment so
-    that the segment can be published at all
-  part: >-
-    Which part of a word this node is, counting from 1, where an editorial boundary divides one
-    printed word in two. The parts of one word share their word group and its `id`, each sits in
-    the segment that its own characters fall within, and they are published in the order in
-    which those characters appear in `line`. A word with `part` 1 and no sibling is whole
+    provenance of a word; "word" where morphology was placed on it, "word_group" where
+    the word group carries a surface form that no morphology points at, and "none" where
+    the manuscript has a word that was never analysed
+  uid:
+    independent unique identifier of the node
+  source_id:
+    ID of the segment source
+  parent_id:
+    ID of the segment parent
+  book_id:
+    ID of the book
+  description:
+    Description of a text, view, word, lemma, etc.
+  type:
+    type of the node (e.g., unmarked_text for segment, full_text for view)
   start_idx: >-
-    One-based character offset of the first character of a word or of a segment within `line`,
-    the ETCBC transliteration of the verse that contains it. The offsets of a segment are the
-    minimum and the maximum of the offsets of the words it holds. Both tiers leave the offsets
-    absent where the word carries no surface form, and where the word tier and `line` diverge
+    one-based character offset of the first character of a word or of a segment within `line`,
+    the ETCBC transliteration of the verse that contains it; a segment's offsets are the
+    minimum and the maximum of the offsets of the words it holds, and both tiers leave them
+    absent where the word carries no surface form or where the word tier and `line` diverge
   end_idx: >-
-    One-based character offset of the last character of a word or of a segment within `line`, so
-    that `substr(line, start_idx, end_idx - start_idx + 1)` returns the `voc` of the word or the
-    text of the segment
+    one-based character offset of the last character of a word or of a segment within `line`,
+    so that `substr(line, start_idx, end_idx - start_idx + 1)` returns the word's own `voc`
+    or the segment's own `segment`
   line:
     Vocalized text of a verse in ETCBC transcription
   line_utf8:
@@ -195,6 +86,7 @@ featureDescriptions:
   segment_utf8:
     Vocalized text of a segment in Aramaic square script
 
+  # word and word group (word-level and morpheme features)
   g_cons:
     Consonantal text of a word group in ETCBC transcription
   g_cons_utf8:
@@ -203,35 +95,62 @@ featureDescriptions:
     Vocalized text of a word group in ETCBC transcription
   g_voc_utf8:
     Vocalized text of a word group in Aramaic square script
-  cons: >-
-    Consonantal text of a word in ETCBC transcription, taken from the characters that the
-    published line holds. Absent where the morpheme is not written in the word at all, which in
-    an agglutinative language is an ordinary case. Read `source` and `part` to establish what
-    such a word is
+  cons:
+    Consonantal text of a word in ETCBC transcription
   cons_utf8:
     Consonantal text of a word in Aramaic square script
   voc:
     Vocalized text of a word in ETCBC transcription
   voc_utf8:
     Vocalized text of a word in Aramaic square script
+  lex:
+    Lexeme in ETCBC transcription
+  gloss:
+    English gloss
+  definition:
+    Extended translation or dictionary definition
+  sp:
+    Part of speech
+  vs:
+    Verbal stem / binyan
+  gn:
+    Gender (nominal only, partial)
+  nu:
+    Number (nominal only, partial)
+  st:
+    Nominal state (abs/emph/cons, partial)
   trailer:
-    Content following a word, either a space or nothing
+    Content after a word (empty space or None)
   root:
     Root, typically of a verb
-
-  lex: >-
-    Lexeme in ETCBC transcription, disambiguated as the BHSA disambiguates it. A trailing `[`
-    marks a verb, `/` marks a noun or an adjective, and zero or more `=` signs distinguish
-    lexemes that share consonants. The homonym count is taken from the source lexicon rather
-    than assigned here, so it is stable across rebuilds, and it reaches at most seven `=` signs.
-    Read `lex0` for the value with that material removed. Where the disambiguated string still
-    collides the dataset publishes no finer key, and 1,068 of 32,018 lexical identities do
-    collide, most of them an adjective against a noun, which the BHSA collapses as well. A word
-    that is analysed but not assigned a lexical entry carries no value. The marker is a
-    statement about the lexeme while `sp` is a statement about this token, so the two can
-    legitimately disagree. 600 words of Pseudo-Jonathan carry `sp=subs` beneath a `lex` ending
-    in `[`, and these are nominalised participles, a verb in the lexicon used here as a noun.
-    The BHSA draws the same distinction in the same place
+  g_lex:
+    Realization of the lexeme in ETCBC transcription
+  g_lex_utf8:
+    Realization of the lexeme in Aramaic
+  vt:
+    Verbal tense
+  vo:
+    Voice
+  ps:
+    Person
+  crossref: >-
+    Parallel witnesses. An edge between two `verse` nodes that carry the same canonical
+    `(book, chapter, verse)` address. A label of
+    `witness` means that two manuscripts translate this verse, which is a parallel. A label of
+    `view` means one manuscript presented under two editorial filters: the two
+    views of Neofiti are the same codex. A label of `same_witness` means one manuscript under
+    one filter holding more than one verse record at this address
+  manuscript: >-
+    The manuscript that a text witnesses, carried by `text` nodes.
+  lexeme: >-
+    One node per lexeme of the corpus, carrying the lexical data that would otherwise be
+    repeated on every token of it. This is the only node type in the dataset that is not
+    contained within the text tree. A lexeme is not located inside a verse, its slots are
+    distributed across the whole corpus, and the five witnesses share them, so a lexeme attested
+    in both Neofiti and Pseudo-Jonathan is a single node with slots in each.
+  part: >-
+    Which part of a word this node is, counting from 1, where an editorial boundary divides one
+    printed word in two. A word with `part` 1 and no sibling is whole
   lex0: >-
     `lex` with the disambiguation material removed, so that two homographs of one part of speech
     share a value. The companion to `lex` that the BHSA also publishes, and the value to group
@@ -239,60 +158,7 @@ featureDescriptions:
   lex_utf8:
     Lexeme in Aramaic square script
   freq_lex: >-
-    How many words of the corpus carry this lexeme, on `lexeme` nodes. The feature of the same
-    name in the BHSA. Counted over the four distinct witnesses and deliberately not over the
-    base view of Neofiti, which is a second view of a manuscript already counted, since
-    including it would inflate every Neofiti lexeme by very nearly a factor of two. The count
-    covers 351,387 tokens over 6,363 lexemes, of which the conjunction accounts for 38,996. A
-    lexeme attested only in the base view of Neofiti has a frequency of 0, which is the honest
-    value and is true of eight of them
+    How many words of the corpus carry this lexeme, on `lexeme` nodes.
   rank_lex: >-
     Position of the lexeme in the frequency list of the corpus, 1 being the most frequent, on
-    `lexeme` nodes. The feature of the same name in the BHSA. The ranking is total over 1 to
-    6,363 rather than dense, because these 6,363 lexemes have only 389 distinct frequencies and
-    a dense ranking would give every hapax legomenon the same number, leaving no answer to
-    whether a lexeme falls within the hundred most frequent. Ties are broken on the lexeme and
-    its lexical identity, so re-measuring after a rebuild reproduces the ranking rather than
-    reordering it
-
-  gloss: >-
-    English gloss of the lexical entry. Absent where the entry has not been glossed. An earlier
-    version resolved this feature to the same expression published beside it as `description`,
-    which made it non-null on every word of the corpus and left 30,021 words holding a lexical
-    category where a reader expects a translation
-  definition:
-    Extended translation or dictionary definition
-  sp: >-
-    Part of speech, one of `subs`, `verb`, `adjv`, `prep`, `advb`, `conj`, `pron`, `intj`,
-    `nmpr` and `unknown`. Resolved from the glossed category first and from the lexical entry
-    only where the former has no opinion, which is what closed the 59,690 words that previously
-    carried none. The order matters, because 4,644 units whose entry is classified as a verb are
-    nominalised participles that their own category correctly calls `subs`. Two source tags have
-    no counterpart in this vocabulary and are left absent. The value `nmpr` is taken from the
-    BHSA and is resolved last, so that it can only fill a part of speech that was otherwise
-    absent, and it marks the words filed as proper or geographical names, which carry no lexical
-    entry and therefore no part of speech of their own
-  vs: >-
-    Verbal stem, from a source vocabulary that encodes the stem and nothing else. Carried by
-    79,831 of the 81,875 words that `sp` calls a verb, or 97.50 per cent. The 2,044 without one
-    are verbs to which the source assigns no category. This is the whole of the verbal
-    morphology available in the source data. Person, tense and voice are not partial here but
-    absent, and the columns that would hold them are empty on all 591,862 analysed units of the
-    corpus. Supplying them would be new annotation rather than extraction
-  gn: >-
-    Gender, nominal only. Partial, with a ceiling of approximately 1 per cent: 5,349 of 493,690
-    published words carry a value, or 1.08 per cent. The limit lies in the source lexicon rather
-    than in the extraction, since of the 2,654 noun entries that this corpus uses only 660 carry
-    a combined category and 468 a gender. Design queries around that coverage, because a query
-    assuming this feature is populated is reading 1 per cent of the corpus
-  nu: >-
-    Number, nominal only, either `sg` or `pl`. The source writes the singular differently and
-    the value is mapped here so that the two are spelled consistently with each other and with
-    the BHSA. Partial, covering 153,504 of 493,690 words, or 31.09 per cent
-  st: >-
-    Nominal state, either absolute, emphatic or construct, and `absolute or construct` where the
-    source states the ambiguity rather than resolving it. Partial, and the determined share is
-    smaller than the fill rate: 153,500 of 493,690 words carry a value, or 31.09 per cent, of
-    which 47,336 carry the ambiguous one, so the state is actually determined on 106,164 words,
-    or 21.5 per cent. Absent where nothing is determined. An earlier version published the empty
-    string in those positions, which reads as a determination that there is no state
+    `lexeme` nodes.
