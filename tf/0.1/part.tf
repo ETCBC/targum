@@ -1,10 +1,10 @@
 @node
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=Which part of a word this node is, counting from 1, where an editorial boundary divides one printed word in two. The parts of one word share their word group and its `id`, each sits in the segment that its own characters fall within, and they are published in the order in which those characters appear in `line`. A word with `part` 1 and no sibling is whole
+@description=Which part of a word this node is, counting from 1, where an editorial boundary divides one printed word in two. A word with `part` 1 and no sibling is whole
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:55+00:00Z
+@dateWritten=2026-10-28T01:38:41+00:00Z
 
 1
 1

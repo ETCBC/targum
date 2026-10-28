@@ -2,10 +2,10 @@
 @edgeValues
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=Parallel witnesses. An edge between two `verse` nodes that carry the same canonical `(book, chapter, verse)` address, labelled with the relation it represents. A label of `witness` means that two manuscripts translate this verse, which is a parallel. A label of `view` means one manuscript presented under two editorial filters, which is not: the two views of Neofiti are the same codex. A label of `same_witness` means one manuscript under one filter holding more than one verse record at this address, which is neither. Collapsing `witness` and `view` together makes the question of how many witnesses attest a verse wrong by one on all 5,827 Neofiti addresses, which is why the edge is labelled rather than bare. The relation is given by the data and is not inferred, so there is no similarity threshold and no choice of method to report. The edge is symmetric and is emitted in both directions, so `E.crossref.f(verse)` answers from either side. It is also total over the address, in that every pair of `verse` nodes sharing an address is joined, which is what makes the edge the relation itself rather than a subset of it. The corpus holds 5,866 canonical addresses, of which 5,844 are shared by more than one `verse` node and 22 are attested once. Three addresses are attested by eight manuscripts. 49,404 ordered pairs are published, comprising 37,730 labelled `witness`, 11,654 labelled `view` and 20 labelled `same_witness`
+@description=Parallel witnesses. An edge between two `verse` nodes that carry the same canonical `(book, chapter, verse)` address. A label of `witness` means that two manuscripts translate this verse, which is a parallel. A label of `view` means one manuscript presented under two editorial filters: the two views of Neofiti are the same codex. A label of `same_witness` means one manuscript under one filter holding more than one verse record at this address
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -13,7 +13,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:57+00:00Z
+@dateWritten=2026-10-28T01:38:47+00:00Z
 
 559265	565096,565694,567189,573016	witness
 565097,565695,567190,573017	witness

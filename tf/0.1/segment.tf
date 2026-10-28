@@ -1,10 +1,10 @@
 @node
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=Grouping of words and word groups by their position within a discrete editorial or emendation block such as a variant reading. On a `segment` node this feature also holds the vocalised text of the segment in ETCBC transcription
+@description=Grouping of words and word groups based on position within discrete editorial or emendation blocks (e.g., variants)
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:55+00:00Z
+@dateWritten=2026-10-28T01:38:43+00:00Z
 
 504020	MN >WWL> BR> >LQJM JT CMJJ> WJT >R<>
 W>R<> HWWT THJJ> WBHJ> YDJ> MBNJ NC WRJQNJJ> MN KL B<JR WXCWK> <L >NPJ THWM> WRWX RXMJN MN QDM >LQJM MNTB> <L >NPJ MJ>

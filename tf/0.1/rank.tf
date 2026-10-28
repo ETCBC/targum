@@ -1,10 +1,10 @@
 @node
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=Ordinal position of the node among its siblings, counting from the start of the enclosing node within the line. On a word group it counts every published unit of the verse in the order in which their characters appear in `line`, which includes the word groups that stand for segments no word of the manuscript reaches
+@description=ordinal position of the node among its siblings, counting from the start of the enclosing node, within the line
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:55+00:00Z
+@dateWritten=2026-10-28T01:38:42+00:00Z
 
 504020	1
 1

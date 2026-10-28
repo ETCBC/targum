@@ -1,10 +1,10 @@
 @node
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=Provenance of a word. `word` where the morphological analysis was placed on the word itself, `word_group` where the word group carries a surface form that no analysis points at, `none` where the manuscript has a word that was never analysed, and `segment` where the word stands for a segment that no word of the manuscript reaches and carries the text of that segment so that the segment can be published at all
+@description=provenance of a word; "word" where morphology was placed on it, "word_group" where the word group carries a surface form that no morphology points at, and "none" where the manuscript has a word that was never analysed
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:55+00:00Z
+@dateWritten=2026-10-28T01:38:43+00:00Z
 
 word
 word

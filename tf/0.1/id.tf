@@ -1,10 +1,10 @@
 @node
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=Identifier of the node, corresponding to the primary key held in the relational source
+@description=xml id, associated to primary key in other data stores (SQL)
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:54+00:00Z
+@dateWritten=2026-10-28T01:38:38+00:00Z
 
 496533	1
 2

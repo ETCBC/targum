@@ -1,10 +1,10 @@
 @node
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=One-based character offset of the first character of a word or of a segment within `line`, the ETCBC transliteration of the verse that contains it. The offsets of a segment are the minimum and the maximum of the offsets of the words it holds. Both tiers leave the offsets absent where the word carries no surface form, and where the word tier and `line` diverge
+@description=one-based character offset of the first character of a word or of a segment within `line`, the ETCBC transliteration of the verse that contains it; a segment's offsets are the minimum and the maximum of the offsets of the words it holds, and both tiers leave them absent where the word carries no surface form or where the word tier and `line` diverge
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:56+00:00Z
+@dateWritten=2026-10-28T01:38:44+00:00Z
 
 1
 4

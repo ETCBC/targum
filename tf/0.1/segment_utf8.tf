@@ -3,8 +3,8 @@
 @converters=S.P. Swire
 @description=Vocalized text of a segment in Aramaic square script
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:55+00:00Z
+@dateWritten=2026-10-28T01:38:43+00:00Z
 
 504020	מן אוולא ברא אלקים ית שׁמייא וית ארעא
 וארעא הוות תהייא ובהיא צדיא מבני נשׁ וריקנייא מן כל בעיר וחשׁוכא על אנפי תהומא ורוח רחמין מן קדם אלקים מנתבא על אנפי מיא

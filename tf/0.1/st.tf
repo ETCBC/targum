@@ -1,10 +1,10 @@
 @node
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=Nominal state, either absolute, emphatic or construct, and `absolute or construct` where the source states the ambiguity rather than resolving it. Partial, and the determined share is smaller than the fill rate: 153,500 of 493,690 words carry a value, or 31.09 per cent, of which 47,336 carry the ambiguous one, so the state is actually determined on 106,164 words, or 21.5 per cent. Absent where nothing is determined. An earlier version published the empty string in those positions, which reads as a determination that there is no state
+@description=Nominal state (abs/emph/cons, partial)
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:56+00:00Z
+@dateWritten=2026-10-28T01:38:44+00:00Z
 
 2	emphatic
 4	absolute

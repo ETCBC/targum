@@ -1,10 +1,10 @@
 @node
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=Part of speech, one of `subs`, `verb`, `adjv`, `prep`, `advb`, `conj`, `pron`, `intj`, `nmpr` and `unknown`. Resolved from the glossed category first and from the lexical entry only where the former has no opinion, which is what closed the 59,690 words that previously carried none. The order matters, because 4,644 units whose entry is classified as a verb are nominalised participles that their own category correctly calls `subs`. Two source tags have no counterpart in this vocabulary and are left absent. The value `nmpr` is taken from the BHSA and is resolved last, so that it can only fill a part of speech that was otherwise absent, and it marks the words filed as proper or geographical names, which carry no lexical entry and therefore no part of speech of their own
+@description=Part of speech
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:55+00:00Z
+@dateWritten=2026-10-28T01:38:44+00:00Z
 
 prep
 subs

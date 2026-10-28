@@ -1,10 +1,10 @@
 @node
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=Number, nominal only, either `sg` or `pl`. The source writes the singular differently and the value is mapped here so that the two are spelled consistently with each other and with the BHSA. Partial, covering 153,504 of 493,690 words, or 31.09 per cent
+@description=Number (nominal only, partial)
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:54+00:00Z
+@dateWritten=2026-10-28T01:38:41+00:00Z
 
 2	sg
 4	pl

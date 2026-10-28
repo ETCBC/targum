@@ -1,10 +1,10 @@
 @node
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=The manuscript that a text witnesses, carried by `text` nodes. The feature `text` is not this: it names the manuscript everywhere except Neofiti, where `neofiti_base` and `neofiti_full` are two views of a single codex, Neofiti 1. The corpus therefore carries 46 `text` values over 45 manuscripts, and that is the only such collapse. The feature is published because it is the one fact in the parallel witness relation that nothing else in the dataset can supply. Two verses are parallel when they share a `(book, chapter, verse)` address, which is derivable, but distinguishing a parallel, where two manuscripts translate the verse, from a single manuscript presented under two editorial filters, is not. Derived without this feature the relation splits 49,384 witness against 20 view, in place of the true 37,730, 11,654 and 20, so a consumer counting witnesses per verse would be wrong by one on all 5,827 Neofiti addresses
+@description=The manuscript that a text witnesses, carried by `text` nodes.
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:54+00:00Z
+@dateWritten=2026-10-28T01:38:41+00:00Z
 
 559219	pseudo_jonathan
 fragment_targum_p

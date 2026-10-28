@@ -1,10 +1,10 @@
 @node
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=Which reading of a word group this is. Readings competing for one position in the line share a `rank` and are distinguished here, 0 being the base reading that the edition prints and the reading the first scribe wrote. Values 1 and above are the scribal or editorial emendation candidates. Every rank that carries any reading carries a reading 0. The distribution of these values is a property of the view type, and the candidates are defined by segment types such as variant, interlinear and addition
+@description=which reading of a word group this is; readings competing for one position of the line share a rank and differ here, 0 being the one the edition prints. Value 0 is the "original" reading the first scribe wrote in the manuscript, and 1, 2, 3 are the scribal or editorial emendation candidates. Every rank that has any reading has a reading 0. Almost all of them come from one editorial marker, and are defined by segment types such as 'variant,'interlinear,'addition' etc. This distribution is a property of the view type.
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:55+00:00Z
+@dateWritten=2026-10-28T01:38:42+00:00Z
 
 578860	0
 0

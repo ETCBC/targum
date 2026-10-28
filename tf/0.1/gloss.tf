@@ -1,10 +1,10 @@
 @node
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=English gloss of the lexical entry. Absent where the entry has not been glossed. An earlier version resolved this feature to the same expression published beside it as `description`, which made it non-null on every word of the corpus and left 30,021 words holding a lexical category where a reader expects a translation
+@description=English gloss
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:53+00:00Z
+@dateWritten=2026-10-28T01:38:38+00:00Z
 
 from
 beginning, distant past, first condition

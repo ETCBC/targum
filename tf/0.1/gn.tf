@@ -1,10 +1,10 @@
 @node
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=Gender, nominal only. Partial, with a ceiling of approximately 1 per cent: 5,349 of 493,690 published words carry a value, or 1.08 per cent. The limit lies in the source lexicon rather than in the extraction, since of the 2,654 noun entries that this corpus uses only 660 carry a combined category and 468 a gender. Design queries around that coverage, because a query assuming this feature is populated is reading 1 per cent of the corpus
+@description=Gender (nominal only, partial)
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:54+00:00Z
+@dateWritten=2026-10-28T01:38:38+00:00Z
 
 7454	f
 9403	f

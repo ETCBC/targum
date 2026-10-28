@@ -1,10 +1,10 @@
 @node
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=A line of text, usually though not always corresponding to a verse of a book or manuscript. Section level 3, which is what allows `T.nodeFromSection((book, chapter, verse))` to resolve. Eleven verses carry no verse number in the source edition and publish a sentinel in its place, either 0, or 0 and -2 where one chapter holds two of them, because a section address can be neither null nor shared by two verses. Nine of the eleven are in the two fragment targum manuscripts and two are Cairo Genizah fragments, at Exodus 15 and Deuteronomy 34, which are the largest of the eleven at 42 and 148 words. The sentinel descends in steps of two so that it skips -1, which reading clients reserve as the missing-value sentinel of an integer feature. A published -1 would load back as a null and a comparison against it would raise rather than answer
+@description=A line of text, typically (though not always) corresponding to a verse in a book or manuscript
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:56+00:00Z
+@dateWritten=2026-10-28T01:38:46+00:00Z
 
 559265	1
 2

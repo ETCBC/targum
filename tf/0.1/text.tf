@@ -1,10 +1,10 @@
 @node
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=Name of an Aramaic text, often a manuscript. Carried by `text` nodes and by nothing else. It is the outermost structure feature and is not a section feature, the three section levels being `book`, `chapter` and `verse`, so the witness is reached through `structureTypes`. Read `cons_utf8` for the letters of a word
+@description=Name of an Aramaic text, often a manuscript
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:56+00:00Z
+@dateWritten=2026-10-28T01:38:45+00:00Z
 
 559219	pseudo_jonathan
 fragment_targum_p

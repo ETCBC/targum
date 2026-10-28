@@ -1,10 +1,10 @@
 @node
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=Name of a biblical book, and section level 1. It names the biblical book rather than the manuscript, so one book name is shared by every witness that transmits it. Of the 5,866 distinct `(book, chapter, verse)` addresses in the corpus, 5,827 are carried by more than one manuscript and 5,844 by more than one `verse` node, the difference being the two views of Neofiti. Use `text` or `structureTypes` to identify the witness, `manuscript` to identify the codex, and `crossref` to reach the parallels
+@description=Name of Biblical book
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:52+00:00Z
+@dateWritten=2026-10-28T01:38:33+00:00Z
 
 496533	Genesis
 Exodus

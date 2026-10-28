@@ -1,10 +1,10 @@
 @node
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=One-based character offset of the last character of a word or of a segment within `line`, so that `substr(line, start_idx, end_idx - start_idx + 1)` returns the `voc` of the word or the text of the segment
+@description=one-based character offset of the last character of a word or of a segment within `line`, so that `substr(line, start_idx, end_idx - start_idx + 1)` returns the word's own `voc` or the segment's own `segment`
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:53+00:00Z
+@dateWritten=2026-10-28T01:38:35+00:00Z
 
 2
 8

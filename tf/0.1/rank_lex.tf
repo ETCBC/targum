@@ -1,10 +1,10 @@
 @node
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=Position of the lexeme in the frequency list of the corpus, 1 being the most frequent, on `lexeme` nodes. The feature of the same name in the BHSA. The ranking is total over 1 to 6,363 rather than dense, because these 6,363 lexemes have only 389 distinct frequencies and a dense ranking would give every hapax legomenon the same number, leaving no answer to whether a lexeme falls within the hundred most frequent. Ties are broken on the lexeme and its lexical identity, so re-measuring after a rebuild reproduces the ranking rather than reordering it
+@description=Position of the lexeme in the frequency list of the corpus, 1 being the most frequent, on `lexeme` nodes.
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:55+00:00Z
+@dateWritten=2026-10-28T01:38:42+00:00Z
 
 497657	7
 3905

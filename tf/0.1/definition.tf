@@ -3,8 +3,8 @@
 @converters=S.P. Swire
 @description=Extended translation or dictionary definition
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:52+00:00Z
+@dateWritten=2026-10-28T01:38:34+00:00Z
 
 from | partitive, from | indicating the agent of a passive, from | indicating the cause, from | comparative, from | other verbal complements, from | direction, from | origin, from | as the first element of compound adverbs of manner, from | as an emphasizing first element of compound prepositions, from
 beginning, distant past, first condition | original condition, distant past, first condition | at first, distant past, first condition

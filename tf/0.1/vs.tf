@@ -1,10 +1,10 @@
 @node
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=Verbal stem, from a source vocabulary that encodes the stem and nothing else. Carried by 79,831 of the 81,875 words that `sp` calls a verb, or 97.50 per cent. The 2,044 without one are verbs to which the source assigns no category. This is the whole of the verbal morphology available in the source data. Person, tense and voice are not partial here but absent, and the columns that would hold them are empty on all 591,862 analysed units of the corpus. Supplying them would be new annotation rather than extraction
+@description=Verbal stem / binyan
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:57+00:00Z
+@dateWritten=2026-10-28T01:38:47+00:00Z
 
 3	G
 11	G

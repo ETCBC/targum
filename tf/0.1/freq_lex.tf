@@ -1,10 +1,10 @@
 @node
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=How many words of the corpus carry this lexeme, on `lexeme` nodes. The feature of the same name in the BHSA. Counted over the four distinct witnesses and deliberately not over the base view of Neofiti, which is a second view of a manuscript already counted, since including it would inflate every Neofiti lexeme by very nearly a factor of two. The count covers 351,387 tokens over 6,363 lexemes, of which the conjunction accounts for 38,996. A lexeme attested only in the base view of Neofiti has a frequency of 0, which is the honest value and is true of eight of them
+@description=How many words of the corpus carry this lexeme, on `lexeme` nodes.
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:53+00:00Z
+@dateWritten=2026-10-28T01:38:36+00:00Z
 
 497657	7761
 2

@@ -1,10 +1,10 @@
 @edge
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=Edge between a node and its parent node
+@description=edge between a node and its parent node
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:58+00:00Z
+@dateWritten=2026-10-28T01:38:49+00:00Z
 
 497657
 497658

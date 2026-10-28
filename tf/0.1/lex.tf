@@ -1,10 +1,10 @@
 @node
 @compiler=S.P. Swire
 @converters=S.P. Swire
-@description=Lexeme in ETCBC transcription, disambiguated as the BHSA disambiguates it. A trailing `[` marks a verb, `/` marks a noun or an adjective, and zero or more `=` signs distinguish lexemes that share consonants. The homonym count is taken from the source lexicon rather than assigned here, so it is stable across rebuilds, and it reaches at most seven `=` signs. Read `lex0` for the value with that material removed. Where the disambiguated string still collides the dataset publishes no finer key, and 1,068 of 32,018 lexical identities do collide, most of them an adjective against a noun, which the BHSA collapses as well. A word that is analysed but not assigned a lexical entry carries no value. The marker is a statement about the lexeme while `sp` is a statement about this token, so the two can legitimately disagree. 600 words of Pseudo-Jonathan carry `sp=subs` beneath a `lex` ending in `[`, and these are nominalised participles, a verb in the lexicon used here as a noun. The BHSA draws the same distinction in the same place
+@description=Lexeme in ETCBC transcription
 @institute=ETCBC (Eep Talstra Centre for Bible and Computer)
-@license=MIT License
-@licenseUrl=https://mit-license.org/
+@license=Attribution-NonCommercial 4.0 International
+@licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
 @sourceFormat=XML
@@ -12,7 +12,7 @@
 @version=0.1
 @xmlVersion=2026-10-25
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-25T22:35:54+00:00Z
+@dateWritten=2026-10-28T01:38:39+00:00Z
 
 MN
 >WL/
