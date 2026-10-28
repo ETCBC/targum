@@ -1,15 +1,3 @@
-# Serialised corpus data is stored as ordinary Git objects rather than through Git LFS.
-#
-# The tracked contents of tf/ and xml/ occupy 599 MB on disk and compress to approximately
-# 80 MB under the zlib and delta compression that Git applies by default. Git LFS stores every
-# revision of every file whole and uncompressed, which is why the LFS object store in this
-# repository had grown to 7.2 GB. The largest single file is 58 MB, which is within the 100 MB
-# ceiling GitHub enforces on individual objects, so no file requires external storage.
-#
-# Cloning or pulling this repository therefore requires no additional tooling, authentication
-# or bandwidth allowance. Declaring the serialised formats as text also ensures that line
-# endings are preserved verbatim on platforms that would otherwise rewrite them.
-
 *.tf    text eol=lf
 *.tfx   text eol=lf
 *.xml   text eol=lf
