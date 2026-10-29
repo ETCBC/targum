@@ -10,11 +10,11 @@
 @sourceFormat=XML
 @valueType=str
 @version=0.1
-@xmlVersion=2026-10-25
+@xmlVersion=2026-10-28
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-28T01:38:41+00:00Z
+@dateWritten=2026-10-29T00:51:18+00:00Z
 
-559219	pseudo_jonathan
+703341	pseudo_jonathan
 fragment_targum_p
 fragment_targum_pa
 fragment_targum_v
@@ -60,3 +60,4 @@ cairo_genizah_targum_fragment_mm
 cairo_genizah_targum_fragment_pp
 neofiti_1
 neofiti_1
+onqelos

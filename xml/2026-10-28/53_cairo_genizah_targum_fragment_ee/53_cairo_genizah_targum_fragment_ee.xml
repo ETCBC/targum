@@ -1,0 +1,662 @@
+<?xml version="1.0" ?>
+<text text="cairo_genizah_targum_fragment_ee" manuscript="cairo_genizah_targum_fragment_ee" view="full_text">
+    <book book="Genesis" id="1">
+        <chapter chapter="21">
+            <verse verse="10" line="... ...UWJI&gt;@ DJICTA&gt;ARW ... ... ...JNUWN &lt;AL JAD ... ... ...&gt;H JCR WGW ... ...L&lt;@M@&gt; KAD &gt;AMART L;JH F@R@H BIRGZUWT@&gt; G@R;C &gt;T H&gt;MH HAZ&gt;T W&gt;ET BNH &gt;AR;J CMA&lt;T JICM@&lt;;&gt;L &gt;AMAR LIBN;J &gt;EN@C@&gt; &gt;AN@&gt; BUWKR@&gt; WJIYX@Q TINJ@N@&gt; &gt;AN@&gt; N@SJB &lt;AL XAD TR;JN MNIKS;J &gt;AB@&gt; &gt;AMRAT L;JH KIJ L&gt; JJRC BN H&gt;MH HZ&gt;T &lt;M BNJ JYXQ &gt;IJTGLIJT@&gt;" line_utf8="ּּּ ֻּּּויִאָ דיִשׁתַאַרו ּּּ ּּּ ּּּינֻון עַל יַד ּּּ ּּּ ּּּאה ישׁר וגו ּּּ ּּּלעָמָא כַד אַמַרת לֵיה שָׂרָה בִרגזֻותָא גָרֵשׁ את האמה הַזאת ואֶת בנה אַרֵי שׁמַעת יִשׁמָעֵאל אַמַר לִבנֵי אֶנָשָׁא אַנָא בֻוכרָא ויִצחָק תִניָנָא אַנָא נָסיב עַל חַד תרֵין מנִכסֵי אַבָא אַמרַת לֵיה כִי לא יירשׁ בן האמה הזאת עם בני יצחק אִיתגלִיתָא">
+                <segment id="801163" start_idx="1" end_idx="7" type="broken_text" rank="1" segment="... ..." segment_utf8="ּּּ ּּּ">
+                    <word_group id="58216" rank="0" reading="0" g_voc="..." g_voc_utf8="ּּּ">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="1" end_idx="3" uid="2700003106055005889_8fcce11c" voc="..." voc_utf8="ּּּ"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58217" rank="1" reading="0" g_voc="...UWJI&gt;@" g_cons="WJ&gt;" g_voc_utf8="ֻּּּויִאָ" g_cons_utf8="ויא">
+                        <lexeme>
+                            <word source="word" part="1" trailer="" start_idx="5" end_idx="7" uid="2700003106055005890_1b1794b3" voc="..." voc_utf8="ּּּ"/>
+                        </lexeme>
+                    </word_group>
+                </segment>
+                <segment id="801165" start_idx="8" end_idx="24" type="unmarked_text" rank="3" segment="UWJI&gt;@ DJICTA&gt;ARW" segment_utf8="ֻויִאָ דיִשׁתַאַרו">
+                    <word_group id="58217" rank="1" reading="0" g_voc="...UWJI&gt;@" g_cons="WJ&gt;" g_voc_utf8="ֻּּּויִאָ" g_cons_utf8="ויא">
+                        <lexeme>
+                            <word source="word" part="2" trailer=" " start_idx="8" end_idx="13" uid="2700003106055005890_1b1794b3" cons="WJ&gt;" voc="UWJI&gt;@" cons_utf8="ויא" voc_utf8="ֻויִאָ"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58218" rank="2" reading="0" g_voc="DJICTA&gt;ARW" g_cons="DJCT&gt;RW" g_voc_utf8="דיִשׁתַאַרו" g_cons_utf8="דישׁתארו">
+                        <lexeme lex="DJ" lex0="DJ" lex_utf8="די" freq_lex="14036" rank_lex="5">
+                            <word source="word" part="1" trailer="" start_idx="15" end_idx="15" uid="2700003106055005891_1d78eac8" lex="DJ" lex0="DJ" lex_utf8="די" cons="D" voc="D" cons_utf8="ד" voc_utf8="ד" root="DJ" sp="conj" gloss="which, who" definition="which, who | the one who, who, which | so that, who, which | verbs of perception, who, which | before direct speech, who, which" description="conjunction, conjunction"/>
+                        </lexeme>
+                        <lexeme lex="C&gt;R[" lex0="C&gt;R" lex_utf8="שׁאר" freq_lex="72" rank_lex="698">
+                            <word source="word" part="1" trailer=" " start_idx="16" end_idx="24" uid="2700003106055005891_4fb8ff7d" lex="C&gt;R[" lex0="C&gt;R" lex_utf8="שׁאר" cons="JCT&gt;RW" voc="JICTA&gt;ARW" cons_utf8="ישׁתארו" voc_utf8="יִשׁתַאַרו" root="C&gt;R" vs="Gt" sp="verb" gloss="to remain" definition="G: to remain | C: to remain, to leave a remnant behind | D: to remain, to leave a remainder" description="verbal, ethpeel"/>
+                        </lexeme>
+                    </word_group>
+                </segment>
+                <segment id="801166" start_idx="26" end_idx="28" type="broken_text" rank="4" segment="..." segment_utf8="ּּּ">
+                    <word_group id="58219" rank="3" reading="0" g_voc="..." g_voc_utf8="ּּּ">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="26" end_idx="28" uid="2700003106055005892_9517e495" voc="..." voc_utf8="ּּּ"/>
+                        </lexeme>
+                    </word_group>
+                </segment>
+                <segment id="801169" start_idx="30" end_idx="36" type="broken_text" rank="7" segment="... ..." segment_utf8="ּּּ ּּּ">
+                    <word_group id="58220" rank="4" reading="0" g_voc="..." g_voc_utf8="ּּּ">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="30" end_idx="32" uid="2700003106055005893_75d1ff9b" voc="..." voc_utf8="ּּּ"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58221" rank="5" reading="0" g_voc="...JNUWN" g_cons="JNWN" g_voc_utf8="ּּּינֻון" g_cons_utf8="ינון">
+                        <lexeme>
+                            <word source="word" part="1" trailer="" start_idx="34" end_idx="36" uid="2700003106055005893_88e0f8b8" voc="..." voc_utf8="ּּּ"/>
+                        </lexeme>
+                    </word_group>
+                </segment>
+                <segment id="801171" start_idx="37" end_idx="49" type="unmarked_text" rank="9" segment="JNUWN &lt;AL JAD" segment_utf8="ינֻון עַל יַד">
+                    <word_group id="58221" rank="5" reading="0" g_voc="...JNUWN" g_cons="JNWN" g_voc_utf8="ּּּינֻון" g_cons_utf8="ינון">
+                        <lexeme>
+                            <word source="word" part="2" trailer=" " start_idx="37" end_idx="41" uid="2700003106055005893_88e0f8b8" cons="JNWN" voc="JNUWN" cons_utf8="ינון" voc_utf8="ינֻון"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58222" rank="6" reading="0" g_voc="&lt;ALJAD" g_cons="&lt;LJD" g_voc_utf8="עַליַד" g_cons_utf8="עליד">
+                        <lexeme lex="&lt;L" lex0="&lt;L" lex_utf8="על" freq_lex="6469" rank_lex="11">
+                            <word source="word" part="1" trailer="" start_idx="43" end_idx="44" uid="2700003106055005895_7db46741" lex="&lt;L" lex0="&lt;L" lex_utf8="על" cons="&lt;" voc="&lt;A" cons_utf8="ע" voc_utf8="עַ" root="&lt;L" sp="prep" gloss="to, upon, against" definition="by means of, beside | beside, by means of | for the sake of, beside, by means of | up to the edge, beside, by means of" description="preposition, independent (preposition)"/>
+                        </lexeme>
+                        <lexeme lex="JD/" lex0="JD" lex_utf8="יד" freq_lex="1585" rank_lex="31">
+                            <word source="word" part="1" trailer=" " start_idx="45" end_idx="45" uid="2700003106055005894_c46386a2" lex="JD/" lex0="JD" lex_utf8="יד" cons="L" voc="L" cons_utf8="ל" voc_utf8="ל" root="&lt;L" sp="subs" gloss="power, hand, arm, side" definition="by means of, beside | beside, by means of | for the sake of, beside, by means of | up to the edge, beside, by means of" description="preposition, independent (preposition)"/>
+                            <word source="word" part="1" trailer=" " start_idx="47" end_idx="49" uid="2700003106055005894_c46386a2" lex="JD/" lex0="JD" lex_utf8="יד" cons="JD" voc="JAD" cons_utf8="יד" voc_utf8="יַד" root="&lt;L" sp="subs" gloss="power, hand, arm, side" definition="by means of, beside | beside, by means of | for the sake of, beside, by means of | up to the edge, beside, by means of" description="preposition, independent (preposition)"/>
+                        </lexeme>
+                    </word_group>
+                </segment>
+                <segment id="801172" start_idx="51" end_idx="53" type="broken_text" rank="10" segment="..." segment_utf8="ּּּ">
+                    <word_group id="58223" rank="7" reading="0" g_voc="..." g_voc_utf8="ּּּ">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="51" end_idx="53" uid="2700003106055005923_04b270ce" voc="..." voc_utf8="ּּּ"/>
+                        </lexeme>
+                    </word_group>
+                </segment>
+                <segment id="801175" start_idx="55" end_idx="61" type="broken_text" rank="13" segment="... ..." segment_utf8="ּּּ ּּּ">
+                    <word_group id="58224" rank="8" reading="0" g_voc="..." g_voc_utf8="ּּּ">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="55" end_idx="57" uid="2700003106055005924_12c486c2" voc="..." voc_utf8="ּּּ"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58225" rank="9" reading="0" g_voc="...&gt;H" g_cons="&gt;H" g_voc_utf8="ּּּאה" g_cons_utf8="אה">
+                        <lexeme>
+                            <word source="word" part="1" trailer="" start_idx="59" end_idx="61" uid="2700003106055005924_b9d8e3e4" voc="..." voc_utf8="ּּּ"/>
+                        </lexeme>
+                    </word_group>
+                </segment>
+                <segment id="801177" start_idx="62" end_idx="71" type="unmarked_text" rank="15" segment="&gt;H JCR WGW" segment_utf8="אה ישׁר וגו">
+                    <word_group id="58225" rank="9" reading="0" g_voc="...&gt;H" g_cons="&gt;H" g_voc_utf8="ּּּאה" g_cons_utf8="אה">
+                        <lexeme>
+                            <word source="word" part="2" trailer=" " start_idx="62" end_idx="63" uid="2700003106055005924_b9d8e3e4" cons="&gt;H" voc="&gt;H" cons_utf8="אה" voc_utf8="אה"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58226" rank="10" reading="0" g_voc="JCR" g_cons="JCR" g_voc_utf8="ישׁר" g_cons_utf8="ישׁר">
+                        <lexeme lex="JCR&gt;L" lex0="JCR&gt;L" lex_utf8="ישׁראל" freq_lex="1635" rank_lex="29">
+                            <word source="word" part="1" trailer=" " start_idx="65" end_idx="67" uid="2700003106055005925_4fff7c36" lex="JCR&gt;L" lex0="JCR&gt;L" lex_utf8="ישׁראל" cons="JCR" voc="JCR" cons_utf8="ישׁר" voc_utf8="ישׁר" sp="nmpr" description="nominal, proper name"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58227" rank="11" reading="0" g_voc="WGW" g_cons="WGW" g_voc_utf8="וגו" g_cons_utf8="וגו">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="69" end_idx="71" uid="2700003106055005925_2dc73e12" cons="WGW" voc="WGW" cons_utf8="וגו" voc_utf8="וגו"/>
+                        </lexeme>
+                    </word_group>
+                </segment>
+                <segment id="801178" start_idx="73" end_idx="79" type="broken_text" rank="16" segment="... ..." segment_utf8="ּּּ ּּּ">
+                    <word_group id="58228" rank="12" reading="0" g_voc="..." g_voc_utf8="ּּּ">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="73" end_idx="75" uid="2700003106055005926_c453f8a7" voc="..." voc_utf8="ּּּ"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58229" rank="13" reading="0" g_voc="...L&lt;@M@&gt;" g_cons="L&lt;M&gt;" g_voc_utf8="ּּּלעָמָא" g_cons_utf8="לעמא">
+                        <lexeme>
+                            <word source="word" part="1" trailer="" start_idx="77" end_idx="79" uid="2700003106055005926_b1be4ae9" voc="..." voc_utf8="ּּּ"/>
+                        </lexeme>
+                    </word_group>
+                </segment>
+                <segment id="801180" start_idx="80" end_idx="110" type="unmarked_text" rank="18" segment="L&lt;@M@&gt; KAD &gt;AMART L;JH F@R@H BI" segment_utf8="לעָמָא כַד אַמַרת לֵיה שָׂרָה בִ">
+                    <word_group id="58229" rank="13" reading="0" g_voc="...L&lt;@M@&gt;" g_cons="L&lt;M&gt;" g_voc_utf8="ּּּלעָמָא" g_cons_utf8="לעמא">
+                        <lexeme>
+                            <word source="word" part="2" trailer=" " start_idx="80" end_idx="85" uid="2700003106055005926_b1be4ae9" cons="L&lt;M&gt;" voc="L&lt;@M@&gt;" cons_utf8="לעמא" voc_utf8="לעָמָא"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58230" rank="14" reading="0" g_voc="KAD" g_cons="KD" g_voc_utf8="כַד" g_cons_utf8="כד">
+                        <lexeme lex="KD" lex0="KD" lex_utf8="כד" freq_lex="741" rank_lex="88">
+                            <word source="word" part="1" trailer=" " start_idx="87" end_idx="89" uid="2700003106055005927_57fb2441" lex="KD" lex0="KD" lex_utf8="כד" cons="KD" voc="KAD" cons_utf8="כד" voc_utf8="כַד" root="DJ" sp="conj" gloss="when" definition="while X-ing, when | as is proper, when" description="conjunction, conjunction"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58231" rank="15" reading="0" g_voc="&gt;AMART" g_cons="&gt;MRT" g_voc_utf8="אַמַרת" g_cons_utf8="אמרת">
+                        <lexeme lex="&gt;MR[" lex0="&gt;MR" lex_utf8="אמר" freq_lex="5534" rank_lex="14">
+                            <word source="word" part="1" trailer=" " start_idx="91" end_idx="96" uid="2700003106055005927_22e66ffb" lex="&gt;MR[" lex0="&gt;MR" lex_utf8="אמר" cons="&gt;MRT" voc="&gt;AMART" cons_utf8="אמרת" voc_utf8="אַמַרת" root="&gt;MR" vs="G" sp="verb" gloss="to say, command, speak" definition="Gt: to say, to be said" description="verbal, peal"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58232" rank="16" reading="0" g_voc="L;JH" g_cons="LJH" g_voc_utf8="לֵיה" g_cons_utf8="ליה">
+                        <lexeme lex="L" lex0="L" lex_utf8="ל" freq_lex="23976" rank_lex="2">
+                            <word source="word" part="1" trailer=" " start_idx="98" end_idx="101" uid="2700003106055005928_ae51b3b1" lex="L" lex0="L" lex_utf8="ל" cons="LJH" voc="L;JH" cons_utf8="ליה" voc_utf8="לֵיה" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, independent (preposition)"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58233" rank="17" reading="0" g_voc="F@R@H" g_cons="FRH" g_voc_utf8="שָׂרָה" g_cons_utf8="שׂרה">
+                        <lexeme lex="FRH" lex0="FRH" lex_utf8="שׂרה" freq_lex="92" rank_lex="580">
+                            <word source="word" part="1" trailer=" " start_idx="103" end_idx="107" uid="2700003106055005928_d87a4cb5" lex="FRH" lex0="FRH" lex_utf8="שׂרה" cons="FRH" voc="F@R@H" cons_utf8="שׂרה" voc_utf8="שָׂרָה" sp="nmpr" description="nominal, proper name"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58234" rank="18" reading="0" g_voc="BIRGZUWT@&gt;" g_cons="BRGZWT&gt;" g_voc_utf8="בִרגזֻותָא" g_cons_utf8="ברגזותא">
+                        <lexeme lex="B" lex0="B" lex_utf8="ב" freq_lex="16964" rank_lex="3">
+                            <word source="word" part="1" trailer="" start_idx="109" end_idx="110" uid="2700003106055005929_b124b130" lex="B" lex0="B" lex_utf8="ב" cons="B" voc="BI" cons_utf8="ב" voc_utf8="בִ" root="B" sp="prep" gloss="with, in" definition="with, in | among, in, with | at, in, with | to, in, with | place, in, with | within a structure or other enclosing object, in, with | during a time period, in, with | using, in, with | having, in, with | adjective, in, with | to do some (damage, in, with | certain time, in, with | for, in, with | see, in, with | with many verbs supplying a negative relationship to an object, in, with" description="preposition, with pronominal suffix (preposition)"/>
+                        </lexeme>
+                    </word_group>
+                </segment>
+                <segment id="801181" start_idx="111" end_idx="111" type="broken_text" rank="19" segment="R" segment_utf8="ר">
+                    <word_group id="58234" rank="18" reading="0" g_voc="BIRGZUWT@&gt;" g_cons="BRGZWT&gt;" g_voc_utf8="בִרגזֻותָא" g_cons_utf8="ברגזותא">
+                        <lexeme lex="RGJZW/" lex0="RGJZW" lex_utf8="רגיזו" freq_lex="2" rank_lex="5024">
+                            <word source="word" part="1" trailer="" start_idx="111" end_idx="111" uid="2700003106055005929_5a1c3665" lex="RGJZW/" lex0="RGJZW" lex_utf8="רגיזו" cons="R" voc="R" cons_utf8="ר" voc_utf8="ר" root="RGZ" gn="f" sp="subs" st="emphatic" nu="sg" description="noun, singular emphatic"/>
+                        </lexeme>
+                    </word_group>
+                </segment>
+                <segment id="801183" start_idx="112" end_idx="322" type="unmarked_text" rank="21" segment="GZUWT@&gt; G@R;C &gt;T H&gt;MH HAZ&gt;T W&gt;ET BNH &gt;AR;J CMA&lt;T JICM@&lt;;&gt;L &gt;AMAR LIBN;J &gt;EN@C@&gt; &gt;AN@&gt; BUWKR@&gt; WJIYX@Q TINJ@N@&gt; &gt;AN@&gt; N@SJB &lt;AL XAD TR;JN MNIKS;J &gt;AB@&gt; &gt;AMRAT L;JH KIJ L&gt; JJRC BN H&gt;MH HZ&gt;T &lt;M BNJ JYXQ &gt;IJTGLIJT@&gt;" segment_utf8="גזֻותָא גָרֵשׁ את האמה הַזאת ואֶת בנה אַרֵי שׁמַעת יִשׁמָעֵאל אַמַר לִבנֵי אֶנָשָׁא אַנָא בֻוכרָא ויִצחָק תִניָנָא אַנָא נָסיב עַל חַד תרֵין מנִכסֵי אַבָא אַמרַת לֵיה כִי לא יירשׁ בן האמה הזאת עם בני יצחק אִיתגלִיתָא">
+                    <word_group id="58234" rank="18" reading="0" g_voc="BIRGZUWT@&gt;" g_cons="BRGZWT&gt;" g_voc_utf8="בִרגזֻותָא" g_cons_utf8="ברגזותא">
+                        <lexeme lex="RGJZW/" lex0="RGJZW" lex_utf8="רגיזו" freq_lex="2" rank_lex="5024">
+                            <word source="word" part="2" trailer=" " start_idx="112" end_idx="118" uid="2700003106055005929_5a1c3665" lex="RGJZW/" lex0="RGJZW" lex_utf8="רגיזו" cons="GZWT&gt;" voc="GZUWT@&gt;" cons_utf8="גזותא" voc_utf8="גזֻותָא" root="RGZ" gn="f" sp="subs" st="emphatic" nu="sg" description="noun, singular emphatic"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58235" rank="19" reading="0" g_voc="G@R;C" g_cons="GRC" g_voc_utf8="גָרֵשׁ" g_cons_utf8="גרשׁ">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="120" end_idx="124" uid="2700003106055005930_e2d3f38d" cons="GRC" voc="G@R;C" cons_utf8="גרשׁ" voc_utf8="גָרֵשׁ"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58236" rank="20" reading="0" g_voc="&gt;T" g_cons="&gt;T" g_voc_utf8="את" g_cons_utf8="את">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="126" end_idx="127" uid="2700003106055005930_863a1666" cons="&gt;T" voc="&gt;T" cons_utf8="את" voc_utf8="את"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58237" rank="21" reading="0" g_voc="H&gt;MH" g_cons="H&gt;MH" g_voc_utf8="האמה" g_cons_utf8="האמה">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="129" end_idx="132" uid="2700003106055005931_74d8a3a1" cons="H&gt;MH" voc="H&gt;MH" cons_utf8="האמה" voc_utf8="האמה"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58238" rank="22" reading="0" g_voc="HAZ&gt;T" g_cons="HZ&gt;T" g_voc_utf8="הַזאת" g_cons_utf8="הזאת">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="134" end_idx="138" uid="2700003106055005931_b939fb75" cons="HZ&gt;T" voc="HAZ&gt;T" cons_utf8="הזאת" voc_utf8="הַזאת"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58239" rank="23" reading="0" g_voc="W&gt;ET" g_cons="W&gt;T" g_voc_utf8="ואֶת" g_cons_utf8="ואת">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="140" end_idx="143" uid="2700003106055005932_955368b9" cons="W&gt;T" voc="W&gt;ET" cons_utf8="ואת" voc_utf8="ואֶת"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58240" rank="24" reading="0" g_voc="BNH" g_cons="BNH" g_voc_utf8="בנה" g_cons_utf8="בנה">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="145" end_idx="147" uid="2700003106055005932_8c7a770e" cons="BNH" voc="BNH" cons_utf8="בנה" voc_utf8="בנה"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58241" rank="25" reading="0" g_voc="&gt;AR;J" g_cons="&gt;RJ" g_voc_utf8="אַרֵי" g_cons_utf8="ארי">
+                        <lexeme lex="&gt;RJ" lex0="&gt;RJ" lex_utf8="ארי" freq_lex="1027" rank_lex="53">
+                            <word source="word" part="1" trailer=" " start_idx="149" end_idx="153" uid="2700003106055005933_0bfe525d" lex="&gt;RJ" lex0="&gt;RJ" lex_utf8="ארי" cons="&gt;RJ" voc="&gt;AR;J" cons_utf8="ארי" voc_utf8="אַרֵי" root="&gt;RJ" sp="conj" gloss="since, because" definition="since, because | introducing object clauses, because, since | behold, because, since | when, because, since" description="conjunction, conjunction"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58242" rank="26" reading="0" g_voc="CMA&lt;T" g_cons="CM&lt;T" g_voc_utf8="שׁמַעת" g_cons_utf8="שׁמעת">
+                        <lexeme lex="CM&lt;[" lex0="CM&lt;" lex_utf8="שׁמע" freq_lex="710" rank_lex="96">
+                            <word source="word" part="1" trailer=" " start_idx="155" end_idx="159" uid="2700003106055005933_1e079260" lex="CM&lt;[" lex0="CM&lt;" lex_utf8="שׁמע" cons="CM&lt;T" voc="CMA&lt;T" cons_utf8="שׁמעת" voc_utf8="שׁמַעת" root="CM&lt;" vs="G" sp="verb" gloss="to hear, listen, obey, understand, sing praises, announce, desert" definition="Gt: to hear, be heard | D: to hear, to sing praises | G: to hear, listen, obey, understand, sing praises, announce, desert" description="verbal, peal"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58243" rank="27" reading="0" g_voc="JICM@&lt;;&gt;L" g_cons="JCM&lt;&gt;L" g_voc_utf8="יִשׁמָעֵאל" g_cons_utf8="ישׁמעאל">
+                        <lexeme lex="JCM&lt;&gt;L" lex0="JCM&lt;&gt;L" lex_utf8="ישׁמעאל" freq_lex="101" rank_lex="556">
+                            <word source="word" part="1" trailer=" " start_idx="161" end_idx="169" uid="2700003106055005934_86323260" lex="JCM&lt;&gt;L" lex0="JCM&lt;&gt;L" lex_utf8="ישׁמעאל" cons="JCM&lt;&gt;L" voc="JICM@&lt;;&gt;L" cons_utf8="ישׁמעאל" voc_utf8="יִשׁמָעֵאל" sp="nmpr" description="nominal, proper name"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58244" rank="28" reading="0" g_voc="&gt;AMAR" g_cons="&gt;MR" g_voc_utf8="אַמַר" g_cons_utf8="אמר">
+                        <lexeme lex="&gt;MR[" lex0="&gt;MR" lex_utf8="אמר" freq_lex="5534" rank_lex="14">
+                            <word source="word" part="1" trailer=" " start_idx="171" end_idx="175" uid="2700003106055005934_dae5aa58" lex="&gt;MR[" lex0="&gt;MR" lex_utf8="אמר" cons="&gt;MR" voc="&gt;AMAR" cons_utf8="אמר" voc_utf8="אַמַר" root="&gt;MR" vs="G" sp="verb" gloss="to say, command, speak" definition="Gt: to say, to be said" description="verbal, peal"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58245" rank="29" reading="0" g_voc="LIBN;J&gt;EN@C@&gt;" g_cons="LBNJ&gt;NC&gt;" g_voc_utf8="לִבנֵיאֶנָשָׁא" g_cons_utf8="לבניאנשׁא">
+                        <lexeme lex="L" lex0="L" lex_utf8="ל" freq_lex="23976" rank_lex="2">
+                            <word source="word" part="1" trailer="" start_idx="177" end_idx="178" uid="2700003106055005935_8e1d8729" lex="L" lex0="L" lex_utf8="ל" cons="L" voc="LI" cons_utf8="ל" voc_utf8="לִ" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, proclitic (preposition)"/>
+                        </lexeme>
+                        <lexeme lex="&gt;NC/" lex0="&gt;NC" lex_utf8="אנשׁ" freq_lex="983" rank_lex="61">
+                            <word source="word" part="1" trailer=" " start_idx="179" end_idx="182" uid="2700003106055005935_6cacd11c" lex="&gt;NC/" lex0="&gt;NC" lex_utf8="אנשׁ" cons="BNJ" voc="BN;J" cons_utf8="בני" voc_utf8="בנֵי" root="&gt;NC" sp="subs" st="emphatic" nu="pl" gloss="humanity, person, someone" definition="person, human" description="noun, plural emphatic"/>
+                            <word source="word" part="1" trailer=" " start_idx="184" end_idx="190" uid="2700003106055005935_6cacd11c" lex="&gt;NC/" lex0="&gt;NC" lex_utf8="אנשׁ" cons="&gt;NC&gt;" voc="&gt;EN@C@&gt;" cons_utf8="אנשׁא" voc_utf8="אֶנָשָׁא" root="&gt;NC" sp="subs" st="emphatic" nu="pl" gloss="humanity, person, someone" definition="person, human" description="noun, plural emphatic"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58246" rank="30" reading="0" g_voc="&gt;AN@&gt;" g_cons="&gt;N&gt;" g_voc_utf8="אַנָא" g_cons_utf8="אנא">
+                        <lexeme lex="&gt;NH" lex0="&gt;NH" lex_utf8="אנה" freq_lex="1514" rank_lex="33">
+                            <word source="word" part="1" trailer=" " start_idx="192" end_idx="196" uid="2700003106055005936_aec5dee2" lex="&gt;NH" lex0="&gt;NH" lex_utf8="אנה" cons="&gt;N&gt;" voc="&gt;AN@&gt;" cons_utf8="אנא" voc_utf8="אַנָא" root="&gt;NH" sp="pron" gloss="to lust after, I" definition="to lust after, I | to lust after, I, as enclitic subject marker with participles/adjectives" description="preposition, independent (preposition)"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58247" rank="31" reading="0" g_voc="BUWKR@&gt;" g_cons="BWKR&gt;" g_voc_utf8="בֻוכרָא" g_cons_utf8="בוכרא">
+                        <lexeme lex="BKWR/" lex0="BKWR" lex_utf8="בכור" freq_lex="330" rank_lex="205">
+                            <word source="word" part="1" trailer=" " start_idx="198" end_idx="204" uid="2700003106055005936_f5631ecf" lex="BKWR/" lex0="BKWR" lex_utf8="בכור" cons="BWKR&gt;" voc="BUWKR@&gt;" cons_utf8="בוכרא" voc_utf8="בֻוכרָא" root="BKR" sp="subs" st="emphatic" nu="sg" gloss="firstborn" definition="firstborn | human, firstborn | animal, firstborn" description="noun, singular emphatic"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58248" rank="32" reading="0" g_voc="WJIYX@Q" g_cons="WJYXQ" g_voc_utf8="ויִצחָק" g_cons_utf8="ויצחק">
+                        <lexeme lex="W" lex0="W" lex_utf8="ו" freq_lex="54383" rank_lex="1">
+                            <word source="word" part="1" trailer="" start_idx="206" end_idx="206" uid="2700003106055005937_6fab09ff" lex="W" lex0="W" lex_utf8="ו" cons="W" voc="W" cons_utf8="ו" voc_utf8="ו" root="W" sp="conj" gloss="also, and" definition="also, and | clause level initial, and, also" description="conjunction, conjunction"/>
+                        </lexeme>
+                        <lexeme lex="JYXQ" lex0="JYXQ" lex_utf8="יצחק" freq_lex="452" rank_lex="156">
+                            <word source="word" part="1" trailer=" " start_idx="207" end_idx="212" uid="2700003106055005937_ee696318" lex="JYXQ" lex0="JYXQ" lex_utf8="יצחק" cons="JYXQ" voc="JIYX@Q" cons_utf8="יצחק" voc_utf8="יִצחָק" sp="nmpr" description="nominal, proper name"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58249" rank="33" reading="0" g_voc="TINJ@N@&gt;" g_cons="TNJN&gt;" g_voc_utf8="תִניָנָא" g_cons_utf8="תנינא">
+                        <lexeme lex="TNJN/" lex0="TNJN" lex_utf8="תנין" freq_lex="255" rank_lex="248">
+                            <word source="word" part="1" trailer=" " start_idx="214" end_idx="221" uid="2700003106055005938_75528005" lex="TNJN/" lex0="TNJN" lex_utf8="תנין" cons="TNJN&gt;" voc="TINJ@N@&gt;" cons_utf8="תנינא" voc_utf8="תִניָנָא" root="TRJN" sp="adjv" st="emphatic" nu="sg" gloss="repetition, second" definition="repetition, second | military servant or low rank, second, repetition" description="adjective, singular emphatic"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58250" rank="34" reading="0" g_voc="&gt;AN@&gt;" g_cons="&gt;N&gt;" g_voc_utf8="אַנָא" g_cons_utf8="אנא">
+                        <lexeme lex="&gt;NH" lex0="&gt;NH" lex_utf8="אנה" freq_lex="1514" rank_lex="33">
+                            <word source="word" part="1" trailer=" " start_idx="223" end_idx="227" uid="2700003106055005938_b62e3f8e" lex="&gt;NH" lex0="&gt;NH" lex_utf8="אנה" cons="&gt;N&gt;" voc="&gt;AN@&gt;" cons_utf8="אנא" voc_utf8="אַנָא" root="&gt;NH" sp="pron" gloss="to lust after, I" definition="to lust after, I | to lust after, I, as enclitic subject marker with participles/adjectives" description="preposition, independent (preposition)"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58251" rank="35" reading="0" g_voc="N@SJB" g_cons="NSJB" g_voc_utf8="נָסיב" g_cons_utf8="נסיב">
+                        <lexeme lex="NSB[" lex0="NSB" lex_utf8="נסב" freq_lex="1235" rank_lex="40">
+                            <word source="word" part="1" trailer=" " start_idx="229" end_idx="233" uid="2700003106055005939_93f4fee2" lex="NSB[" lex0="NSB" lex_utf8="נסב" cons="NSJB" voc="N@SJB" cons_utf8="נסיב" voc_utf8="נָסיב" root="NSJ" vs="G" sp="verb" gloss="to take, to pick up, to carry, to remove, to bring, to marry, to favor, to be patient, to bargain, to take up arms, to adopt" definition="C: to take, to marry off a woman | G: to take, to pick up, to carry, to remove, to bring, to marry, to favor, to be patient, to bargain, to take up arms, to adopt | Gt: to be taken, to get married, to be removed, to be favored, to be fetched" description="verbal, peal"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58252" rank="36" reading="0" g_voc="&lt;AL" g_cons="&lt;L" g_voc_utf8="עַל" g_cons_utf8="על">
+                        <lexeme lex="&lt;L" lex0="&lt;L" lex_utf8="על" freq_lex="6469" rank_lex="11">
+                            <word source="word" part="1" trailer=" " start_idx="235" end_idx="237" uid="2700003106055005939_d74633f0" lex="&lt;L" lex0="&lt;L" lex_utf8="על" cons="&lt;L" voc="&lt;AL" cons_utf8="על" voc_utf8="עַל" root="&lt;L" sp="prep" gloss="to, upon, against" definition="to, upon, against | toward, upon, against, to | about, upon, against, to | owed by, upon, against, to | governing the indirect of verbal ideas in each of the various meanings, upon, against, to | as the first element of compound prepositions, upon, against, to | next to, upon, against, to | because of, upon, against, to | to be obligated to, upon, against, to | prepositions, upon, against, to | conjunctions, upon, against, to | adverbs, upon, against, to" description="preposition, independent (preposition)"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58253" rank="37" reading="0" g_voc="XAD" g_cons="XD" g_voc_utf8="חַד" g_cons_utf8="חד">
+                        <lexeme lex="XD" lex0="XD" lex_utf8="חד" freq_lex="1791" rank_lex="28">
+                            <word source="word" part="1" trailer=" " start_idx="239" end_idx="241" uid="2700003106055005940_b65200c6" lex="XD" lex0="XD" lex_utf8="חד" cons="XD" voc="XAD" cons_utf8="חד" voc_utf8="חַד" root="XD" sp="subs" st="absolute or construct" nu="sg" gloss="one" definition="preceded by, one | one" description="noun, singular absolute or construct"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58254" rank="38" reading="0" g_voc="TR;JN" g_cons="TRJN" g_voc_utf8="תרֵין" g_cons_utf8="תרין">
+                        <lexeme lex="TRJN" lex0="TRJN" lex_utf8="תרין" freq_lex="1594" rank_lex="30">
+                            <word source="word" part="1" trailer=" " start_idx="243" end_idx="247" uid="2700003106055005940_2d7e588c" lex="TRJN" lex0="TRJN" lex_utf8="תרין" cons="TRJN" voc="TR;JN" cons_utf8="תרין" voc_utf8="תרֵין" root="TRJN" sp="unknown" st="absolute or construct" nu="sg" gloss="two" definition="two | both, group of two | two of, two" description="noun, singular absolute or construct"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58255" rank="39" reading="0" g_voc="MNIKS;J" g_cons="MNKSJ" g_voc_utf8="מנִכסֵי" g_cons_utf8="מנכסי">
+                        <lexeme lex="MN" lex0="MN" lex_utf8="מן" freq_lex="10279" rank_lex="7">
+                            <word source="word" part="1" trailer="" start_idx="249" end_idx="251" uid="2700003106055005941_91dc023e" lex="MN" lex0="MN" lex_utf8="מן" cons="MN" voc="MNI" cons_utf8="מנ" voc_utf8="מנִ" root="MN" sp="prep" gloss="from" definition="from | partitive, from | indicating the agent of a passive, from | indicating the cause, from | comparative, from | other verbal complements, from | direction, from | origin, from | as the first element of compound adverbs of manner, from | as an emphasizing first element of compound prepositions, from" description="preposition, independent (preposition)"/>
+                        </lexeme>
+                        <lexeme lex="NKSJN/" lex0="NKSJN" lex_utf8="נכסין" freq_lex="152" rank_lex="399">
+                            <word source="word" part="1" trailer=" " start_idx="252" end_idx="255" uid="2700003106055005941_eacbe92f" lex="NKSJN/" lex0="NKSJN" lex_utf8="נכסין" cons="KSJ" voc="KS;J" cons_utf8="כסי" voc_utf8="כסֵי" root="NKSJN" sp="subs" st="construct" nu="pl" gloss="wealth, property" definition="wealth, property | especially flocks and herds, property, wealth" description="noun, plural construct"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58256" rank="40" reading="0" g_voc="&gt;AB@&gt;" g_cons="&gt;B&gt;" g_voc_utf8="אַבָא" g_cons_utf8="אבא">
+                        <lexeme lex="&gt;B/" lex0="&gt;B" lex_utf8="אב" freq_lex="1830" rank_lex="27">
+                            <word source="word" part="1" trailer=" " start_idx="257" end_idx="261" uid="2700003106055005942_10d38590" lex="&gt;B/" lex0="&gt;B" lex_utf8="אב" cons="&gt;B&gt;" voc="&gt;AB@&gt;" cons_utf8="אבא" voc_utf8="אַבָא" root="&gt;B" sp="subs" st="emphatic" nu="sg" gloss="father" definition="father | ancestor, father | my father, father | father, family, clan | of humans, father | Heavenly, father | father, ancestor, forefather | progenitor, father | creator, father | source' as an architectural term, father | paternal grandfather, father" description="noun, singular emphatic"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58257" rank="41" reading="0" g_voc="&gt;AMRAT" g_cons="&gt;MRT" g_voc_utf8="אַמרַת" g_cons_utf8="אמרת">
+                        <lexeme lex="&gt;MR[" lex0="&gt;MR" lex_utf8="אמר" freq_lex="5534" rank_lex="14">
+                            <word source="word" part="1" trailer=" " start_idx="263" end_idx="268" uid="2700003106055005942_a8350099" lex="&gt;MR[" lex0="&gt;MR" lex_utf8="אמר" cons="&gt;MRT" voc="&gt;AMRAT" cons_utf8="אמרת" voc_utf8="אַמרַת" root="&gt;MR" vs="G" sp="verb" gloss="to say, command, speak" definition="Gt: to say, to be said" description="verbal, peal"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58258" rank="42" reading="0" g_voc="L;JH" g_cons="LJH" g_voc_utf8="לֵיה" g_cons_utf8="ליה">
+                        <lexeme lex="L" lex0="L" lex_utf8="ל" freq_lex="23976" rank_lex="2">
+                            <word source="word" part="1" trailer=" " start_idx="270" end_idx="273" uid="2700003106055005943_ae31c095" lex="L" lex0="L" lex_utf8="ל" cons="LJH" voc="L;JH" cons_utf8="ליה" voc_utf8="לֵיה" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, independent (preposition)"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58259" rank="43" reading="0" g_voc="KIJ" g_cons="KJ" g_voc_utf8="כִי" g_cons_utf8="כי">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="275" end_idx="277" uid="2700003106055005943_b4594682" cons="KJ" voc="KIJ" cons_utf8="כי" voc_utf8="כִי"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58260" rank="44" reading="0" g_voc="L&gt;" g_cons="L&gt;" g_voc_utf8="לא" g_cons_utf8="לא">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="279" end_idx="280" uid="2700003106055005944_3a23d919" cons="L&gt;" voc="L&gt;" cons_utf8="לא" voc_utf8="לא"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58261" rank="45" reading="0" g_voc="JJRC" g_cons="JJRC" g_voc_utf8="יירשׁ" g_cons_utf8="יירשׁ">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="282" end_idx="285" uid="2700003106055005944_dd0172e9" cons="JJRC" voc="JJRC" cons_utf8="יירשׁ" voc_utf8="יירשׁ"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58262" rank="46" reading="0" g_voc="BN" g_cons="BN" g_voc_utf8="בן" g_cons_utf8="בן">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="287" end_idx="288" uid="2700003106055005945_3db258dc" cons="BN" voc="BN" cons_utf8="בן" voc_utf8="בן"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58263" rank="47" reading="0" g_voc="H&gt;MH" g_cons="H&gt;MH" g_voc_utf8="האמה" g_cons_utf8="האמה">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="290" end_idx="293" uid="2700003106055005945_a842d66e" cons="H&gt;MH" voc="H&gt;MH" cons_utf8="האמה" voc_utf8="האמה"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58264" rank="48" reading="0" g_voc="HZ&gt;T" g_cons="HZ&gt;T" g_voc_utf8="הזאת" g_cons_utf8="הזאת">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="295" end_idx="298" uid="2700003106055005946_f34ef299" cons="HZ&gt;T" voc="HZ&gt;T" cons_utf8="הזאת" voc_utf8="הזאת"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58265" rank="49" reading="0" g_voc="&lt;M" g_cons="&lt;M" g_voc_utf8="עם" g_cons_utf8="עם">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="300" end_idx="301" uid="2700003106055005946_4aba8e1e" cons="&lt;M" voc="&lt;M" cons_utf8="עם" voc_utf8="עם"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58266" rank="50" reading="0" g_voc="BNJ" g_cons="BNJ" g_voc_utf8="בני" g_cons_utf8="בני">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="303" end_idx="305" uid="2700003106055005947_640ccc5c" cons="BNJ" voc="BNJ" cons_utf8="בני" voc_utf8="בני"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58267" rank="51" reading="0" g_voc="JYXQ" g_cons="JYXQ" g_voc_utf8="יצחק" g_cons_utf8="יצחק">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="307" end_idx="310" uid="2700003106055005947_98d65077" cons="JYXQ" voc="JYXQ" cons_utf8="יצחק" voc_utf8="יצחק" sp="nmpr" description="nominal, proper name"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58268" rank="52" reading="0" g_voc="&gt;IJTGLIJT@&gt;" g_cons="&gt;JTGLJT&gt;" g_voc_utf8="אִיתגלִיתָא" g_cons_utf8="איתגליתא">
+                        <lexeme lex="GLJ[" lex0="GLJ" lex_utf8="גלי" freq_lex="369" rank_lex="186">
+                            <word source="word" part="1" trailer="" start_idx="312" end_idx="322" uid="2700003106055005948_6d64a5e3" lex="GLJ[" lex0="GLJ" lex_utf8="גלי" cons="&gt;JTGLJT&gt;" voc="&gt;IJTGLIJT@&gt;" cons_utf8="איתגליתא" voc_utf8="אִיתגלִיתָא" root="GLJ" vs="Gt" sp="verb" gloss="to uncover, to exile, to be revealed" definition="Gt: to uncover, to exile, to be revealed | D: to uncover, to exile, to reveal (secrets" description="verbal, ethpeel"/>
+                        </lexeme>
+                    </word_group>
+                </segment>
+            </verse>
+        </chapter>
+        <chapter chapter="17">
+            <verse verse="11" line="... ...N BISR@&gt; D&lt;OWRLTJH ... LMIGZAR J@T;JH L... ... &gt;IJTPAQD;JT S@BIJR ... QCIJT W... LICNAJ@&gt; &gt;;JKDJN MSWB@L YA&lt;R@&gt; DPARZL@&gt; &gt;;JL@&gt; H;JM;JN BIQJ@JM@K WK;N KIW;JN BLIB;JH DRIJBOWN &lt;@LM@&gt; MLIJK LHOWN L&lt;UWB@D;J JD;JH BJOWM;J &lt;OWL;JMUW WUBJOWM;J S;JBUW W&lt;AL &lt;ABD@&gt; R@&gt;M;J LMA&lt;BAD R&lt;WT M@&gt;R;JH BK@L JOWMAJ@&gt; WUBK@L CNAJ@&gt;" line_utf8="ּּּ ּּּן בִסרָא דעֹורלתיה ּּּ למִגזַר יָתֵיה לּּּ ּּּ אִיתפַקדֵית סָבִיר ּּּ קשִׁית וּּּ לִשׁנַיָא אֵיכדין מסובָל צַערָא דפַרזלָא אֵילָא הֵימֵין בִקיָימָך וכֵן כִוֵין בלִבֵיה דרִיבֹון עָלמָא מלִיך להֹון לעֻובָדֵי ידֵיה ביֹומֵי עֹולֵימֻו וֻביֹומֵי סֵיבֻו ועַל עַבדָא רָאמֵי למַעבַד רעות מָארֵיה בכָל יֹומַיָא וֻבכָל שׁנַיָא">
+                <segment id="801184" start_idx="1" end_idx="7" type="broken_text" rank="1" segment="... ..." segment_utf8="ּּּ ּּּ">
+                    <word_group id="58269" rank="0" reading="0" g_voc="..." g_voc_utf8="ּּּ">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="1" end_idx="3" uid="2700003105855505888_b1eaab6e" voc="..." voc_utf8="ּּּ"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58270" rank="1" reading="0" g_voc="...N" g_cons="N" g_voc_utf8="ּּּן" g_cons_utf8="ן">
+                        <lexeme>
+                            <word source="word" part="1" trailer="" start_idx="5" end_idx="7" uid="2700003105855505889_8a403cbf" voc="..." voc_utf8="ּּּ"/>
+                        </lexeme>
+                    </word_group>
+                </segment>
+                <segment id="801186" start_idx="8" end_idx="21" type="unmarked_text" rank="3" segment="N BISR@&gt; D&lt;OWR" segment_utf8="ן בִסרָא דעֹור">
+                    <word_group id="58270" rank="1" reading="0" g_voc="...N" g_cons="N" g_voc_utf8="ּּּן" g_cons_utf8="ן">
+                        <lexeme>
+                            <word source="word" part="2" trailer=" " start_idx="8" end_idx="8" uid="2700003105855505889_8a403cbf" cons="N" voc="N" cons_utf8="ן" voc_utf8="ן"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58271" rank="2" reading="0" g_voc="BISR@&gt;" g_cons="BSR&gt;" g_voc_utf8="בִסרָא" g_cons_utf8="בסרא">
+                        <lexeme lex="BSR/" lex0="BSR" lex_utf8="בסר" freq_lex="575" rank_lex="116">
+                            <word source="word" part="1" trailer=" " start_idx="10" end_idx="15" uid="2700003105855505890_9451ecdd" lex="BSR/" lex0="BSR" lex_utf8="בסר" cons="BSR&gt;" voc="BISR@&gt;" cons_utf8="בסרא" voc_utf8="בִסרָא" root="BSR" sp="subs" st="emphatic" nu="sg" gloss="body, flesh" definition="body, flesh | human being, flesh | everyone, flesh, all flesh | living creatures, flesh" description="noun, singular emphatic"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58272" rank="3" reading="0" g_voc="D&lt;OWRLTJH" g_cons="D&lt;WRLTJH" g_voc_utf8="דעֹורלתיה" g_cons_utf8="דעורלתיה">
+                        <lexeme lex="DJ" lex0="DJ" lex_utf8="די" freq_lex="13565" rank_lex="6">
+                            <word source="word" part="1" trailer="" start_idx="17" end_idx="17" uid="2700003105855505892_d055ae41" lex="DJ" lex0="DJ" lex_utf8="די" cons="D" voc="D" cons_utf8="ד" voc_utf8="ד" root="DJ" sp="prep" gloss="genitive particle, of" definition="genitive particle, of | first element of lexemes, of, genitive particle | see, of, genitive particle | the thing belonging/related to, of, genitive particle" description="preposition, independent (preposition)"/>
+                        </lexeme>
+                        <lexeme lex="&lt;RLH/" lex0="&lt;RLH" lex_utf8="ערלה" freq_lex="40" rank_lex="1049">
+                            <word source="word" part="1" trailer="" start_idx="18" end_idx="21" uid="2700003105855505892_1ca03e73" lex="&lt;RLH/" lex0="&lt;RLH" lex_utf8="ערלה" cons="&lt;WR" voc="&lt;OWR" cons_utf8="עור" voc_utf8="עֹור" root="&lt;RL" sp="subs" st="emphatic" nu="sg" gloss="foreskin" definition="foreskin" description="noun, singular emphatic"/>
+                        </lexeme>
+                    </word_group>
+                </segment>
+                <segment id="801187" start_idx="22" end_idx="29" type="broken_text" rank="4" segment="LTJH ..." segment_utf8="לתיה ּּּ">
+                    <word_group id="58272" rank="3" reading="0" g_voc="D&lt;OWRLTJH" g_cons="D&lt;WRLTJH" g_voc_utf8="דעֹורלתיה" g_cons_utf8="דעורלתיה">
+                        <lexeme lex="&lt;RLH/" lex0="&lt;RLH" lex_utf8="ערלה" freq_lex="40" rank_lex="1049">
+                            <word source="word" part="2" trailer=" " start_idx="22" end_idx="25" uid="2700003105855505892_1ca03e73" lex="&lt;RLH/" lex0="&lt;RLH" lex_utf8="ערלה" cons="LTJH" voc="LTJH" cons_utf8="לתיה" voc_utf8="לתיה" root="&lt;RL" sp="subs" st="emphatic" nu="sg" gloss="foreskin" definition="foreskin" description="noun, singular emphatic"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58273" rank="4" reading="0" g_voc="..." g_voc_utf8="ּּּ">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="27" end_idx="29" uid="2700003105855505894_c9af8e3b" voc="..." voc_utf8="ּּּ"/>
+                        </lexeme>
+                    </word_group>
+                </segment>
+                <segment id="801189" start_idx="31" end_idx="46" type="unmarked_text" rank="6" segment="LMIGZAR J@T;JH L" segment_utf8="למִגזַר יָתֵיה ל">
+                    <word_group id="58274" rank="5" reading="0" g_voc="LMIGZAR" g_cons="LMGZR" g_voc_utf8="למִגזַר" g_cons_utf8="למגזר">
+                        <lexeme lex="L" lex0="L" lex_utf8="ל" freq_lex="23976" rank_lex="2">
+                            <word source="word" part="1" trailer="" start_idx="31" end_idx="31" uid="2700003105855505895_26339486" lex="L" lex0="L" lex_utf8="ל" cons="L" voc="L" cons_utf8="ל" voc_utf8="ל" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, with pronominal suffix (preposition)"/>
+                        </lexeme>
+                        <lexeme lex="GZR[" lex0="GZR" lex_utf8="גזר" freq_lex="182" rank_lex="328">
+                            <word source="word" part="1" trailer=" " start_idx="32" end_idx="37" uid="2700003105855505895_b57d6735" lex="GZR[" lex0="GZR" lex_utf8="גזר" cons="MGZR" voc="MIGZAR" cons_utf8="מגזר" voc_utf8="מִגזַר" root="GZR" vs="G" sp="verb" gloss="to cut, to sanctify a covenant or treaty, to decree, to decide, to determine, to circumcise, to run loose, to be cut off, to be separated, to be sanctified, to be circumcised" definition="Gt: to be cut off, to be separated from, to be decreed, to be sanctified, to be circumcised, to cut | G: to cut, to sanctify a covenant or treaty, to decree, to decide, to determine, to circumcise, to run loose, to be cut off, to be separated, to be sanctified, to be circumcised" description="verbal, peal"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58275" rank="6" reading="0" g_voc="J@T;JH" g_cons="JTJH" g_voc_utf8="יָתֵיה" g_cons_utf8="יתיה">
+                        <lexeme lex="JT" lex0="JT" lex_utf8="ית" freq_lex="16051" rank_lex="4">
+                            <word source="word" part="1" trailer=" " start_idx="39" end_idx="44" uid="2700003105855505896_3cb58dda" lex="JT" lex0="JT" lex_utf8="ית" cons="JTJH" voc="J@T;JH" cons_utf8="יתיה" voc_utf8="יָתֵיה" root="JT" sp="prep" gloss="accusative particle" definition="accusative particle | as semantic patient but grammatical subject of passive verbs, accusative particle | that which, accusative particle" description="preposition, with pronominal suffix (preposition)"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58276" rank="7" reading="0" g_voc="L..." g_cons="L" g_voc_utf8="לּּּ" g_cons_utf8="ל">
+                        <lexeme>
+                            <word source="word" part="1" trailer="" start_idx="46" end_idx="46" uid="2700003105855505896_ac266a7e" cons="L" voc="L" cons_utf8="ל" voc_utf8="ל"/>
+                        </lexeme>
+                    </word_group>
+                </segment>
+                <segment id="801190" start_idx="47" end_idx="53" type="broken_text" rank="7" segment="... ..." segment_utf8="ּּּ ּּּ">
+                    <word_group id="58276" rank="7" reading="0" g_voc="L..." g_cons="L" g_voc_utf8="לּּּ" g_cons_utf8="ל">
+                        <lexeme>
+                            <word source="word" part="2" trailer=" " start_idx="47" end_idx="49" uid="2700003105855505896_ac266a7e" voc="..." voc_utf8="ּּּ"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58277" rank="8" reading="0" g_voc="..." g_voc_utf8="ּּּ">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="51" end_idx="53" uid="2700003105855505897_6474ae1d" voc="..." voc_utf8="ּּּ"/>
+                        </lexeme>
+                    </word_group>
+                </segment>
+                <segment id="801192" start_idx="55" end_idx="72" type="unmarked_text" rank="9" segment="&gt;IJTPAQD;JT S@BIJR" segment_utf8="אִיתפַקדֵית סָבִיר">
+                    <word_group id="58278" rank="9" reading="0" g_voc="&gt;IJTPAQD;JT" g_cons="&gt;JTPQDJT" g_voc_utf8="אִיתפַקדֵית" g_cons_utf8="איתפקדית">
+                        <lexeme lex="PQD[" lex0="PQD" lex_utf8="פקד" freq_lex="1" rank_lex="6375">
+                            <word source="word" part="1" trailer=" " start_idx="55" end_idx="65" uid="2700003105855505897_ee907256" lex="PQD[" lex0="PQD" lex_utf8="פקד" cons="&gt;JTPQDJT" voc="&gt;IJTPAQD;JT" cons_utf8="איתפקדית" voc_utf8="אִיתפַקדֵית" root="PQD" vs="Gt" sp="verb" gloss="to visit, appoint, to command, to be visited upon" definition="Dt: to visit, appoint, to command, to be commanded | Gt: to visit, appoint, to command, to be visited upon | Ct: to visit, appoint, to command, to be deposited | C: to visit, appoint, to command, to deposit" description="verbal, ethpeel"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58279" rank="10" reading="0" g_voc="S@BIJR" g_cons="SBJR" g_voc_utf8="סָבִיר" g_cons_utf8="סביר">
+                        <lexeme lex="SBR[" lex0="SBR" lex_utf8="סבר" freq_lex="30" rank_lex="1283">
+                            <word source="word" part="1" trailer=" " start_idx="67" end_idx="72" uid="2700003105855505898_585d04b7" lex="SBR[" lex0="SBR" lex_utf8="סבר" cons="SBJR" voc="S@BIJR" cons_utf8="סביר" voc_utf8="סָבִיר" root="SBR" vs="G" sp="verb" gloss="to expect, to hope, to intend, to think, to reason, to derive by logical deduction, to study, to understand, to believe religiously, to look expectantly, to teach an opinion, to mollify, to respect, to be pleased, to explain" definition="D: to hope, to look expectantly, to teach an opinion, to mollify, to respect, to be pleased, to explain, to expect, to reason | C: to be pleased, to explain, to teach, to have hope for, to expect, to reason | Gt: to expect, to reason, to have hope for | G: to expect, to hope, to intend, to think, to reason, to derive by logical deduction, to study, to understand, to believe religiously, to look expectantly, to teach an opinion, to mollify, to respect, to be pleased, to explain" description="verbal, peal"/>
+                        </lexeme>
+                    </word_group>
+                </segment>
+                <segment id="801193" start_idx="74" end_idx="76" type="broken_text" rank="10" segment="..." segment_utf8="ּּּ">
+                    <word_group id="58280" rank="11" reading="0" g_voc="..." g_voc_utf8="ּּּ">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="74" end_idx="76" uid="2700003105855505898_a0d50d60" voc="..." voc_utf8="ּּּ"/>
+                        </lexeme>
+                    </word_group>
+                </segment>
+                <segment id="801195" start_idx="78" end_idx="84" type="unmarked_text" rank="12" segment="QCIJT W" segment_utf8="קשִׁית ו">
+                    <word_group id="58281" rank="12" reading="0" g_voc="QCIJT" g_cons="QCJT" g_voc_utf8="קשִׁית" g_cons_utf8="קשׁית">
+                        <lexeme lex="QCJ[" lex0="QCJ" lex_utf8="קשׁי" freq_lex="7" rank_lex="2848">
+                            <word source="word" part="1" trailer=" " start_idx="78" end_idx="82" uid="2700003105855505899_e3f1cb42" lex="QCJ[" lex0="QCJ" lex_utf8="קשׁי" cons="QCJT" voc="QCIJT" cons_utf8="קשׁית" voc_utf8="קשִׁית" root="QCJ" vs="G" sp="verb" gloss="to be difficult, to contradict, to have difficulties, to be harsh, to be stern, to harden, to treat hard, to dispute, to make heavy, to afflict, to fasten, to tighten, to behave harshly, to raise an objection, to be stubborn, to be frozen, to be tumescent, to trouble" definition="C: to be difficult, to make hard | D: to be difficult, to do with great difficulty" description="verbal, peal"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58282" rank="13" reading="0" g_voc="W..." g_cons="W" g_voc_utf8="וּּּ" g_cons_utf8="ו">
+                        <lexeme>
+                            <word source="word" part="1" trailer="" start_idx="84" end_idx="84" uid="2700003105855505899_84cec81f" cons="W" voc="W" cons_utf8="ו" voc_utf8="ו"/>
+                        </lexeme>
+                    </word_group>
+                </segment>
+                <segment id="801196" start_idx="85" end_idx="87" type="broken_text" rank="13" segment="..." segment_utf8="ּּּ">
+                    <word_group id="58282" rank="13" reading="0" g_voc="W..." g_cons="W" g_voc_utf8="וּּּ" g_cons_utf8="ו">
+                        <lexeme>
+                            <word source="word" part="2" trailer=" " start_idx="85" end_idx="87" uid="2700003105855505899_84cec81f" voc="..." voc_utf8="ּּּ"/>
+                        </lexeme>
+                    </word_group>
+                </segment>
+                <segment id="801198" start_idx="89" end_idx="319" type="unmarked_text" rank="15" segment="LICNAJ@&gt; &gt;;JKDJN MSWB@L YA&lt;R@&gt; DPARZL@&gt; &gt;;JL@&gt; H;JM;JN BIQJ@JM@K WK;N KIW;JN BLIB;JH DRIJBOWN &lt;@LM@&gt; MLIJK LHOWN L&lt;UWB@D;J JD;JH BJOWM;J &lt;OWL;JMUW WUBJOWM;J S;JBUW W&lt;AL &lt;ABD@&gt; R@&gt;M;J LMA&lt;BAD R&lt;WT M@&gt;R;JH BK@L JOWMAJ@&gt; WUBK@L CNAJ@&gt;" segment_utf8="לִשׁנַיָא אֵיכדין מסובָל צַערָא דפַרזלָא אֵילָא הֵימֵין בִקיָימָך וכֵן כִוֵין בלִבֵיה דרִיבֹון עָלמָא מלִיך להֹון לעֻובָדֵי ידֵיה ביֹומֵי עֹולֵימֻו וֻביֹומֵי סֵיבֻו ועַל עַבדָא רָאמֵי למַעבַד רעות מָארֵיה בכָל יֹומַיָא וֻבכָל שׁנַיָא">
+                    <word_group id="58283" rank="14" reading="0" g_voc="LICNAJ@&gt;" g_cons="LCNJ&gt;" g_voc_utf8="לִשׁנַיָא" g_cons_utf8="לשׁניא">
+                        <lexeme lex="L" lex0="L" lex_utf8="ל" freq_lex="23976" rank_lex="2">
+                            <word source="word" part="1" trailer="" start_idx="89" end_idx="90" uid="2700003105855505900_135986a7" lex="L" lex0="L" lex_utf8="ל" cons="L" voc="LI" cons_utf8="ל" voc_utf8="לִ" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, proclitic (preposition)"/>
+                        </lexeme>
+                        <lexeme lex="SNH/" lex0="SNH" lex_utf8="סנה" freq_lex="2" rank_lex="5081">
+                            <word source="word" part="1" trailer=" " start_idx="91" end_idx="96" uid="2700003105855505900_1955769b" lex="SNH/" lex0="SNH" lex_utf8="סנה" cons="CNJ&gt;" voc="CNAJ@&gt;" cons_utf8="שׁניא" voc_utf8="שׁנַיָא" root="SNH" sp="subs" st="emphatic" nu="pl" gloss="deputy" definition="deputy" description="noun, plural emphatic"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58284" rank="15" reading="0" g_voc="&gt;;JKDJN" g_cons="&gt;JKDJN" g_voc_utf8="אֵיכדין" g_cons_utf8="איכדין">
+                        <lexeme lex="&gt;JKDJN" lex0="&gt;JKDJN" lex_utf8="איכדין" freq_lex="27" rank_lex="1349">
+                            <word source="word" part="1" trailer=" " start_idx="98" end_idx="104" uid="2700003105855505901_5e91deca" lex="&gt;JKDJN" lex0="&gt;JKDJN" lex_utf8="איכדין" cons="&gt;JKDJN" voc="&gt;;JKDJN" cons_utf8="איכדין" voc_utf8="אֵיכדין" root="K" sp="advb" gloss="how possibly, how possibly?" definition="how possibly, how possibly?" description="adverb, adverb"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58285" rank="16" reading="0" g_voc="MSWB@L" g_cons="MSWBL" g_voc_utf8="מסובָל" g_cons_utf8="מסובל">
+                        <lexeme lex="SBL[" lex0="SBL" lex_utf8="סבל" freq_lex="6" rank_lex="3100">
+                            <word source="word" part="1" trailer=" " start_idx="106" end_idx="111" uid="2700003105855505901_9d9aac85" lex="SBL[" lex0="SBL" lex_utf8="סבל" cons="MSWBL" voc="MSWB@L" cons_utf8="מסובל" voc_utf8="מסובָל" root="SBL" vs="PO" sp="verb" gloss="to carry, to support, to lay a foundation, to endure, to suffer, to send gifts" definition="Dt: to be supported, to be given wedding gifts, to carry, to support, to lay a foundation, to endure, to suffer, to send gifts | G: to carry, to bear, to remove, to tolerate, to endure, to suffer, to accept responsibility, to loan, to forgive, to swear, to fear | C: to impose, to suffer, to be carried, to be supported, to give wedding gifts, to carry, to lay a foundation, to endure, to send gifts | D: to support, to give wedding gifts, to fetch, to inflict, to impose, to suffer, to be carried, to carry, to lay a foundation, to endure | Gt: to be carried, to be supported, to be given wedding gifts, to carry, to support, to lay a foundation, to endure, to suffer, to send gifts | PO: to carry, to support, to lay a foundation, to endure, to suffer, to send gifts"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58286" rank="17" reading="0" g_voc="YA&lt;R@&gt;" g_cons="Y&lt;R&gt;" g_voc_utf8="צַערָא" g_cons_utf8="צערא">
+                        <lexeme lex="Y&lt;R/" lex0="Y&lt;R" lex_utf8="צער" freq_lex="59" rank_lex="804">
+                            <word source="word" part="1" trailer=" " start_idx="113" end_idx="118" uid="2700003105855505902_d5039bee" lex="Y&lt;R/" lex0="Y&lt;R" lex_utf8="צער" cons="Y&lt;R&gt;" voc="YA&lt;R@&gt;" cons_utf8="צערא" voc_utf8="צַערָא" root="Y&lt;R" sp="subs" st="emphatic" nu="sg" gloss="physical pain, pain, sorrow, disgrace" definition="physical pain, pain, sorrow, disgrace | disgrace, pain, sorrow | insult, pain, sorrow, disgrace | labor pain, pain, sorrow, disgrace" description="noun, singular emphatic"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58287" rank="18" reading="0" g_voc="DPARZL@&gt;" g_cons="DPRZL&gt;" g_voc_utf8="דפַרזלָא" g_cons_utf8="דפרזלא">
+                        <lexeme lex="DJ" lex0="DJ" lex_utf8="די" freq_lex="13565" rank_lex="6">
+                            <word source="word" part="1" trailer="" start_idx="120" end_idx="120" uid="2700003105855505902_abe0c11f" lex="DJ" lex0="DJ" lex_utf8="די" cons="D" voc="D" cons_utf8="ד" voc_utf8="ד" root="DJ" sp="prep" gloss="genitive particle, of" definition="genitive particle, of | first element of lexemes, of, genitive particle | see, of, genitive particle | the thing belonging/related to, of, genitive particle" description="preposition, independent (preposition)"/>
+                        </lexeme>
+                        <lexeme lex="PRZL/" lex0="PRZL" lex_utf8="פרזל" freq_lex="93" rank_lex="577">
+                            <word source="word" part="1" trailer=" " start_idx="121" end_idx="127" uid="2700003105855505903_bbe84d6a" lex="PRZL/" lex0="PRZL" lex_utf8="פרזל" cons="PRZL&gt;" voc="PARZL@&gt;" cons_utf8="פרזלא" voc_utf8="פַרזלָא" root="PRZL" sp="subs" st="emphatic" nu="sg" gloss="iron" definition="iron | iron tool, iron | piece or plate of iron, iron" description="noun, singular emphatic"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58288" rank="19" reading="0" g_voc="&gt;;JL@&gt;" g_cons="&gt;JL&gt;" g_voc_utf8="אֵילָא" g_cons_utf8="אילא">
+                        <lexeme lex="&gt;JL&gt;" lex0="&gt;JL&gt;" lex_utf8="אילא" freq_lex="2" rank_lex="4446">
+                            <word source="word" part="1" trailer=" " start_idx="129" end_idx="134" uid="2700003105855505903_c43ac98d" lex="&gt;JL&gt;" lex0="&gt;JL&gt;" lex_utf8="אילא" cons="&gt;JL&gt;" voc="&gt;;JL@&gt;" cons_utf8="אילא" voc_utf8="אֵילָא" root="&gt;N" sp="conj" gloss="if not, unless, except" definition="if not, unless, except" description="conjunction, conjunction"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58289" rank="20" reading="0" g_voc="H;JM;JN" g_cons="HJMJN" g_voc_utf8="הֵימֵין" g_cons_utf8="הימין">
+                        <lexeme lex="HJMN[" lex0="HJMN" lex_utf8="הימן" freq_lex="76" rank_lex="675">
+                            <word source="word" part="1" trailer=" " start_idx="136" end_idx="142" uid="2700003105855505904_a3e1a014" lex="HJMN[" lex0="HJMN" lex_utf8="הימן" cons="HJMJN" voc="H;JM;JN" cons_utf8="הימין" voc_utf8="הֵימֵין" root="HJMN" vs="DD" sp="verb" gloss="to believe, to have faith in, to confirm, to be confirmed, to be found to be true" definition="DD: to believe, to have faith in, to confirm, to be confirmed, to be found to be true | DDT: to believe, trust in, to be confirmed" description="verbal, quadriliteral"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58290" rank="21" reading="0" g_voc="BIQJ@JM@K" g_cons="BQJJMK" g_voc_utf8="בִקיָימָך" g_cons_utf8="בקיימך">
+                        <lexeme lex="B" lex0="B" lex_utf8="ב" freq_lex="16964" rank_lex="3">
+                            <word source="word" part="1" trailer="" start_idx="144" end_idx="144" uid="2700003105855505904_88d1e95b" lex="B" lex0="B" lex_utf8="ב" cons="B" voc="B" cons_utf8="ב" voc_utf8="ב" root="B" sp="prep" gloss="with, in" definition="with, in | among, in, with | at, in, with | to, in, with | place, in, with | within a structure or other enclosing object, in, with | during a time period, in, with | using, in, with | having, in, with | adjective, in, with | to do some (damage, in, with | certain time, in, with | for, in, with | see, in, with | with many verbs supplying a negative relationship to an object, in, with" description="preposition, with pronominal suffix (preposition)"/>
+                        </lexeme>
+                        <lexeme lex="QJM/" lex0="QJM" lex_utf8="קים" freq_lex="703" rank_lex="101">
+                            <word source="word" part="1" trailer=" " start_idx="145" end_idx="152" uid="2700003105855505905_53bb175d" lex="QJM/" lex0="QJM" lex_utf8="קים" cons="QJJMK" voc="IQJ@JM@K" cons_utf8="קיימך" voc_utf8="ִקיָימָך" root="QWM" sp="subs" st="emphatic" nu="sg" gloss="standing, covenant, mutual agreement" definition="standing, covenant, mutual agreement | ordinance, covenant, standing | legal marriage, covenant, standing" description="noun, singular emphatic"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58291" rank="22" reading="0" g_voc="WK;N" g_cons="WKN" g_voc_utf8="וכֵן" g_cons_utf8="וכן">
+                        <lexeme lex="W" lex0="W" lex_utf8="ו" freq_lex="54383" rank_lex="1">
+                            <word source="word" part="1" trailer="" start_idx="154" end_idx="154" uid="2700003105855505905_2f93b282" lex="W" lex0="W" lex_utf8="ו" cons="W" voc="W" cons_utf8="ו" voc_utf8="ו" root="W" sp="conj" gloss="also, and" definition="also, and | clause level initial, and, also" description="conjunction, conjunction"/>
+                        </lexeme>
+                        <lexeme lex="KN" lex0="KN" lex_utf8="כן" freq_lex="664" rank_lex="106">
+                            <word source="word" part="1" trailer=" " start_idx="155" end_idx="157" uid="2700003105855505906_987b8d07" lex="KN" lex0="KN" lex_utf8="כן" cons="KN" voc="K;N" cons_utf8="כן" voc_utf8="כֵן" root="KN" sp="advb" gloss="so, thus" definition="so, thus" description="adverb, adverb"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58292" rank="23" reading="0" g_voc="KIW;JN" g_cons="KWJN" g_voc_utf8="כִוֵין" g_cons_utf8="כוין">
+                        <lexeme lex="KWN[" lex0="KWN" lex_utf8="כון" freq_lex="77" rank_lex="663">
+                            <word source="word" part="1" trailer=" " start_idx="159" end_idx="164" uid="2700003105855505906_407c69bb" lex="KWN[" lex0="KWN" lex_utf8="כון" cons="KWJN" voc="KIW;JN" cons_utf8="כוין" voc_utf8="כִוֵין" root="KWN" vs="D" sp="verb" gloss="to make fit, to correct, to reprove, to align, to guide, to prepare, to establish, to erect, to create, to be made, to be aligned, to be directed, to intend" definition="Ct: to be firm, to be set firmly | Dt: to be corrected | C: to cause to be correct, turn to a certain direction" description="verbal, pael"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58293" rank="24" reading="0" g_voc="BLIB;JH" g_cons="BLBJH" g_voc_utf8="בלִבֵיה" g_cons_utf8="בלביה">
+                        <lexeme lex="B" lex0="B" lex_utf8="ב" freq_lex="16964" rank_lex="3">
+                            <word source="word" part="1" trailer="" start_idx="166" end_idx="166" uid="2700003105855505907_3473c640" lex="B" lex0="B" lex_utf8="ב" cons="B" voc="B" cons_utf8="ב" voc_utf8="ב" root="B" sp="prep" gloss="with, in" definition="with, in | among, in, with | at, in, with | to, in, with | place, in, with | within a structure or other enclosing object, in, with | during a time period, in, with | using, in, with | having, in, with | adjective, in, with | to do some (damage, in, with | certain time, in, with | for, in, with | see, in, with | with many verbs supplying a negative relationship to an object, in, with" description="preposition, with pronominal suffix (preposition)"/>
+                        </lexeme>
+                        <lexeme lex="LB/" lex0="LB" lex_utf8="לב" freq_lex="469" rank_lex="148">
+                            <word source="word" part="1" trailer=" " start_idx="167" end_idx="172" uid="2700003105855505907_bfa36d79" lex="LB/" lex0="LB" lex_utf8="לב" cons="LBJH" voc="LIB;JH" cons_utf8="לביה" voc_utf8="לִבֵיה" root="LB" sp="subs" st="emphatic" nu="sg" gloss="to delete, heart, mind" definition="to delete, heart, mind | to delete, heart, mind, secret | mind, seat of emotions, heart" description="noun, singular emphatic"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58294" rank="25" reading="0" g_voc="DRIJBOWN" g_cons="DRJBWN" g_voc_utf8="דרִיבֹון" g_cons_utf8="דריבון">
+                        <lexeme lex="DJ" lex0="DJ" lex_utf8="די" freq_lex="14036" rank_lex="5">
+                            <word source="word" part="1" trailer="" start_idx="174" end_idx="174" uid="2700003105855505908_36dcd6dd" lex="DJ" lex0="DJ" lex_utf8="די" cons="D" voc="D" cons_utf8="ד" voc_utf8="ד" root="DJ" sp="conj" gloss="which, who" definition="which, who | the one who, who, which | so that, who, which | verbs of perception, who, which | before direct speech, who, which" description="conjunction, conjunction"/>
+                        </lexeme>
+                        <lexeme lex="RBWN/" lex0="RBWN" lex_utf8="רבון" freq_lex="370" rank_lex="185">
+                            <word source="word" part="1" trailer=" " start_idx="175" end_idx="181" uid="2700003105855505908_0b207542" lex="RBWN/" lex0="RBWN" lex_utf8="רבון" cons="RJBWN" voc="RIJBOWN" cons_utf8="ריבון" voc_utf8="רִיבֹון" root="RBB" sp="subs" st="absolute or construct" nu="sg" gloss="lord, master" definition="lord, master | husband, master, lord | as a term of respect, master, lord" description="noun, singular absolute or construct"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58295" rank="26" reading="0" g_voc="&lt;@LM@&gt;" g_cons="&lt;LM&gt;" g_voc_utf8="עָלמָא" g_cons_utf8="עלמא">
+                        <lexeme lex="&lt;LM/" lex0="&lt;LM" lex_utf8="עלם" freq_lex="887" rank_lex="70">
+                            <word source="word" part="1" trailer=" " start_idx="183" end_idx="188" uid="2700003105855505909_4172e18a" lex="&lt;LM/" lex0="&lt;LM" lex_utf8="עלם" cons="&lt;LM&gt;" voc="&lt;@LM@&gt;" cons_utf8="עלמא" voc_utf8="עָלמָא" root="&lt;LM" sp="subs" st="emphatic" nu="sg" gloss="world, eternity" definition="world, eternity | in a general way, eternity, world" description="noun, singular emphatic"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58296" rank="27" reading="0" g_voc="MLIJK" g_cons="MLJK" g_voc_utf8="מלִיך" g_cons_utf8="מליך">
+                        <lexeme lex="MLK[" lex0="MLK" lex_utf8="מלך" freq_lex="47" rank_lex="938">
+                            <word source="word" part="1" trailer=" " start_idx="190" end_idx="194" uid="2700003105855505909_3f6deea9" lex="MLK[" lex0="MLK" lex_utf8="מלך" cons="MLJK" voc="MLIJK" cons_utf8="מליך" voc_utf8="מלִיך" root="MLK" vs="G" sp="verb" gloss="to rule, to advise, to promise, to reign" definition="Gt: to rule, to advise, to promise, to deliberate | D: to advise, to decide, to make king, to deliberate, to consult, to rule, to promise | G: to rule, to advise, to promise, to reign | C: to rule, to advise, to promise, to make king" description="verbal, peal"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58297" rank="28" reading="0" g_voc="LHOWN" g_cons="LHWN" g_voc_utf8="להֹון" g_cons_utf8="להון">
+                        <lexeme lex="L" lex0="L" lex_utf8="ל" freq_lex="23976" rank_lex="2">
+                            <word source="word" part="1" trailer=" " start_idx="196" end_idx="200" uid="2700003105855505910_564af950" lex="L" lex0="L" lex_utf8="ל" cons="LHWN" voc="LHOWN" cons_utf8="להון" voc_utf8="להֹון" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, independent (preposition)"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58298" rank="29" reading="0" g_voc="L&lt;UWB@D;J" g_cons="L&lt;WBDJ" g_voc_utf8="לעֻובָדֵי" g_cons_utf8="לעובדי">
+                        <lexeme lex="L" lex0="L" lex_utf8="ל" freq_lex="23976" rank_lex="2">
+                            <word source="word" part="1" trailer="" start_idx="202" end_idx="202" uid="2700003105855505910_328f29e2" lex="L" lex0="L" lex_utf8="ל" cons="L" voc="L" cons_utf8="ל" voc_utf8="ל" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, proclitic (preposition)"/>
+                        </lexeme>
+                        <lexeme lex="&lt;WBD/" lex0="&lt;WBD" lex_utf8="עובד" freq_lex="436" rank_lex="166">
+                            <word source="word" part="1" trailer=" " start_idx="203" end_idx="210" uid="2700003105855505911_19263fac" lex="&lt;WBD/" lex0="&lt;WBD" lex_utf8="עובד" cons="&lt;WBDJ" voc="&lt;UWB@D;J" cons_utf8="עובדי" voc_utf8="עֻובָדֵי" root="&lt;BD" sp="subs" st="construct" nu="pl" gloss="deed, act" definition="good deeds, act, deed | work, act, deed" description="noun, plural construct"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58299" rank="30" reading="0" g_voc="JD;JH" g_cons="JDJH" g_voc_utf8="ידֵיה" g_cons_utf8="ידיה">
+                        <lexeme lex="JD/" lex0="JD" lex_utf8="יד" freq_lex="1585" rank_lex="31">
+                            <word source="word" part="1" trailer=" " start_idx="212" end_idx="216" uid="2700003105855505911_4b3c4e3a" lex="JD/" lex0="JD" lex_utf8="יד" cons="JDJH" voc="JD;JH" cons_utf8="ידיה" voc_utf8="ידֵיה" root="JD" sp="subs" st="emphatic" nu="sg" gloss="power, hand, arm, side" definition="power, hand, arm, side | possession, hand, arm, side, power | under the supervision or control of | to take aggressive action against, to attack | to stop or try to stop someone from doing something, hand, arm, side, power" description="noun, singular emphatic"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58300" rank="31" reading="0" g_voc="BJOWM;J" g_cons="BJWMJ" g_voc_utf8="ביֹומֵי" g_cons_utf8="ביומי">
+                        <lexeme lex="B" lex0="B" lex_utf8="ב" freq_lex="16964" rank_lex="3">
+                            <word source="word" part="1" trailer="" start_idx="218" end_idx="218" uid="2700003105855505912_5d1b119a" lex="B" lex0="B" lex_utf8="ב" cons="B" voc="B" cons_utf8="ב" voc_utf8="ב" root="B" sp="prep" gloss="with, in" definition="with, in | among, in, with | at, in, with | to, in, with | place, in, with | within a structure or other enclosing object, in, with | during a time period, in, with | using, in, with | having, in, with | adjective, in, with | to do some (damage, in, with | certain time, in, with | for, in, with | see, in, with | with many verbs supplying a negative relationship to an object, in, with" description="preposition, with pronominal suffix (preposition)"/>
+                        </lexeme>
+                        <lexeme lex="JWM/" lex0="JWM" lex_utf8="יום" freq_lex="2316" rank_lex="22">
+                            <word source="word" part="1" trailer=" " start_idx="219" end_idx="224" uid="2700003105855505912_df530728" lex="JWM/" lex0="JWM" lex_utf8="יום" cons="JWMJ" voc="JOWM;J" cons_utf8="יומי" voc_utf8="יֹומֵי" root="JWM" sp="subs" st="construct" nu="pl" gloss="day" definition="day | time period, day | daytime, day | when, day | lifetime, day" description="noun, plural construct"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58301" rank="32" reading="0" g_voc="&lt;OWL;JMUW" g_cons="&lt;WLJMW" g_voc_utf8="עֹולֵימֻו" g_cons_utf8="עולימו">
+                        <lexeme lex="&lt;LJMW/" lex0="&lt;LJMW" lex_utf8="עלימו" freq_lex="10" rank_lex="2303">
+                            <word source="word" part="1" trailer=" " start_idx="226" end_idx="234" uid="2700003105855505913_21170b59" lex="&lt;LJMW/" lex0="&lt;LJMW" lex_utf8="עלימו" cons="&lt;WLJMW" voc="&lt;OWL;JMUW" cons_utf8="עולימו" voc_utf8="עֹולֵימֻו" root="&lt;LM" gn="f" sp="subs" st="absolute or construct" nu="sg" gloss="youthfulness" definition="youthfulness" description="noun, singular absolute or construct"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58302" rank="33" reading="0" g_voc="WUBJOWM;J" g_cons="WBJWMJ" g_voc_utf8="וֻביֹומֵי" g_cons_utf8="וביומי">
+                        <lexeme lex="W" lex0="W" lex_utf8="ו" freq_lex="54383" rank_lex="1">
+                            <word source="word" part="1" trailer="" start_idx="236" end_idx="237" uid="2700003105855505913_f42bf1e4" lex="W" lex0="W" lex_utf8="ו" cons="W" voc="WU" cons_utf8="ו" voc_utf8="וֻ" root="W" sp="conj" gloss="also, and" definition="also, and | clause level initial, and, also" description="conjunction, conjunction"/>
+                        </lexeme>
+                        <lexeme lex="B" lex0="B" lex_utf8="ב" freq_lex="16964" rank_lex="3">
+                            <word source="word" part="1" trailer="" start_idx="238" end_idx="238" uid="2700003105855505914_2240723c" lex="B" lex0="B" lex_utf8="ב" cons="B" voc="B" cons_utf8="ב" voc_utf8="ב" root="B" sp="prep" gloss="with, in" definition="with, in | among, in, with | at, in, with | to, in, with | place, in, with | within a structure or other enclosing object, in, with | during a time period, in, with | using, in, with | having, in, with | adjective, in, with | to do some (damage, in, with | certain time, in, with | for, in, with | see, in, with | with many verbs supplying a negative relationship to an object, in, with" description="preposition, with pronominal suffix (preposition)"/>
+                        </lexeme>
+                        <lexeme lex="JWM/" lex0="JWM" lex_utf8="יום" freq_lex="2316" rank_lex="22">
+                            <word source="word" part="1" trailer=" " start_idx="239" end_idx="244" uid="2700003105855505914_22b1adcf" lex="JWM/" lex0="JWM" lex_utf8="יום" cons="JWMJ" voc="JOWM;J" cons_utf8="יומי" voc_utf8="יֹומֵי" root="JWM" sp="subs" st="construct" nu="pl" gloss="day" definition="day | time period, day | daytime, day | when, day | lifetime, day" description="noun, plural construct"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58303" rank="34" reading="0" g_voc="S;JBUW" g_cons="SJBW" g_voc_utf8="סֵיבֻו" g_cons_utf8="סיבו">
+                        <lexeme lex="SJBW/" lex0="SJBW" lex_utf8="סיבו" freq_lex="30" rank_lex="1284">
+                            <word source="word" part="1" trailer=" " start_idx="246" end_idx="251" uid="2700003105855505915_34ab75ef" lex="SJBW/" lex0="SJBW" lex_utf8="סיבו" cons="SJBW" voc="S;JBUW" cons_utf8="סיבו" voc_utf8="סֵיבֻו" root="S&gt;B" sp="subs" st="absolute or construct" nu="sg" gloss="old age" definition="old age" description="noun, singular absolute or construct"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58304" rank="35" reading="0" g_voc="W&lt;AL" g_cons="W&lt;L" g_voc_utf8="ועַל" g_cons_utf8="ועל">
+                        <lexeme lex="W" lex0="W" lex_utf8="ו" freq_lex="54383" rank_lex="1">
+                            <word source="word" part="1" trailer="" start_idx="253" end_idx="253" uid="2700003105855505915_0a5ff82d" lex="W" lex0="W" lex_utf8="ו" cons="W" voc="W" cons_utf8="ו" voc_utf8="ו" root="W" sp="conj" gloss="also, and" definition="also, and | clause level initial, and, also" description="conjunction, conjunction"/>
+                        </lexeme>
+                        <lexeme lex="&lt;L" lex0="&lt;L" lex_utf8="על" freq_lex="6469" rank_lex="11">
+                            <word source="word" part="1" trailer=" " start_idx="254" end_idx="256" uid="2700003105855505916_8821cd4a" lex="&lt;L" lex0="&lt;L" lex_utf8="על" cons="&lt;L" voc="&lt;AL" cons_utf8="על" voc_utf8="עַל" root="&lt;L" sp="prep" gloss="to, upon, against" definition="to, upon, against | toward, upon, against, to | about, upon, against, to | owed by, upon, against, to | governing the indirect of verbal ideas in each of the various meanings, upon, against, to | as the first element of compound prepositions, upon, against, to | next to, upon, against, to | because of, upon, against, to | to be obligated to, upon, against, to | prepositions, upon, against, to | conjunctions, upon, against, to | adverbs, upon, against, to" description="preposition, independent (preposition)"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58305" rank="36" reading="0" g_voc="&lt;ABD@&gt;" g_cons="&lt;BD&gt;" g_voc_utf8="עַבדָא" g_cons_utf8="עבדא">
+                        <lexeme lex="&lt;BD/" lex0="&lt;BD" lex_utf8="עבד" freq_lex="576" rank_lex="115">
+                            <word source="word" part="1" trailer=" " start_idx="258" end_idx="263" uid="2700003105855505916_b5f328ad" lex="&lt;BD/" lex0="&lt;BD" lex_utf8="עבד" cons="&lt;BD&gt;" voc="&lt;ABD@&gt;" cons_utf8="עבדא" voc_utf8="עַבדָא" root="&lt;BD" sp="subs" st="emphatic" nu="sg" gloss="servant" definition="servant" description="noun, singular emphatic"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58306" rank="37" reading="0" g_voc="R@&gt;M;J" g_cons="R&gt;MJ" g_voc_utf8="רָאמֵי" g_cons_utf8="ראמי">
+                        <lexeme lex="RMJ[" lex0="RMJ" lex_utf8="רמי" freq_lex="108" rank_lex="523">
+                            <word source="word" part="1" trailer=" " start_idx="265" end_idx="270" uid="2700003105855505917_ae596fff" lex="RMJ[" lex0="RMJ" lex_utf8="רמי" cons="R&gt;MJ" voc="R@&gt;M;J" cons_utf8="ראמי" voc_utf8="רָאמֵי" root="RMJ" vs="G" sp="verb" gloss="to throw, put down, to throw downward" definition="C: to throw, put down, to place downward | Gt: to throw, put down, to be thrown downward | G: to throw, put down, to throw downward" description="verbal, peal"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58307" rank="38" reading="0" g_voc="LMA&lt;BAD" g_cons="LM&lt;BD" g_voc_utf8="למַעבַד" g_cons_utf8="למעבד">
+                        <lexeme lex="L" lex0="L" lex_utf8="ל" freq_lex="23976" rank_lex="2">
+                            <word source="word" part="1" trailer="" start_idx="272" end_idx="272" uid="2700003105855505917_0c5e9d1e" lex="L" lex0="L" lex_utf8="ל" cons="L" voc="L" cons_utf8="ל" voc_utf8="ל" root="L" sp="prep" gloss="for, to" definition="for, to | of general relationship, to, for | dative, to, for | direction, to, for | possession, to, for | marking the definite direct object, to, for | with of verbs of perception in a perfective construction, to, for | of interest or disinterest, to, for | purpose, to, for | it is necessary to, to, for | with transitive verbs, to, for | ethical dative, to, for | addressee of letters, to, for | that which belongs to, to, for | one having to do with the other, to, for | as wife : see, to, for" description="preposition, with pronominal suffix (preposition)"/>
+                        </lexeme>
+                        <lexeme lex="&lt;BD[" lex0="&lt;BD" lex_utf8="עבד" freq_lex="3105" rank_lex="17">
+                            <word source="word" part="1" trailer=" " start_idx="273" end_idx="278" uid="2700003105855505918_d5bcf0ab" lex="&lt;BD[" lex0="&lt;BD" lex_utf8="עבד" cons="M&lt;BD" voc="MA&lt;BAD" cons_utf8="מעבד" voc_utf8="מַעבַד" root="&lt;BD" vs="G" sp="verb" gloss="to do, to designate, to make into, to assign, to attach, to act, to pretend, to simulate, to become grey, to spend the winter, to speak, to persuade, to commemorate, to collect funds, to force, to govern, to produce, to prepare, to effect, to result in, to have to do, to set to work, to be done, to be prepared, to become, to turn into, to happen, to be made, to be formed, to be worked, to be possessed, to make" definition="C: to effect, to result in, to be done, to become, to turn into, to make oneself into, to make, to act, to do | DD: to subjugate, enslave, cause to act | D: to make, act, do, to produce or work in large quantities | Gt: to be done, to become, to turn into, to make oneself into, to make, to act, to do" description="verbal, peal"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58308" rank="39" reading="0" g_voc="R&lt;WT" g_cons="R&lt;WT" g_voc_utf8="רעות" g_cons_utf8="רעות">
+                        <lexeme lex="R&lt;W/" lex0="R&lt;W" lex_utf8="רעו" freq_lex="19" rank_lex="1675">
+                            <word source="word" part="1" trailer=" " start_idx="280" end_idx="283" uid="2700003105855505918_da8b9d7c" lex="R&lt;W/" lex0="R&lt;W" lex_utf8="רעו" cons="R&lt;WT" voc="R&lt;WT" cons_utf8="רעות" voc_utf8="רעות" root="R&lt;J" sp="subs" st="absolute or construct" nu="sg" gloss="pleasure, will" definition="pleasure, will | of my own free will, will, pleasure | of one's own free will, will, pleasure" description="noun, singular absolute or construct"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58309" rank="40" reading="0" g_voc="M@&gt;R;JH" g_cons="M&gt;RJH" g_voc_utf8="מָארֵיה" g_cons_utf8="מאריה">
+                        <lexeme lex="MRJ/" lex0="MRJ" lex_utf8="מרי" freq_lex="130" rank_lex="453">
+                            <word source="word" part="1" trailer=" " start_idx="285" end_idx="291" uid="2700003105855505919_19d81163" lex="MRJ/" lex0="MRJ" lex_utf8="מרי" cons="M&gt;RJH" voc="M@&gt;R;JH" cons_utf8="מאריה" voc_utf8="מָארֵיה" root="MRJ" sp="subs" st="emphatic" nu="sg" gloss="lord, master" definition="title of respect, master, lord | lord, master | divine, master, lord | chief of, master, lord | master of, master, lord" description="noun, singular emphatic"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58310" rank="41" reading="0" g_voc="BK@L" g_cons="BKL" g_voc_utf8="בכָל" g_cons_utf8="בכל">
+                        <lexeme lex="B" lex0="B" lex_utf8="ב" freq_lex="16964" rank_lex="3">
+                            <word source="word" part="1" trailer="" start_idx="293" end_idx="293" uid="2700003105855505919_975c2f00" lex="B" lex0="B" lex_utf8="ב" cons="B" voc="B" cons_utf8="ב" voc_utf8="ב" root="B" sp="prep" gloss="with, in" definition="with, in | among, in, with | at, in, with | to, in, with | place, in, with | within a structure or other enclosing object, in, with | during a time period, in, with | using, in, with | having, in, with | adjective, in, with | to do some (damage, in, with | certain time, in, with | for, in, with | see, in, with | with many verbs supplying a negative relationship to an object, in, with" description="preposition, with pronominal suffix (preposition)"/>
+                        </lexeme>
+                        <lexeme lex="KLJWM" lex0="KLJWM" lex_utf8="כליום" freq_lex="193" rank_lex="316">
+                            <word source="word" part="1" trailer=" " start_idx="294" end_idx="296" uid="2700003105855505920_4db312bd" lex="KLJWM" lex0="KLJWM" lex_utf8="כליום" cons="KL" voc="K@L" cons_utf8="כל" voc_utf8="כָל" root="JWM" sp="advb" gloss="daily" definition="daily"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58311" rank="42" reading="0" g_voc="JOWMAJ@&gt;" g_cons="JWMJ&gt;" g_voc_utf8="יֹומַיָא" g_cons_utf8="יומיא">
+                        <lexeme>
+                            <word source="word" part="1" trailer=" " start_idx="298" end_idx="305" uid="2700003105855505920_e3375fdd" cons="JWMJ&gt;" voc="JOWMAJ@&gt;" cons_utf8="יומיא" voc_utf8="יֹומַיָא"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58312" rank="43" reading="0" g_voc="WUBK@L" g_cons="WBKL" g_voc_utf8="וֻבכָל" g_cons_utf8="ובכל">
+                        <lexeme lex="W" lex0="W" lex_utf8="ו" freq_lex="54383" rank_lex="1">
+                            <word source="word" part="1" trailer="" start_idx="307" end_idx="308" uid="2700003105855505921_dedcf894" lex="W" lex0="W" lex_utf8="ו" cons="W" voc="WU" cons_utf8="ו" voc_utf8="וֻ" root="W" sp="conj" gloss="also, and" definition="also, and | clause level initial, and, also" description="conjunction, conjunction"/>
+                        </lexeme>
+                        <lexeme lex="KL/" lex0="KL" lex_utf8="כל" freq_lex="5823" rank_lex="13">
+                            <word source="word" part="1" trailer=" " start_idx="309" end_idx="312" uid="2700003105855505921_46132a7d" lex="KL/" lex0="KL" lex_utf8="כל" cons="BKL" voc="BK@L" cons_utf8="בכל" voc_utf8="בכָל" root="KLL" sp="subs" st="absolute or construct" nu="sg" gloss="impediment, all, every, as a postpositive with resumptive pronominal suffixes" definition="impediment, all, every, as a postpositive with resumptive pronominal suffixes | every, whoever, whatever, all | all the, all, every | all, every, any, each | every, all | every, completely, all | impediment, all, every, with anticipatory pronominal suffix" description="noun, singular absolute or construct"/>
+                        </lexeme>
+                    </word_group>
+                    <word_group id="58313" rank="44" reading="0" g_voc="CNAJ@&gt;" g_cons="CNJ&gt;" g_voc_utf8="שׁנַיָא" g_cons_utf8="שׁניא">
+                        <lexeme lex="SNH/" lex0="SNH" lex_utf8="סנה" freq_lex="2" rank_lex="5081">
+                            <word source="word" part="1" trailer="" start_idx="314" end_idx="319" uid="2700003105855505922_35d933ab" lex="SNH/" lex0="SNH" lex_utf8="סנה" cons="CNJ&gt;" voc="CNAJ@&gt;" cons_utf8="שׁניא" voc_utf8="שׁנַיָא" root="SNH" sp="subs" st="emphatic" nu="pl" gloss="deputy" definition="deputy" description="noun, plural emphatic"/>
+                        </lexeme>
+                    </word_group>
+                </segment>
+            </verse>
+        </chapter>
+    </book>
+</text>

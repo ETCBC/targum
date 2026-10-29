@@ -10,11 +10,11 @@
 @sourceFormat=XML
 @valueType=str
 @version=0.1
-@xmlVersion=2026-10-25
+@xmlVersion=2026-10-28
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-28T01:38:33+00:00Z
+@dateWritten=2026-10-29T00:51:15+00:00Z
 
-496533	Genesis
+624613	Genesis
 Exodus
 Leviticus
 Numbers
@@ -90,6 +90,11 @@ Exodus
 Exodus
 Exodus
 Exodus
+Genesis
+Exodus
+Leviticus
+Numbers
+Deuteronomy
 Genesis
 Exodus
 Leviticus

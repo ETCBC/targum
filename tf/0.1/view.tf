@@ -10,11 +10,11 @@
 @sourceFormat=XML
 @valueType=str
 @version=0.1
-@xmlVersion=2026-10-25
+@xmlVersion=2026-10-28
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-28T01:38:46+00:00Z
+@dateWritten=2026-10-29T00:51:21+00:00Z
 
-559219	full_text
+703341	full_text
 full_text
 full_text
 full_text
@@ -59,4 +59,5 @@ full_text
 full_text
 full_text
 base_raw
+full_text
 full_text

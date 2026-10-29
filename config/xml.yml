@@ -69,12 +69,16 @@ featureDescriptions:
   description:
     Description of a text, view, word, lemma, etc.
   type:
-    type of the node (e.g., unmarked_text for segment, full_text for view)
+    type of the node (e.g., unmarked_text for segment, full_text for view). A segment of type marginal holds a reading written in the margin of the manuscript. A reading transcribed on a line of its own, whether marginal or a variant of the whole verse from another witness, follows the words of the verse it annotates
   start_idx: >-
     one-based character offset of the first character of a word or of a segment within `line`,
     the ETCBC transliteration of the verse that contains it; a segment's offsets are the
     minimum and the maximum of the offsets of the words it holds, and both tiers leave them
-    absent where the word carries no surface form or where the word tier and `line` diverge
+    absent where the word carries no surface form or where the word tier and `line` diverge.
+    A reading transcribed on a line of its own, marginal or a whole-verse variant, is not part
+    of `line`. Its words carry no offsets, and the offsets of its segment locate instead the
+    words of `line` that the reading annotates, absent where those words could not be
+    identified
   end_idx: >-
     one-based character offset of the last character of a word or of a segment within `line`,
     so that `substr(line, start_idx, end_idx - start_idx + 1)` returns the word's own `voc`

@@ -18,14 +18,13 @@ The following Targummim are included:
   - **Fragment N:** Nürnberg Stadtbibliothek, Solg. 2,2
 * **Cairo Genizah Targum Fragments** (Klein, 1992): A, AA, B, BB, Br, C, CC, D, DD, E, EE, F, F2, FF, G, GG, H, HH, I, J, JJ, K, KK, LL, M, MM, NN, PP, Q, R, RR, S, T, U, W, X, Y, Z
 * **Neofiti:** MS Neofiti, no. 1 ([Vatlib Digital View](https://digi.vatlib.it/view/MSS_Neofiti.1))
+* **Onqelos:** (Sperber 1959, Bible in Aramaic Vol I)
 
 The texts of Pseudo-Jonathan, Fragment Targums, and Cairo Genizah Fragments include a small number of variant readings. 
-The text of Neofiti contains thousands of variant readings and emendations. To retain this scribal and editorial layer as first order data, two views of Neofiti are provided:
+The texts of Neofiti and Onqelos contains thousands of variant readings and emendations. To retain this scribal and editorial layer as first order data, two views of Neofiti are provided:
 
-  - A 'full text' view that includes the base text alongside those short variant readings inserted in the manuscript interlinearly and in marginalia; and 
+  - A 'full text' view that includes the base text alongside those short variant readings inserted in the manuscript interlinearly and in marginalia. Long form marginalia are included as well; and 
   - A 'base raw' view that excludes variants and other editorial emendations.
-
-Future versions of the data will include longer form marginalia, as well as other views of Neofiti which will incorporate different combinations of scribal and editorial emendations. 
 
 ---
 
@@ -33,7 +32,7 @@ Future versions of the data will include longer form marginalia, as well as othe
 
 All text features are based on the ETCBC conventions. Feature naming adhere more closely to the [ETCBC Syriac corpus](https://github.com/ETCBC/syriac) than the [BHSA](https://github.com/ETCBC/bhsa/) conventions to support interoperability between Aramaic corpora.
 
-Consonantal texts use Aramaic square script, and vocalization of Palestinian Targummim use the Tiberian vowel system.
+Consonantal texts use Aramaic square script, and vocalization of Targummim use the Tiberian vowel system.
 
 ### Word-Level Features
 

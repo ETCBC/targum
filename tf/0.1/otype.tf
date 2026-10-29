@@ -9,15 +9,15 @@
 @sourceFormat=XML
 @valueType=str
 @version=0.1
-@xmlVersion=2026-10-25
+@xmlVersion=2026-10-28
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-28T01:38:41+00:00Z
+@dateWritten=2026-10-29T00:51:18+00:00Z
 
-1-496532	word
-496533-496618	book
-496619-497656	chapter
-497657-504019	lexeme
-504020-559218	segment
-559219-559264	text
-559265-578859	verse
-578860-947181	word_group
+1-624612	word
+624613-624703	book
+624704-625928	chapter
+625929-632951	lexeme
+632952-703340	segment
+703341-703387	text
+703388-728834	verse
+728835-1190035	word_group

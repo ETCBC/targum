@@ -16,7 +16,7 @@
 @structureFeatures=text,book,chapter,verse
 @structureTypes=text,book,chapter,verse
 @version=0.1
-@xmlVersion=2026-10-25
+@xmlVersion=2026-10-28
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-28T01:38:53+00:00Z
+@dateWritten=2026-10-29T00:51:24+00:00Z
 
