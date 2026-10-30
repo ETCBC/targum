@@ -1,5 +1,6 @@
 # The ETCBC Targum Corpus
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21925395.svg)](https://doi.org/10.5281/zenodo.21925395) [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://opensource.org/license/mit)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23785216.svg)](https://doi.org/10.5281/zenodo.23785216) [![License: CC BY-NC 4.0](https://img.shields.io/badge/license-CC_BY--NC_4.0-red)](https://creativecommons.org/licenses/by-nc/4.0/deed.en)
+
 
 This repository contains [Text-Fabric](https://annotation.github.io/text-fabric/tf/) representations of Jewish Aramaic translations of the Hebrew Bible, known collectively as Targums or Targummim (sing. 'Targum'). The datasets contain linguistic annotations in accordance with other Text-Fabric datasets such as the [BHSA](https://github.com/ETCBC/bhsa) as maintained by the [Eep Talstra Centre for Bible and Computer](https://etcbc.nl/), as well as the [Samaritan Pentateuch](https://github.com/DT-UCPH/sp) and [Peshitta](https://github.com/etcbc/syriac) as  maintained by the [CACCT project](https://github.com/CACCHT).
 
