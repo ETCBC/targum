@@ -55,9 +55,7 @@ featureDescriptions:
     which reading of a word group this is; readings competing for one position of the
     line share a rank and differ here, 0 being the one the edition prints. Value 0 is the "original" reading the first scribe wrote in the manuscript, and 1, 2, 3 are the scribal or editorial emendation candidates. Every rank that has any reading has a reading 0. Almost all of them come from one editorial marker, and are defined by segment types such as 'variant,'interlinear,'addition' etc. This distribution is a property of the view type.
   source: >-
-    provenance of a word; "word" where morphology was placed on it, "word_group" where
-    the word group carries a surface form that no morphology points at, and "none" where
-    the manuscript has a word that was never analysed
+    provenance of a word; "word" where morphology was placed on it, "word_group" where the word group carries a surface form that no morphology points at, and "none" where the manuscript has a word that was never analysed
   uid:
     independent unique identifier of the node
   source_id:
@@ -84,7 +82,7 @@ featureDescriptions:
     so that `substr(line, start_idx, end_idx - start_idx + 1)` returns the word's own `voc`
     or the segment's own `segment`
   line:
-    Vocalized text of a verse in ETCBC transcription
+    Vocalized text of a verse in ETCBC transcription. The words of a reading transcribed on a line of its own, marginal or a whole-verse variant, are not part of it
   line_utf8:
     Vocalized text of a verse in Aramaic square script
   segment_utf8:

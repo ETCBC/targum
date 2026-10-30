@@ -5,18 +5,31 @@ name = "pypi"
 
 [packages]
 unicode = "*"
+beautifulsoup4 = "*"
+requests = "*"
 pre-commit = "*"
 pytest = "*"
 python-dotenv = ">=1.0.0"
 lxml = "*"
-text-fabric-factory = "==1.0.8"
+text-fabric-factory = {file = "vendor/text_fabric_factory-1.0.8-py3-none-any.whl"}
 text-fabric = "==13.1.0"
+context-fabric = "~=0.5.7"
 anaconda = "*"
 jupyter = "*"
 ipykernel = "*"
+thefuzz = "*"
+sentence-transformers = "*"
+pandas = "*"
+spacy = "*"
+litellm = "*"
 black = {extras = ["jupyter"], version = "*"}
+deepdiff = "*"
 psycopg = {extras = ["pool"], version = "*"}
 psycopg-pool = "*"
+pandas-stubs = "~=3.0.2"
+curl-cffi = "*"
+requests-ip-rotator = "*"
+matplotlib = "*"
 
 [dev-packages]
 pre-commit = "*"
