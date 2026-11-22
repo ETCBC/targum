@@ -58,12 +58,6 @@ featureDescriptions:
     provenance of a word; "word" where morphology was placed on it, "word_group" where the word group carries a surface form that no morphology points at, and "none" where the manuscript has a word that was never analysed
   uid:
     independent unique identifier of the node
-  source_id:
-    ID of the segment source
-  parent_id:
-    ID of the segment parent
-  book_id:
-    ID of the book
   description:
     Description of a text, view, word, lemma, etc.
   type:
@@ -125,16 +119,6 @@ featureDescriptions:
     Content after a word (empty space or None)
   root:
     Root, typically of a verb
-  g_lex:
-    Realization of the lexeme in ETCBC transcription
-  g_lex_utf8:
-    Realization of the lexeme in Aramaic
-  vt:
-    Verbal tense
-  vo:
-    Voice
-  ps:
-    Person
   crossref: >-
     Parallel witnesses. An edge between two `verse` nodes that carry the same canonical
     `(book, chapter, verse)` address. A label of

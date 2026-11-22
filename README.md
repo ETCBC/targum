@@ -7,12 +7,30 @@ This repository contains [Text-Fabric](https://annotation.github.io/text-fabric/
 PostgreSQL and XML datasets are included as well, in addition to Extract-Transform-Load (ETL) pipelines to convert from SQL to XML to Text-Fabric.
 
 ---
+## Quickstart
+
+This data is best processed using [Context-Fabric](https://github.com/Context-Fabric/context-fabric). The [Text-Fabric](https://github.com/annotation/text-fabric) API is essential. However, the data is also provided in XML and SQL format for those who want to look at intermediate representations.
+
+Dependencies can be found in the Pipfile and can be installed using `pipenv`:
+
+``` python
+cd path/to/this/directory
+pipx install pipenv
+pipenv shell
+pipenv install
+```
+
+Once the dependencies are installed within your pipenv environment, the easiest way to start querying the Targum data is via Jupyter notebook. [quickstart.ipynb](programs/quickstart.ipynb) provides basic scaffolding to get up and running with the corpora.  [baseline.ipynb](tests/baseline.ipynb) provides comprehensive tests for ensuring data integrity and identifying any gaps at the various levels of the texts. 
+
+For those unfamiliar with the Text Fabric API, we recommend the [start](https://nbviewer.jupyter.org/github/etcbc/bhsa/blob/master/tutorial/start.ipynb) and [search](https://nbviewer.jupyter.org/github/etcbc/bhsa/blob/master/tutorial/search.ipynb) tutorials, both of which use the BHSA database of the Hebrew Bible.  
+
+---
 
 ## Texts
 
 The following Targummim are included:
 
-* **Pseudo-Jonathan:** British Library Add. Ms. 2703 (Clark, 1984)
+* **Pseudo-Jonathan:** British Library Add. Ms. 27031 (Clark, 1984)
 * **Fragment Targums** (Klein, 1980):
   - **Fragment P:** Paris, ms. hebr. 110
   - **Fragment V:** Biblioteca Apostolica, Vatican, Ebr. 440
@@ -56,9 +74,6 @@ Consonantal texts use Aramaic square script, and vocalization of Targummim use t
 - **`definition`**: Extended translation or dictionary definition
 - **`sp`**: Part of speech
 - **`vs`**: Verbal stem / binyan
-- **`vt`**: Verbal tense
-- **`vo`**: Voice
-- **`ps`**: Person
 - **`gn`**: Gender (nominal only, partial)
 - **`nu`**: Number (nominal only, partial)
 - **`st`**: Nominal state (abs/emph/cons, partial)
