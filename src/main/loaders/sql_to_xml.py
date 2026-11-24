@@ -1,9 +1,10 @@
-from typing import List, Dict
+from typing import List, Dict, Optional
 
 from main.loaders.db import db
 
 TF_ORDER_BY = (
-    "ORDER BY verse_sort NULLS LAST, verse_uid, word_group_rank, "
+    "ORDER BY book_id NULLS LAST, chapter_chapter NULLS LAST, "
+    "verse_sort NULLS LAST, verse_uid, word_group_rank, "
     "word_group_reading NULLS FIRST, word_rank NULLS LAST, word_part, (word_id)::bigint, "
     "word_piece"
 )
@@ -36,11 +37,16 @@ class XMLConversionRepository:
         range_start: int,
         range_end: int,
         view_name: str,
+        where_sql: Optional[str] = None,
     ) -> List[Dict]:
         from main.pipeline.tf_pipeline import COLS
 
         cols_string = ", ".join(COLS)
-        where_clause = f" WHERE verse_uid >= {range_start} AND verse_uid <= {range_end}"
+        where_clause = (
+            f" WHERE {where_sql}"
+            if where_sql
+            else f" WHERE verse_uid >= {range_start} AND verse_uid <= {range_end}"
+        )
         query = f"SELECT {cols_string} FROM {view_name}{where_clause} {TF_ORDER_BY}"
 
         with db.get_cursor() as cur:

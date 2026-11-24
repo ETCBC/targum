@@ -2,7 +2,7 @@ generic:
   name: ETCBC Targum Corpus
   source: ETCBC Targum Corpus
   institute: ETCBC (Eep Talstra Centre for Bible and Computer)
-  sourceFormat: Data is first serialized into PostgreSQL, then XML, and finally Text Fabric. Base texts obtained from Comprehensive Aramaic Lexicon ("https://cal.huc.edu/")
+  sourceFormat: Texts adapted from the Comprehensive Aramaic Lexicon (CAL) electronic texts, with modifications, emendations and cross-references to the underlying critical editions and primary manuscript witnesses. Data is first serialized into PostgreSQL, then XML, and finally Text Fabric.
   license: Attribution-NonCommercial 4.0 International
   licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/deed.en
   converters: S.P. Swire
@@ -44,7 +44,7 @@ featureDescriptions:
   word_group:
     Word groups (space-delimited units of characters, including immediately ensuing variants; contains at least one word)
   word:
-    Words (slots)—the smallest semantic elements, carrying number, gender, part of speech and the rest of the morphology
+    Words (slots), the smallest semantic elements, carrying number, gender, part of speech and the rest of the morphology
 
   # general and structural
   id:

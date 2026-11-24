@@ -20,7 +20,18 @@ pipenv shell
 pipenv install
 ```
 
-Once the dependencies are installed within your pipenv environment, the easiest way to start querying the Targum data is via Jupyter notebook. [quickstart.ipynb](programs/quickstart.ipynb) provides basic scaffolding to get up and running with the corpora.  [baseline.ipynb](tests/baseline.ipynb) provides comprehensive tests for ensuring data integrity and identifying any gaps at the various levels of the texts. 
+Once the dependencies are installed within your pipenv environment, the easiest way to start querying the Targum data is via Jupyter notebook. [quickstart.ipynb](programs/quickstart.ipynb) is a guided tour of the corpus: it loads the dataset, lists what the dataset contains, reads a verse in four scripts, compares the same verse across the witnesses, and runs a series of searches. The dataset is addressed by path rather than by organisation and repository name, so it loads from a fresh clone with no environment file and no network access.
+
+The release gate is the baseline suite under [programs/tests](programs/tests), which measures whether each tier of the edition composes the tier above it and asserts the invariants that a consumer is entitled to rely on. There are two ways to run it:
+
+``` python
+pytest programs/tests -q
+python programs/tests/baseline_report.py
+```
+
+The first reports 20 tests. The second prints every table in order, then the summary, then the gate, and exits non-zero if any check failed. Where a tier does not compose the one above it, the suite writes `data/exclusions/`, naming each unit that it does not validate rather than merely counting it, keyed on identifiers that survive a recompile.
+
+[docs/about.md](docs/about.md) states what the corpus is and what it deliberately is not, and [docs/transcription.md](docs/transcription.md) documents every feature with its coverage measured at the feature's own tier. Coverage is uneven, and the figure is given for each feature so that a query can be designed around it.
 
 For those unfamiliar with the Text Fabric API, we recommend the [start](https://nbviewer.jupyter.org/github/etcbc/bhsa/blob/master/tutorial/start.ipynb) and [search](https://nbviewer.jupyter.org/github/etcbc/bhsa/blob/master/tutorial/search.ipynb) tutorials, both of which use the BHSA database of the Hebrew Bible.  
 
@@ -66,12 +77,11 @@ Consonantal texts use Aramaic square script, and vocalization of Targummim use t
 - **`lex`**: Lexeme in ETCBC transcription
 - **`lex0`**: `lex` with the disambiguation material removed
 - **`lex_utf8`**: Lexeme in Aramaic square script
-- **`g_lex`**: Realization of the lexeme in ETCBC transcription
-- **`g_lex_utf8`**: Realization of the lexeme in Aramaic
 - **`freq_lex`**: How many words of the corpus carry this lexeme
 - **`rank_lex`**: Position of the lexeme in the frequency list of the corpus
 - **`gloss`**: English gloss
 - **`definition`**: Extended translation or dictionary definition
+- **`description`**: Description of a text, view, word or lemma
 - **`sp`**: Part of speech
 - **`vs`**: Verbal stem / binyan
 - **`gn`**: Gender (nominal only, partial)
@@ -80,6 +90,21 @@ Consonantal texts use Aramaic square script, and vocalization of Targummim use t
 - **`trailer`**: Content after a word (empty space or `None`)
 - **`root`**: Root, typically of a verb
 - **`part`**: Which part of a word this node is, counting from 1, where an editorial boundary divides one printed word in two
+- **`source`**: Provenance of a word. `word` where the morphology was placed on the word itself, `word_group` where the group carries a surface form that no morphology points at, `none` where the manuscript records a word carrying no analysis, and `segment` where the word stands in for a segment that no analysed word reaches
+- **`uid`**: Independent unique identifier of the node
+- **`id`**: Identifier carried over from the relational representation
+
+### Position and Text Features
+
+- **`line`**: Vocalized text of a verse in ETCBC transcription
+- **`line_utf8`**: Vocalized text of a verse in Aramaic square script
+- **`segment`**: Vocalized text of a segment in ETCBC transcription
+- **`segment_utf8`**: Vocalized text of a segment in Aramaic square script
+- **`start_idx`**: One-based character offset of the first character of a word or segment within `line`
+- **`end_idx`**: One-based character offset of the last character of a word or segment within `line`, so that `substr(line, start_idx, end_idx - start_idx + 1)` returns it
+- **`rank`**: Ordinal position of a node among its siblings within the line, counting from the start of the enclosing node
+- **`reading`**: Which reading of a word group this is. Readings competing for one position of the line share a `rank` and differ here, 0 being the reading the edition prints
+- **`type`**: Type of the node, such as `unmarked_text` for a segment or `full_text` for a view
 
 ### Node Hierarchy
 
@@ -92,7 +117,7 @@ Consonantal texts use Aramaic square script, and vocalization of Targummim use t
 - **`segment`**: Grouping of words and word groups based on position within discrete editorial or emendation blocks (e.g., variants)
 - **`word_group`**: Word groups (space-delimited units of characters, including immediately ensuing variants; contains at least one word)
 - **`lexeme`**: One node per lexeme of the corpus, carrying the lexical data that would otherwise be repeated on every token of it
-- **`word`**: Words (slots)—the smallest semantic elements, carrying number, gender, part of speech and the rest of the morphology
+- **`word`**: Words (slots), the smallest semantic elements, carrying number, gender, part of speech and the rest of the morphology
 
 ### Edge Features
 

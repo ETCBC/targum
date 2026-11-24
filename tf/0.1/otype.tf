@@ -6,18 +6,18 @@
 @licenseUrl=https://creativecommons.org/licenses/by-nc/4.0/deed.en
 @name=ETCBC Targum Corpus
 @source=ETCBC Targum Corpus
-@sourceFormat=XML
+@sourceFormat=Texts adapted from the Comprehensive Aramaic Lexicon (CAL) electronic texts, with modifications, emendations and cross-references to the underlying critical editions and primary manuscript witnesses. Data is first serialized into PostgreSQL, then XML, and finally Text Fabric.
 @valueType=str
 @version=0.1
-@xmlVersion=2026-10-28
+@xmlVersion=2026-11-23
 @writtenBy=Text-Fabric
-@dateWritten=2026-10-29T00:51:18+00:00Z
+@dateWritten=2026-11-24T10:53:19+00:00Z
 
-1-624612	word
-624613-624703	book
-624704-625928	chapter
-625929-632951	lexeme
-632952-703340	segment
-703341-703387	text
-703388-728834	verse
-728835-1190035	word_group
+1-640353	word
+640354-640438	book
+640439-641648	chapter
+641649-648706	lexeme
+648707-721588	segment
+721589-721635	text
+721636-747729	verse
+747730-1221168	word_group

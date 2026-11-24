@@ -5,6 +5,9 @@
 .cfm/*
 *.npy
 
+# Written by the baseline suite on every run, from the dataset itself
+data/exclusions/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -18,7 +18,7 @@ provenanceSpec:
   backend: github
   branch: main
   corpus: '{org} - {repo}{relative}'
-  doi: 10.5281/zenodo.21925395
+  doi: 10.5281/zenodo.23785216
   moduleSpecs: []
   org: ETCBC
   repo: targum

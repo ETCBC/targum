@@ -113,7 +113,6 @@ class XMLToTFConverter(XMLConvert):
         tfVersion = self.tfVersion
         xmlVersion = self.xmlVersion
         generic = self.generic
-        generic["sourceFormat"] = "XML"
         generic["version"] = tfVersion
         generic["xmlVersion"] = xmlVersion
 
@@ -349,12 +348,12 @@ APP_OVERRIDES = {
     ("docs", "featureBase"): "{docBase}/transcription.md#<feature>",
     ("docs", "docPage"): "about",
     ("docs", "featurePage"): "transcription",
-    ("provenanceSpec", "doi"): "10.5281/zenodo.21925395",
+    ("provenanceSpec", "doi"): "10.5281/zenodo.23785216",
     ("provenanceSpec", "webBase"): "https://github.com/ETCBC/targum",
     ("provenanceSpec", "webUrl"): "{webBase}/tree/{branch}#<1>-<2>-<3>",
     ("provenanceSpec", "backend"): "github",
-    ("provenanceSpec", "org"): "sfir1",
-    ("provenanceSpec", "repo"): "dissertation",
+    ("provenanceSpec", "org"): "ETCBC",
+    ("provenanceSpec", "repo"): "targum",
     ("typeDisplay", "segment"): {
         "template": "{type}",
         "features": "type start_idx end_idx",

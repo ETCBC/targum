@@ -90,21 +90,25 @@ class TFPipeline:
 
     COUNTER = 1
 
+    RUN_DATE = os.environ.get("TF_RUN_DATE") or datetime.now().strftime("%Y-%m-%d")
+
     def __init__(
         self,
         range_start: int,
         range_end: int,
         file_suffix: Optional[str] = None,
+        where_sql: Optional[str] = None,
     ):
         self.schema = self._build_schema()
         self.range_start = range_start
         self.range_end = range_end
         self.file_suffix = file_suffix
+        self.where_sql = where_sql
         self.xml_conversion_repo = XMLConversionRepository()
 
     def from_view(self, view_name: str) -> None:
         data_rows = self.xml_conversion_repo.from_view(
-            self.range_start, self.range_end, view_name
+            self.range_start, self.range_end, view_name, self.where_sql
         )
         print(f"{len(data_rows)} rows fetched for {view_name}. Generating XML")
         self.generate_xml(data_rows)
@@ -168,7 +172,7 @@ class TFPipeline:
                     parent_level = HIERARCHY[level_idx - 1]
                     parent_changed = just_created[parent_level]
 
-                if current_identifiers[level] != identifier or parent_changed:
+                if level == HIERARCHY[-1] or current_identifiers[level] != identifier or parent_changed:
                     is_new = True
 
                 just_created[level] = is_new
@@ -205,8 +209,7 @@ class TFPipeline:
 
     def _write_out_xml(self, xmlstr: str, xml_file_name: str):
         xml_cleaned = "\n".join([line for line in xmlstr.split("\n") if line.strip()])
-        today_str = datetime.now().strftime("%Y-%m-%d")
-        output_folder = os.path.join(XML_DIR, today_str, xml_file_name)
+        output_folder = os.path.join(XML_DIR, TFPipeline.RUN_DATE, xml_file_name)
         os.makedirs(output_folder, exist_ok=True)
 
         output_xml_path = os.path.join(output_folder, f"{xml_file_name}.xml")
@@ -306,51 +309,21 @@ if __name__ == "__main__":
         tf_pipeline = TFPipeline(range_start=start_id, range_end=end_id)
         tf_pipeline.from_view("frag_targ_tf")
 
-    cg_view_ids = [
-        (1827, 1901),
-        (1902, 1929),
-        (1930, 1990),
-        (1991, 2202),
-        (2203, 2482),
-        (2483, 2601),
-        (2602, 2609),
-        (2610, 2612),
-        (2613, 2628),
-        (2629, 2633),
-        (2634, 2647),
-        (2648, 2662),
-        (2663, 2676),
-        (2677, 2713),
-        (2714, 2755),
-        (2756, 2863),
-        (2864, 2866),
-        (2867, 2871),
-        (2872, 2910),
-        (2911, 2931),
-        (2933, 2938),
-        (2939, 2939),
-        (2941, 2945),
-        (2947, 2959),
-        (2961, 2972),
-        (2973, 2987),
-        (2988, 2988),
-        (2989, 2989),
-        (2990, 2994),
-        (2995, 2995),
-        (2996, 2996),
-        (2997, 3003),
-        (3004, 3029),
-        (3030, 3031),
-        (3032, 3056),
-        (3057, 3058),
-        (3059, 3059),
-        (3060, 3061),
-        (3062, 3064),
-    ]
+    from main.loaders.db import db as _db
 
-    for start_id, end_id in cg_view_ids:
-        print(f"\n--- Processing range: {start_id} to {end_id} ---")
-        tf_pipeline = TFPipeline(range_start=start_id, range_end=end_id)
+    with _db.get_cursor() as _cur:
+        _cur.execute(
+            "SELECT DISTINCT text_text FROM cairo_genizah_tf ORDER BY text_text"
+        )
+        cg_manuscripts = [r[0] for r in _cur.fetchall()]
+
+    for manuscript in cg_manuscripts:
+        print(f"\n--- Processing manuscript: {manuscript} ---")
+        tf_pipeline = TFPipeline(
+            range_start=0,
+            range_end=0,
+            where_sql="text_text = " + repr(manuscript).replace('"', "'"),
+        )
         tf_pipeline.from_view("cairo_genizah_tf")
 
     neofiti_base_raw_id = [
@@ -380,5 +353,17 @@ if __name__ == "__main__":
             range_start=start_id, range_end=end_id, file_suffix="_FULL_TEXT"
         )
         tf_pipeline.from_view("neofiti_full_tf")
+
+    onqelos_ids = [
+        (15371, 16903),  # Genesis
+        (16904, 18116),  # Exodus
+        (18117, 18976),  # Leviticus
+        (18977, 20264),  # Numbers
+        (20265, 21223),  # Deuteronomy
+    ]
+    for start_id, end_id in onqelos_ids:
+        print(f"\n--- Processing range: {start_id} to {end_id} ---")
+        tf_pipeline = TFPipeline(range_start=start_id, range_end=end_id)
+        tf_pipeline.from_view("onqelos_tf")
 
     TFPipeline.convert_xml_to_tf()
