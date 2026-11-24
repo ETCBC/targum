@@ -9,7 +9,7 @@ PostgreSQL and XML datasets are included as well, in addition to Extract-Transfo
 ---
 ## Quickstart
 
-This data is best processed using [Context-Fabric](https://github.com/Context-Fabric/context-fabric). The [Text-Fabric](https://github.com/annotation/text-fabric) API is essential. However, the data is also provided in XML and SQL format for those who want to look at intermediate representations.
+This data is best processed using [Context-Fabric](https://github.com/Context-Fabric/context-fabric). The [Text-Fabric](https://github.com/annotation/text-fabric) API is used throughout; for those unfamiliar with the Text Fabric API, we recommend the [start](https://nbviewer.jupyter.org/github/etcbc/bhsa/blob/master/tutorial/start.ipynb) and [search](https://nbviewer.jupyter.org/github/etcbc/bhsa/blob/master/tutorial/search.ipynb) tutorials, both of which use the BHSA database of the Hebrew Bible. The data is also provided in XML and SQL format for those who want to look at intermediate representations.
 
 Dependencies can be found in the Pipfile and can be installed using `pipenv`:
 
@@ -20,20 +20,7 @@ pipenv shell
 pipenv install
 ```
 
-Once the dependencies are installed within your pipenv environment, the easiest way to start querying the Targum data is via Jupyter notebook. [quickstart.ipynb](programs/quickstart.ipynb) is a guided tour of the corpus: it loads the dataset, lists what the dataset contains, reads a verse in four scripts, compares the same verse across the witnesses, and runs a series of searches. The dataset is addressed by path rather than by organisation and repository name, so it loads from a fresh clone with no environment file and no network access.
-
-The release gate is the baseline suite under [programs/tests](programs/tests), which measures whether each tier of the edition composes the tier above it and asserts the invariants that a consumer is entitled to rely on. There are two ways to run it:
-
-``` python
-pytest programs/tests -q
-python programs/tests/baseline_report.py
-```
-
-The first reports 20 tests. The second prints every table in order, then the summary, then the gate, and exits non-zero if any check failed. Where a tier does not compose the one above it, the suite writes `data/exclusions/`, naming each unit that it does not validate rather than merely counting it, keyed on identifiers that survive a recompile.
-
-[docs/about.md](docs/about.md) states what the corpus is and what it deliberately is not, and [docs/transcription.md](docs/transcription.md) documents every feature with its coverage measured at the feature's own tier. Coverage is uneven, and the figure is given for each feature so that a query can be designed around it.
-
-For those unfamiliar with the Text Fabric API, we recommend the [start](https://nbviewer.jupyter.org/github/etcbc/bhsa/blob/master/tutorial/start.ipynb) and [search](https://nbviewer.jupyter.org/github/etcbc/bhsa/blob/master/tutorial/search.ipynb) tutorials, both of which use the BHSA database of the Hebrew Bible.  
+Once the dependencies are installed within your pipenv environment, the easiest way to start querying the Targum data is via Jupyter notebook. [quickstart.ipynb](programs/quickstart.ipynb) is a guided tour of the corpus: it loads the dataset, lists what the dataset contains, reads a verse across different manuscripts, compares the same verse across the witnesses, and runs a series of searches.
 
 ---
 
@@ -48,7 +35,7 @@ The following Targummim are included:
   - **Fragment N:** Nürnberg Stadtbibliothek, Solg. 2,2
 * **Cairo Genizah Targum Fragments** (Klein, 1992): A, AA, B, BB, Br, C, CC, D, DD, E, EE, F, F2, FF, G, GG, H, HH, I, J, JJ, K, KK, LL, M, MM, NN, PP, Q, R, RR, S, T, U, W, X, Y, Z
 * **Neofiti:** MS Neofiti, no. 1 ([Vatlib Digital View](https://digi.vatlib.it/view/MSS_Neofiti.1))
-* **Onqelos:** (Sperber 1959, Bible in Aramaic Vol I)
+* **Onqelos:** (Bar Ilan text, based off of mss from Sperber 1959)
 
 The texts of Pseudo-Jonathan, Fragment Targums, and Cairo Genizah Fragments include a small number of variant readings. 
 The texts of Neofiti and Onqelos contains thousands of variant readings and emendations. To retain this scribal and editorial layer as first order data, two views of Neofiti are provided:
